@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Tinge 26",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "P2KDev \u2022 sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/Tinge26"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0"
+        }
+      ]
+    }
+  ]
+}

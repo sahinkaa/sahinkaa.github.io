@@ -1,0 +1,1 @@
+document.querySelector('#copy-address')?.addEventListener('click',async()=>{const status=document.querySelector('#copy-status');try{await navigator.clipboard.writeText('https://sahinkaa.github.io/');status.textContent='Copied';}catch{status.textContent='Select and copy the address above.';}});

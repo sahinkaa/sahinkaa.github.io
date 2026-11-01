@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Block Alphanumeric Senders",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Manage blocked alphanumeric SMS senders from Settings. iOS 15-16.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Supports iOS 15 and 16 with Dopamine 2 rootless. No native RootHide package has been released.\n\nRootless only.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/BlockAlphanumericSenders"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/BlockAlphanumericSenders/releases/tag/v1.0.1"
+        }
+      ]
+    }
+  ]
+}

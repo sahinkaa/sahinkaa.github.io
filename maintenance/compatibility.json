@@ -1,0 +1,38 @@
+{
+  "AskBeforeCallingToo26": {
+    "ios": "iOS 26",
+    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide."
+  },
+  "BlockAlphanumericSenders": {
+    "ios": "iOS 15-16",
+    "compatibility": "Supports iOS 15 and 16 with Dopamine 2 rootless. No native RootHide package has been released."
+  },
+  "BlockAppUpdates": {
+    "ios": "iOS 15+",
+    "compatibility": "Targets iOS 15 and later on rootless jailbreaks. Private LaunchServices behavior may vary by iOS version. No native RootHide package has been released."
+  },
+  "NeverLowerMusic16": {
+    "ios": "iOS 16",
+    "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release."
+  },
+  "NoHomeBar26": {
+    "ios": "iOS 26",
+    "compatibility": "Targets iOS 26. Other iOS versions are not claimed compatible."
+  },
+  "NoShutterAndScreenshotSounds": {
+    "ios": "iOS 15-26",
+    "compatibility": "Targets iOS 15-26. Tested on iOS 16 rootless and iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide. Other versions in the range have not been individually tested."
+  },
+  "SystemInfoDisplayFix": {
+    "ios": "iOS 16",
+    "compatibility": "iOS / iPadOS 16.x only. Requires the specific compatible System Info binary described in the GitHub README. Rootless package; RootHide requires conversion. No native RootHide release."
+  },
+  "Tinge26": {
+    "ios": "iOS 26",
+    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide."
+  },
+  "VelvetLiquidGlass": {
+    "ios": "iOS 26",
+    "compatibility": "Requires iOS 26. Tested only on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide. Rootless and other devices have not been independently device-tested."
+  }
+}

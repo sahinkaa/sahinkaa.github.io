@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "System Info Display Fix",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Compatibility fix for System Info on iOS 16. Disables System Info's legacy Display & Brightness integration while keeping the rest of System Info enabled.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS / iPadOS 16.x only. Requires the specific compatible System Info binary described in the GitHub README. Rootless package; RootHide requires conversion. No native RootHide release.\n\nRootless only.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/SystemInfoDisplayFix"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/SystemInfoDisplayFix/releases/tag/v1.0.3"
+        }
+      ]
+    }
+  ]
+}

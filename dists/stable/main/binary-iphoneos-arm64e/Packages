@@ -1,0 +1,112 @@
+Package: com.sahinkaa.askbeforecallingtoo26
+Name: AskBeforeCalling Too 26
+Description: Confirm before making calls or sending messages and emails. iOS 26.
+Author: tateu • sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.askbeforecallingtoo, net.tateu.askbeforecallingtoo11, net.tateu.askbeforecallingtoo13
+Replaces: net.tateu.askbeforecallingtoo, net.tateu.askbeforecallingtoo11, net.tateu.askbeforecallingtoo13
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 268
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/AskBeforeCallingToo26
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.json
+Filename: debs/com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64e.deb
+Size: 44698
+MD5sum: ad86a10def7b39b0ca09d47c58bcff6d
+SHA1: 3e96e113ca1eb1f4e9d173ecfaea24ee6fcb0428
+SHA256: 0a000925110a23012cc2b7cd8d6cf5971ad9c782bd7970ae65ebc7c133cff0b5
+SHA512: a209aed020fb72fb044ef6d0238ac517b15b77d513a60ba1e951b956a3b9cece3ee0b9c8787eee35958717d697c45d0eaab619c9fa31f4ddb7c5ef04338d28e4
+
+Package: com.sahinkaa.nohomebar26
+Name: No Home Bar 26
+Description: Hide the home indicator throughout iOS while keeping swipe gestures. iOS 26.
+Author: sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 76
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/NoHomeBar26
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.json
+Filename: debs/com.sahinkaa.nohomebar26_1.0_iphoneos-arm64e.deb
+Size: 4946
+MD5sum: 2abd41ca76d08ee63e767a8410b8721f
+SHA1: 63ddb0b1ea4348c1450861096a3ab7f162429399
+SHA256: 8a6f93578ca066cdce4071e4f4afdc43ed6c36d436d8c8db47ac6c3612ad1d7d
+SHA512: 63ff9d8b9f73e33c95550b8a9f9ce3d49bf86d8376c91e9031ca0745c2c3c881d6486715bed9a13a6c771465c85366b5f3ea404f7493cfef89ace8c3409c256c
+
+Package: com.sahinkaa.noshutterscreenshotsounds
+Name: No Shutter & Screenshot Sounds
+Description: Silence camera shutter and screenshot sounds regardless of the ringer switch. iOS 15-26.
+Author: sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 216
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.noshutterscreenshotsounds.png
+Homepage: https://github.com/sahinkaa/NoShutterAndScreenshotSounds
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.json
+Filename: debs/com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64e.deb
+Size: 51762
+MD5sum: 168ee597f4e0c7b6f087a58129dbd8c9
+SHA1: 0396ffe9796c6da5046b51a668e53dbb463725e8
+SHA256: 5e095a804acbcbad2cd217bc14938c68f9d9c52ab1fa0c75e7519bc5f2399432
+SHA512: 763b0e9c951fa4317ccf98a74509a43c6203bb3072d5f2792c44689ec642e5300dda591dbd2fa77e1c04e410f035fc07929d74a965a57814dfba5d1bf087cb94
+
+Package: com.sahinkaa.tinge26
+Name: Tinge 26
+Description: Customize your notification badges with adaptive colors, text colors and borders. iOS 26.
+Maintainer: sahinkaa
+Author: P2KDev • sahinkaa
+Section: Tweaks
+Homepage: https://github.com/sahinkaa/Tinge26
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Conflicts: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
+Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
+Pre-Depends: rootless-compat (>= 0.9)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 452
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
+Filename: debs/com.sahinkaa.tinge26_1.0_iphoneos-arm64e.deb
+Size: 56484
+MD5sum: a854327717106a6eb05cd7023b8ac83c
+SHA1: c7c6b882bdb4f21b1e9b1dd28bbce4a472533c90
+SHA256: ed065b293310d2c38c1e1eb2c36b131dd56c9bc26690ee720d1996a4ecf76d44
+SHA512: aa2a23be1ed42e5d5f8bd3338338ea395f8885d647b15c5d4fc13b3c25d38ff9609538f345d97a379370a328fb4985cd1f01200516471b8bf7a4ab7be210b2fc
+
+Package: com.sahinkaa.velvetliquidglass
+Name: Velvet - Liquid Glass
+Description: Customize Liquid Glass notification backgrounds, glow and text colors. iOS 26.
+Maintainer: sahinkaa
+Author: NoisyFlake • sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.sahinkaa.velvet26plus
+Replaces: com.noisyflake.velvet2, com.sahinkaa.velvet26plus
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 692
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.velvetliquidglass.png
+Homepage: https://github.com/sahinkaa/VelvetLiquidGlass
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.json
+Filename: debs/com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64e.deb
+Size: 164992
+MD5sum: 2ff2eff88cd88c461f2335c824f80e1d
+SHA1: 78ecc8475d9909960a072c58387972701aebe446
+SHA256: ac17f93add2e7387c69ee20ec7adf737610dd0843e929c66dca50bc5a4a41d49
+SHA512: 4a178c2c9b18b216577a92ba98d4303742037b745772c2baff284d8564c676e579318e62c7233463c3aeba1a9f5a97728685e8908358909796b62d56ca6c861d
+

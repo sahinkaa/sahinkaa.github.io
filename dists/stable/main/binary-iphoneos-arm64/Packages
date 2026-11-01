@@ -1,0 +1,200 @@
+Package: com.sahinkaa.askbeforecallingtoo26
+Name: AskBeforeCalling Too 26
+Description: Confirm before making calls or sending messages and emails. iOS 26.
+Author: tateu • sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.askbeforecallingtoo, net.tateu.askbeforecallingtoo11, net.tateu.askbeforecallingtoo13
+Replaces: net.tateu.askbeforecallingtoo, net.tateu.askbeforecallingtoo11, net.tateu.askbeforecallingtoo13
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 540
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/AskBeforeCallingToo26
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.json
+Filename: debs/com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64.deb
+Size: 66294
+MD5sum: 2118db850ceb1f3585719c06b39f26d9
+SHA1: 7a5a61be0d19c784c682b918e6659a605267e9bb
+SHA256: ba040accc1f9636dc99aecdf4dbfbe509f8aa0b4bd9c4d6a669948b444ea106b
+SHA512: 9cd81327064d7e72a64c10958a9781862ab32d197d893008a3fc5e46c69505c1fe280782376cf9bdeaeb92f3d8c2fee49f1ae665adb6aaa8fa853536ab097aee
+
+Package: com.sahinkaa.blockalphanumericsenders
+Name: Block Alphanumeric Senders
+Description: Manage blocked alphanumeric SMS senders from Settings. iOS 15-16.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Conflicts: com.codex.blockalphanumericsenders
+Replaces: com.codex.blockalphanumericsenders
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 268
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockalphanumericsenders.png
+Homepage: https://github.com/sahinkaa/BlockAlphanumericSenders
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockalphanumericsenders.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockalphanumericsenders.json
+Filename: debs/com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64.deb
+Size: 38442
+MD5sum: a661086d7c7e4f59b2cdbde8623633a3
+SHA1: 18d4b67900a64a190cb411b4cc0802052a85f6fa
+SHA256: a48df3a301759948683237e22d7e8b61bfa2d83099fb96ee370e0d6f21f3b704
+SHA512: ca11be4fde6d3c6220abf836cc4ca012b55c3a63d2608259b9b8ac2fc016c225cd0f5089a068be5740de0e34bdeb988d30c9c753a1da656493b8678a3c0e9b1b
+
+Package: com.sahinkaa.blockappupdates
+Name: Block App Updates
+Description: Selectively block updates for individual App Store apps on rootless iOS 15 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 456
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png
+Homepage: https://github.com/sahinkaa/BlockAppUpdates
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json
+Filename: debs/com.sahinkaa.blockappupdates_1.0.0_iphoneos-arm64.deb
+Size: 87084
+MD5sum: 2b7606743413a85ce5a2259028c6813e
+SHA1: db5b6c78b44b9cfccdcbef54860f9126b24da110
+SHA256: 190da7bd3d5912ffc63cd8c9694373009e2933c3365b6ad73d472d7531e20e32
+SHA512: 76faa3eef3f8870938f303cf32f786065c38696b0c6685dfbfd57c5e13a5c4d85accaae8eaef2c2b2ae7d6a76b91f252f749c6c63f56889e2a05655aac9cafce
+
+Package: com.sahinkaa.neverlowermusic16
+Name: NeverLowerMusic16
+Description: Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/NeverLowerMusic16
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.json
+Filename: debs/com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb
+Size: 9742
+MD5sum: ef3b5e244bf30d2662894b6ac719e51e
+SHA1: d344e720d0690669ba4f8f4ceedb6055af094833
+SHA256: 01fa4f8f054aab3098c34ca9e628525a1c925479dafece68d03c7088ac653168
+SHA512: d4586dfb85b55c00b43b47eefc7c3394556ebf70aa5a6fe29f658abade1b4c86fff1fb34f51264b81b47a078dce036feed71753562be28306aade1665da8c8d5
+
+Package: com.sahinkaa.nohomebar26
+Name: No Home Bar 26
+Description: Hide the home indicator throughout iOS while keeping swipe gestures. iOS 26.
+Author: sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/NoHomeBar26
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.json
+Filename: debs/com.sahinkaa.nohomebar26_1.0_iphoneos-arm64.deb
+Size: 6222
+MD5sum: b565a87f9348c1277c9607ba51a0adbc
+SHA1: 9e1239877059e0c23504c01c851ad6e9f42b70c7
+SHA256: 41ee9a03ee4ada87c3f4bc878c60fb8f795489a5e7951bedd631485bac5f813e
+SHA512: 9c6f541a47c949a6774a8414c949e0b70ee7efab6348ea019f5173c7527267921104f8d6b5698d1415ca42ab859237e80efc565507be61bda5b66aeec33ff50c
+
+Package: com.sahinkaa.noshutterscreenshotsounds
+Name: No Shutter & Screenshot Sounds
+Description: Silence camera shutter and screenshot sounds regardless of the ringer switch. iOS 15-26.
+Author: sahinkaa
+Maintainer: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 424
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.noshutterscreenshotsounds.png
+Homepage: https://github.com/sahinkaa/NoShutterAndScreenshotSounds
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.json
+Filename: debs/com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64.deb
+Size: 56210
+MD5sum: 1226524b8bc54cd0a691f906a3d80658
+SHA1: f5474ea2f1395d975246a35a6371771d09d8f75f
+SHA256: 3a4a5c1e883ebfaafffe110d3042f0a5884fc0f7ae2fcea4786a4123f8f26839
+SHA512: 3c28fbd232bafecb21ed20c2b2abd7ca9b36c32f1391f71dc21cde6e681f8e073b48b6577e9f367fef1140c19c2b3d72ecb48a9d93c2c1a2f9a9776b4cf82760
+
+Package: com.sahinkaa.systeminfodisplayfix
+Name: System Info Display Fix
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Depends: firmware (>= 16.0), firmware (<< 17.0), ldid, grep
+Conflicts: com.user.systeminfodisplayfix
+Replaces: com.user.systeminfodisplayfix
+Section: Tweaks
+Priority: optional
+Installed-Size: 1
+Maintainer: sahinkaa
+Author: sahinkaa
+Description: Compatibility fix for System Info on iOS 16. Disables System Info's legacy Display & Brightness integration while keeping the rest of System Info enabled.
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/SystemInfoDisplayFix
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.systeminfodisplayfix.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.systeminfodisplayfix.json
+Filename: debs/com.sahinkaa.systeminfodisplayfix_1.0.3_iphoneos-arm64.deb
+Size: 3212
+MD5sum: 19d454d83f131cac653045ed8e7887ff
+SHA1: dc1b959ead6086e6a25a2fefa7bcb180be2217a6
+SHA256: 5e1f4b11f001e1fa3cf3d76cc725cb1a6c14228ff61a4e492a8cdeeec267ede2
+SHA512: f7b68d37f35ccd62116556838b72e862cdefa8212b9291826fdde926fe53055abbcc25f98c4437996f97e9d42bd2befde203efb2164fecc50e9f69a2b664fe4f
+
+Package: com.sahinkaa.tinge26
+Name: Tinge 26
+Description: Customize your notification badges with adaptive colors, text colors and borders. iOS 26.
+Maintainer: sahinkaa
+Author: P2KDev • sahinkaa
+Section: Tweaks
+Homepage: https://github.com/sahinkaa/Tinge26
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Conflicts: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
+Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 724
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
+Filename: debs/com.sahinkaa.tinge26_1.0_iphoneos-arm64.deb
+Size: 73076
+MD5sum: 1fac7c2154ad55a94e971924ab0fd15c
+SHA1: 36af7f9b9acf2eb57500d5678dcb1b0ff84e6331
+SHA256: 19eb1ce325c269054c3d0e7cf2a23f883d016d729c77519edafdb70ed5c00a65
+SHA512: c1be0e3cb7d7824b3a568678fc6b69d4458a243804a15f1804bc3c01544ee455dea50448aeaa67b697fdd4b676a3a8db4601d9e96eadee086907ae4d69ae6d79
+
+Package: com.sahinkaa.velvetliquidglass
+Name: Velvet - Liquid Glass
+Description: Customize Liquid Glass notification backgrounds, glow and text colors. iOS 26.
+Maintainer: sahinkaa
+Author: NoisyFlake • sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.sahinkaa.velvet26plus
+Replaces: com.noisyflake.velvet2, com.sahinkaa.velvet26plus
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1300
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.velvetliquidglass.png
+Homepage: https://github.com/sahinkaa/VelvetLiquidGlass
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.json
+Filename: debs/com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64.deb
+Size: 236274
+MD5sum: cf08c2d8306f3ce2a932672aacc5f1b5
+SHA1: 451873eaecfb19fce7bc415e48eecf9400049469
+SHA256: 516753f1e0b85098bf469636f33d90f70e095c9bcf6038c24996ac2ae4ee5ecf
+SHA512: 67cf8716df53fcdb47c8f47c14a9dad62dd271d9b7652792fd4f3dd8c09b7913749df1f053c16f594a6329a89c88c1335284a449c0d53e2de04f802805cc408e
+

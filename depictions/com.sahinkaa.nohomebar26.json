@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "No Home Bar 26",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Hide the home indicator throughout iOS while keeping swipe gestures. iOS 26.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Targets iOS 26. Other iOS versions are not claimed compatible.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/NoHomeBar26"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/NoHomeBar26/releases/tag/v1.0"
+        }
+      ]
+    }
+  ]
+}

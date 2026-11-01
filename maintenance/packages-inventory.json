@@ -1,0 +1,142 @@
+[
+  {
+    "repository": "AskBeforeCallingToo26",
+    "release": "https://github.com/sahinkaa/AskBeforeCallingToo26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "6ca989af6da16838b0186dfd1a64c8c0080ada9c75e6f1d625a89efd76430b10",
+    "asset": {
+      "name": "com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/AskBeforeCallingToo26/releases/download/v1.0/com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "AskBeforeCallingToo26",
+    "release": "https://github.com/sahinkaa/AskBeforeCallingToo26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "fd2e26c0f5b711bc351881b58a84a858f8cf7cc4dea75b019cefbd52cd8b8f53",
+    "asset": {
+      "name": "com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64e.deb",
+      "browser_download_url": "https://github.com/sahinkaa/AskBeforeCallingToo26/releases/download/v1.0/com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64e.deb"
+    }
+  },
+  {
+    "repository": "BlockAlphanumericSenders",
+    "release": "https://github.com/sahinkaa/BlockAlphanumericSenders/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
+    "sha256": "56947e5ffbd83d3eb9e5df02fbe2d651eb949f315ed8cbf89c800628300ad0c9",
+    "asset": {
+      "name": "com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/BlockAlphanumericSenders/releases/download/v1.0.1/com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "BlockAppUpdates",
+    "release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "sha256": "a51fd4bb3e7c9fee343b738de58daf8c1e24059940e55831f39d752f708b994e",
+    "asset": {
+      "name": "com.sahinkaa.blockappupdates_1.0.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/BlockAppUpdates/releases/download/v1.0.0/com.sahinkaa.blockappupdates_1.0.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "NeverLowerMusic16",
+    "release": "https://github.com/sahinkaa/NeverLowerMusic16/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "sha256": "0e66a4811edb88f324b99756ebc76485172c6c7e5e580b5cfced46f65902a660",
+    "asset": {
+      "name": "com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/NeverLowerMusic16/releases/download/v1.0.0/com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "NoHomeBar26",
+    "release": "https://github.com/sahinkaa/NoHomeBar26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "3796808a9f63555c6e6f7c46ab4ddd218cd562f120e8c56ede994a812af5343b",
+    "asset": {
+      "name": "com.sahinkaa.nohomebar26_1.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/NoHomeBar26/releases/download/v1.0/com.sahinkaa.nohomebar26_1.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "NoHomeBar26",
+    "release": "https://github.com/sahinkaa/NoHomeBar26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "ab5b33b535ab9079e66a16289cfd2cb90a3f2744d0857ebc57ecc3af585db152",
+    "asset": {
+      "name": "com.sahinkaa.nohomebar26_1.0_iphoneos-arm64e.deb",
+      "browser_download_url": "https://github.com/sahinkaa/NoHomeBar26/releases/download/v1.0/com.sahinkaa.nohomebar26_1.0_iphoneos-arm64e.deb"
+    }
+  },
+  {
+    "repository": "NoShutterAndScreenshotSounds",
+    "release": "https://github.com/sahinkaa/NoShutterAndScreenshotSounds/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "fcacead611e3c6efd8df43807375171553a2b42c9544cc81433f174f20bfee33",
+    "asset": {
+      "name": "com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/NoShutterAndScreenshotSounds/releases/download/v1.0/com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "NoShutterAndScreenshotSounds",
+    "release": "https://github.com/sahinkaa/NoShutterAndScreenshotSounds/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "a3f44a2c201d9f061261867062f9e45a72cf919993308ef3f04728ec9db1df79",
+    "asset": {
+      "name": "com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64e.deb",
+      "browser_download_url": "https://github.com/sahinkaa/NoShutterAndScreenshotSounds/releases/download/v1.0/com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64e.deb"
+    }
+  },
+  {
+    "repository": "SystemInfoDisplayFix",
+    "release": "https://github.com/sahinkaa/SystemInfoDisplayFix/releases/tag/v1.0.3",
+    "tag": "v1.0.3",
+    "sha256": "53865c4e1ae7e0f2b35f0036fffb8b079aa237363d4f9d132e009f4f70f8a913",
+    "asset": {
+      "name": "com.sahinkaa.systeminfodisplayfix_1.0.3_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/SystemInfoDisplayFix/releases/download/v1.0.3/com.sahinkaa.systeminfodisplayfix_1.0.3_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "Tinge26",
+    "release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "b4e19b8cb2aa3a3b663cc23d6de4bfe23fa4f72a4268ea974a4570535055730c",
+    "asset": {
+      "name": "com.sahinkaa.tinge26_1.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/Tinge26/releases/download/v1.0/com.sahinkaa.tinge26_1.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "Tinge26",
+    "release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0",
+    "tag": "v1.0",
+    "sha256": "3b2bdf5d448052a14a2d9aa2f1d5483e3a6073df7a9d4880d25a5995685dbe1e",
+    "asset": {
+      "name": "com.sahinkaa.tinge26_1.0_iphoneos-arm64e.deb",
+      "browser_download_url": "https://github.com/sahinkaa/Tinge26/releases/download/v1.0/com.sahinkaa.tinge26_1.0_iphoneos-arm64e.deb"
+    }
+  },
+  {
+    "repository": "VelvetLiquidGlass",
+    "release": "https://github.com/sahinkaa/VelvetLiquidGlass/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "sha256": "ed439b4ea3cd641f016432d8fb5ddacae94a1c4820a49e7bc7b6adf00672dd97",
+    "asset": {
+      "name": "com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64.deb",
+      "browser_download_url": "https://github.com/sahinkaa/VelvetLiquidGlass/releases/download/v1.0.0/com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64.deb"
+    }
+  },
+  {
+    "repository": "VelvetLiquidGlass",
+    "release": "https://github.com/sahinkaa/VelvetLiquidGlass/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "sha256": "4c933d615ee8e621a7528cd31646a3694a3e4aac55ac80352e97fa99b6dce84a",
+    "asset": {
+      "name": "com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64e.deb",
+      "browser_download_url": "https://github.com/sahinkaa/VelvetLiquidGlass/releases/download/v1.0.0/com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64e.deb"
+    }
+  }
+]

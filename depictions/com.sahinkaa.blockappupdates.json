@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Block App Updates",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Selectively block updates for individual App Store apps on rootless iOS 15 and later.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Targets iOS 15 and later on rootless jailbreaks. Private LaunchServices behavior may vary by iOS version. No native RootHide package has been released.\n\nRootless only.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/BlockAppUpdates"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.0"
+        }
+      ]
+    }
+  ]
+}
