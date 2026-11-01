@@ -69,7 +69,7 @@ Package: com.sahinkaa.neverlowermusic16
 Name: NeverLowerMusic16
 Description: Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.
 Maintainer: sahinkaa
-Author: sahinkaa
+Author: Rishanan • sahinkaa
 Section: Tweaks
 Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate
 Architecture: iphoneos-arm64
@@ -80,11 +80,11 @@ Homepage: https://github.com/sahinkaa/NeverLowerMusic16
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.json
 Filename: debs/com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb
-Size: 9742
-MD5sum: ef3b5e244bf30d2662894b6ac719e51e
-SHA1: d344e720d0690669ba4f8f4ceedb6055af094833
-SHA256: 01fa4f8f054aab3098c34ca9e628525a1c925479dafece68d03c7088ac653168
-SHA512: d4586dfb85b55c00b43b47eefc7c3394556ebf70aa5a6fe29f658abade1b4c86fff1fb34f51264b81b47a078dce036feed71753562be28306aade1665da8c8d5
+Size: 9758
+MD5sum: d3897ac56ada33ca8faa0eda5064c296
+SHA1: f64e3b02388410fdeb55ac8df43f0d6eac36364d
+SHA256: 778da2a6126182af5f043db6f7c6a173f0defde5c3fdd1532528f1b6c6ddcabe
+SHA512: edc085308ec31ef0209efd839a4ae66ed9293d5a0cd1f0f67baf3753802c16adb48621cdf8b649beadac96f472dcbfbfd147dede39c05ff2d17fd29241b9b080
 
 Package: com.sahinkaa.nohomebar26
 Name: No Home Bar 26

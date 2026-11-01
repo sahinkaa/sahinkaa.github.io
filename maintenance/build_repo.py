@@ -81,6 +81,8 @@ def build():
         raw=original.read_bytes();assert digest(raw)==item['sha256']
         members=ar_read(raw);old=control_fields(members);f=dict(old);repo=item['repository'];identifier=f['Package'];compat=config[repo]
         assert f['Architecture'] in ARCHES
+        # Keep source credits unless this repository has an explicit credit correction.
+        if compat.get('author'):f['Author']=compat['author']
         # Enrich only descriptions missing iOS information, keeping source compatibility claims.
         if not re.search(r'\biOS\s*(?:/\s*iPadOS\s*)?\d|\biPadOS\s*\d',f.get('Description',''),re.I):f['Description']=f['Description'].rstrip()+f' {compat["ios"]}.'
         slug=identifier
@@ -96,7 +98,7 @@ def build():
         assert [(n,d) for n,h,d in members if not n.startswith('control.tar')]==[(n,d) for n,h,d in check if not n.startswith('control.tar')]
         before=tar_members(control_member(members)[2]);after=tar_members(control_member(check)[2])
         assert [(m.name,d,m.mode,m.uid,m.gid,m.linkname) for m,d in before if m.name.lstrip('./')!='control']==[(m.name,d,m.mode,m.uid,m.gid,m.linkname) for m,d in after if m.name.lstrip('./')!='control']
-        assert all(f[k]==old[k] for k in old if k not in ['Description','Icon','Homepage','Depiction','SileoDepiction'])
+        assert all(f[k]==old[k] for k in old if k not in ['Description','Icon','Homepage','Depiction','SileoDepiction','Author'])
         (SITE/'debs'/item['asset']['name']).write_bytes(updated)
         stanza=dict(f);stanza.update({'Filename':'debs/'+item['asset']['name'],'Size':str(len(updated)),'MD5sum':digest(updated,'md5'),'SHA1':digest(updated,'sha1'),'SHA256':digest(updated),'SHA512':digest(updated,'sha512')})
         packages.append(stanza)
@@ -133,7 +135,7 @@ APT repository: **https://sahinkaa.github.io/**
 
 Add the URL to Sileo or Zebra. Repository label: **sahinkaa**. The icon is the account's GitHub profile picture.
 
-The root is a flat Debian repository. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
+The root is a flat Debian repository. Both flat and suite Release files include `Components: main`, which Sileo requires even for flat sources. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
 
 There are nine released tweaks and fourteen packages. Four projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
 
@@ -178,6 +180,8 @@ def verify():
         assert p['Size']==str(len(data))
         for label,algo in [('MD5sum','md5'),('SHA1','sha1'),('SHA256','sha256'),('SHA512','sha512')]:assert p[label]==digest(data,algo)
         assert p['Architecture'] in ARCHES
+        assert p['Author'].split(' • ').count('sahinkaa')==1
+        if p['Package']=='com.sahinkaa.neverlowermusic16':assert p['Author']=='Rishanan • sahinkaa'
         assert re.search(r'\biOS\s*(?:/\s*iPadOS\s*)?\d|\biPadOS\s*\d',p['Description'],re.I)
         for key in ['Depiction','SileoDepiction','Icon']:assert p[key].startswith(URL) and (SITE/p[key][len(URL):]).is_file()
     for r in [SITE/'Release',SITE/'dists/stable/Release']:

@@ -117,11 +117,12 @@
     "filename": "com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/NeverLowerMusic16/releases/tag/v1.0.0",
     "original_sha256": "0e66a4811edb88f324b99756ebc76485172c6c7e5e580b5cfced46f65902a660",
-    "sha256": "01fa4f8f054aab3098c34ca9e628525a1c925479dafece68d03c7088ac653168",
+    "sha256": "778da2a6126182af5f043db6f7c6a173f0defde5c3fdd1532528f1b6c6ddcabe",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
+      "Author",
       "Icon",
       "Homepage",
       "Depiction",
@@ -130,7 +131,7 @@
     "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release.",
     "ios": "iOS 16",
     "description": "Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.",
-    "author": "sahinkaa",
+    "author": "Rishanan \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/CydiaIcon.png",
     "architectures": [
       "iphoneos-arm64"

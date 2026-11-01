@@ -13,7 +13,8 @@
   },
   "NeverLowerMusic16": {
     "ios": "iOS 16",
-    "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release."
+    "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release.",
+    "author": "Rishanan \u2022 sahinkaa"
   },
   "NoHomeBar26": {
     "ios": "iOS 26",
