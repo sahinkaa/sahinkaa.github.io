@@ -103,6 +103,7 @@ def build():
         stanza=dict(f);stanza.update({'Filename':'debs/'+item['asset']['name'],'Size':str(len(updated)),'MD5sum':digest(updated,'md5'),'SHA1':digest(updated,'sha1'),'SHA256':digest(updated),'SHA512':digest(updated,'sha512')})
         packages.append(stanza)
         audit.append({'repository':repo,'package':identifier,'name':f['Name'],'version':f['Version'],'architecture':f['Architecture'],'filename':item['asset']['name'],'source_release':item['release'],'original_sha256':digest(raw),'sha256':digest(updated),'payload_unchanged':True,'maintainer_scripts_unchanged':True,'dependencies_unchanged':True,'changed_fields':[k for k in f if f.get(k)!=old.get(k)],'compatibility':compat['compatibility'],'ios':compat['ios'],'description':f['Description'],'author':f.get('Author','sahinkaa'),'icon':f['Icon']})
+        if compat.get('changelog'):audit[-1]['changelog']=compat['changelog']
     # Native RootHide comes first for clients which also allow rootless as a foreign architecture.
     packages.sort(key=lambda f:(ARCHES.index(f['Architecture']),f['Package']))
     data=('\n'.join(serialize(p) for p in packages)+'\n').encode()
@@ -168,9 +169,19 @@ def render_depiction(a):
     name=a['name'];slug=a['package'];hasrh='iphoneos-arm64e' in a['architectures'];env='Rootless and native RootHide' if hasrh else 'Rootless only'
     links=''.join('<a class="btn" href="/debs/'+html.escape(d['filename'],quote=True)+'">'+('RootHide' if d['architecture']=='iphoneos-arm64e' else 'Rootless')+' .deb</a>' for d in a['downloads'])
     body='<main class="detail"><a class="muted" href="/">← sahinkaa</a><div class="cardhead" style="margin-top:30px"><img src="'+a['icon'].replace(URL,'/')+'" alt="" width="64" height="64"><h1>'+html.escape(name)+'</h1></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+a['ios']+'</span><span class="tag">'+env+'</span><span class="tag">'+a['version']+'</span></div><section style="margin-top:28px"><h2>Compatibility</h2><p>'+html.escape(a['compatibility'])+'</p><p>'+('Install the native RootHide package directly without converting the rootless package.' if hasrh else 'Only the published rootless build is hosted. This is not a native RootHide package.')+'</p></section><section><h2>Developer</h2><p>'+html.escape(a['author'])+'</p></section><section><h2>Download</h2><div class="downloads">'+links+'</div><p class="muted">When installed through Sileo or Zebra, your package manager chooses the matching architecture.</p></section><footer><a href="https://github.com/sahinkaa/'+a['repository']+'">Source and instructions</a> · <a href="'+a['source_release']+'">GitHub release</a></footer></main>'
+    history=a.get('changelog',[])
+    if history:
+        sections=''.join('<h3>'+html.escape(entry['version'])+' <span class="muted">'+html.escape(entry['date'])+'</span></h3><ul>'+''.join('<li>'+html.escape(change)+'</li>' for change in entry['changes'])+'</ul>' for entry in history)
+        body=body.replace('<section><h2>Developer</h2>','<section><h2>Changelog</h2>'+sections+'</section><section><h2>Developer</h2>',1)
     (SITE/'depictions'/f'{slug}.html').write_text(page(name+' - sahinkaa',body,a['description']))
     views=[{'class':'DepictionHeaderView','title':name,'useBoldText':True}, {'class':'DepictionMarkdownView','markdown':a['description'],'useSpacing':True}, {'class':'DepictionHeaderView','title':'Compatibility'}, {'class':'DepictionMarkdownView','markdown':a['compatibility']+'\n\n'+env+'.'+ (' Native RootHide installs directly without Patcher.' if hasrh else ''),'useSpacing':True}, {'class':'DepictionTableTextView','title':'Version','text':a['version']}, {'class':'DepictionTableTextView','title':'Developer','text':a['author']}, {'class':'DepictionButtonView','text':'Source and instructions','action':'https://github.com/sahinkaa/'+a['repository']}, {'class':'DepictionButtonView','text':'GitHub release','action':a['source_release']}]
-    (SITE/'depictions'/f'{slug}.json').write_text(json.dumps({'class':'DepictionTabView','minVersion':'0.4','tabs':[{'class':'DepictionStackView','tabname':'Details','views':views}]},indent=2)+'\n')
+    tabs=[{'class':'DepictionStackView','tabname':'Details','views':views}]
+    if history:
+        history_views=[]
+        for entry in history:
+            history_views.extend([{'class':'DepictionHeaderView','title':entry['version']+' - '+entry['date']},{'class':'DepictionMarkdownView','markdown':'\n'.join('- '+change for change in entry['changes']),'useSpacing':True}])
+        tabs.append({'class':'DepictionStackView','tabname':'Changelog','views':history_views})
+    (SITE/'depictions'/f'{slug}.json').write_text(json.dumps({'class':'DepictionTabView','minVersion':'0.4','tabs':tabs},indent=2)+'\n')
 def verify():
     raw=(SITE/'Packages').read_bytes();packages=[fields(x) for x in raw.decode().strip().split('\n\n')]
     assert len(packages)==14 and len({p['Package'] for p in packages})==9

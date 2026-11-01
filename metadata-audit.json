@@ -261,12 +261,12 @@
     "repository": "Tinge26",
     "package": "com.sahinkaa.tinge26",
     "name": "Tinge 26",
-    "version": "1.0",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.tinge26_1.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0",
-    "original_sha256": "b4e19b8cb2aa3a3b663cc23d6de4bfe23fa4f72a4268ea974a4570535055730c",
-    "sha256": "19eb1ce325c269054c3d0e7cf2a23f883d016d729c77519edafdb70ed5c00a65",
+    "filename": "com.sahinkaa.tinge26_1.0.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1",
+    "original_sha256": "ddde6b73461329dde5e0c982351f4102a51d234adef8df5f876f687c095a0b9e",
+    "sha256": "fbb688d9b7f4493af91778cf3135ca477abfd44d34e51186b7c4c0de785afcf5",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -281,18 +281,32 @@
     "ios": "iOS 26",
     "description": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
     "author": "P2KDev \u2022 sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png"
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-02",
+        "changes": [
+          "Reuse cached icon colors when a new badge appears.",
+          "Preserve the same icon's sampled color through badge count changes.",
+          "Retry unavailable icon pixels early with a bounded recovery sequence.",
+          "Keep valid background paint visible while the same icon's appearance refreshes.",
+          "Reject stale callbacks after view reuse or a folder's highest-count app changes.",
+          "Preserve static badge backgrounds, text colors, borders, highest-count folder coloring and safe animated badge updates."
+        ]
+      }
+    ]
   },
   {
     "repository": "Tinge26",
     "package": "com.sahinkaa.tinge26",
     "name": "Tinge 26",
-    "version": "1.0",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64e",
-    "filename": "com.sahinkaa.tinge26_1.0_iphoneos-arm64e.deb",
-    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0",
-    "original_sha256": "3b2bdf5d448052a14a2d9aa2f1d5483e3a6073df7a9d4880d25a5995685dbe1e",
-    "sha256": "ed065b293310d2c38c1e1eb2c36b131dd56c9bc26690ee720d1996a4ecf76d44",
+    "filename": "com.sahinkaa.tinge26_1.0.1_iphoneos-arm64e.deb",
+    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1",
+    "original_sha256": "9178d9a88fde7bc0ea946484682972ccf109944a9cf4dc6d63454e01338fbd78",
+    "sha256": "f7f9a50e5de9f839ac9900f89fd7e675743d7da34a51d7ff7b4f2b8d45328001",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -307,7 +321,21 @@
     "ios": "iOS 26",
     "description": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
     "author": "P2KDev \u2022 sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png"
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-02",
+        "changes": [
+          "Reuse cached icon colors when a new badge appears.",
+          "Preserve the same icon's sampled color through badge count changes.",
+          "Retry unavailable icon pixels early with a bounded recovery sequence.",
+          "Keep valid background paint visible while the same icon's appearance refreshes.",
+          "Reject stale callbacks after view reuse or a folder's highest-count app changes.",
+          "Preserve static badge backgrounds, text colors, borders, highest-count folder coloring and safe animated badge updates."
+        ]
+      }
+    ]
   },
   {
     "repository": "VelvetLiquidGlass",

@@ -30,7 +30,21 @@
   },
   "Tinge26": {
     "ios": "iOS 26",
-    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide."
+    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-02",
+        "changes": [
+          "Reuse cached icon colors when a new badge appears.",
+          "Preserve the same icon's sampled color through badge count changes.",
+          "Retry unavailable icon pixels early with a bounded recovery sequence.",
+          "Keep valid background paint visible while the same icon's appearance refreshes.",
+          "Reject stale callbacks after view reuse or a folder's highest-count app changes.",
+          "Preserve static badge backgrounds, text colors, borders, highest-count folder coloring and safe animated badge updates."
+        ]
+      }
+    ]
   },
   "VelvetLiquidGlass": {
     "ios": "iOS 26",

@@ -28,7 +28,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,22 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0"
+          "action": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1 - 2026-11-02"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Reuse cached icon colors when a new badge appears.\n- Preserve the same icon's sampled color through badge count changes.\n- Retry unavailable icon pixels early with a bounded recovery sequence.\n- Keep valid background paint visible while the same icon's appearance refreshes.\n- Reject stale callbacks after view reuse or a folder's highest-count app changes.\n- Preserve static badge backgrounds, text colors, borders, highest-count folder coloring and safe animated badge updates.",
+          "useSpacing": true
         }
       ]
     }
