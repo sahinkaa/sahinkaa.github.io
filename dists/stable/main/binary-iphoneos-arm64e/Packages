@@ -21,6 +21,27 @@ SHA1: 3e96e113ca1eb1f4e9d173ecfaea24ee6fcb0428
 SHA256: 0a000925110a23012cc2b7cd8d6cf5971ad9c782bd7970ae65ebc7c133cff0b5
 SHA512: a209aed020fb72fb044ef6d0238ac517b15b77d513a60ba1e951b956a3b9cece3ee0b9c8787eee35958717d697c45d0eaab619c9fa31f4ddb7c5ef04338d28e4
 
+Package: com.sahinkaa.blockappupdates
+Name: Block App Updates
+Description: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.
+Maintainer: sahinkaa/ichitaso
+Author: sahinkaa • ichitaso
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 476
+Homepage: https://github.com/sahinkaa/BlockAppUpdates
+Filename: debs/com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb
+Size: 84204
+MD5sum: a4d7a055365f69c9ee812bec24c56073
+SHA1: 347f53db223b564541beb296b90413ffc9d3aa1c
+SHA256: 9192deacedb973cc3f338456356974d35185e8857bdd271727b2e60ac60a3845
+SHA512: b49c05d45b6f4bb3906d8beeb0f9d3cc1b916d688b6d543fb2e168d9d8c430a4a6829e67b06473f07ba15c9ca82b77c3785221a729068e67e84c3e997ae4d02b
+
 Package: com.sahinkaa.nohomebar26
 Name: No Home Bar 26
 Description: Hide the home indicator throughout iOS while keeping swipe gestures. iOS 26.

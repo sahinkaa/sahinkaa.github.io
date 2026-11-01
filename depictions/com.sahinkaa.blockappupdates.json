@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Selectively block updates for individual App Store apps on rootless iOS 15 and later.",
+          "markdown": "Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.",
           "useSpacing": true
         },
         {
@@ -22,18 +22,18 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Targets iOS 15 and later on rootless jailbreaks. Private LaunchServices behavior may vary by iOS version. No native RootHide package has been released.\n\nRootless only.",
+          "markdown": "Targets iOS 15 and later on rootless and native RootHide jailbreaks. Private LaunchServices behavior may vary by iOS version and jailbreak. Version 1.0.3 executable payloads and installer scripts are preserved from ichitaso's published builds; no additional device testing by sahinkaa is claimed.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.3"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Developer",
-          "text": "sahinkaa"
+          "text": "sahinkaa \u2022 ichitaso"
         },
         {
           "class": "DepictionButtonView",
@@ -43,7 +43,49 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.0"
+          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.3 - 2026-11-02"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Show each application's version next to its name in the Settings list, as in 1.0.0's original design.\n- Fall back to the bundle name when an application's display name is empty, fixing applications listed without a name.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Re-register jailbreak, TrollStore and TrollStore Lite applications after the LaunchServices rebuild, fixing apps that stopped launching, lost their icon labels, disappeared or ran letterboxed after committing changes.\n- Finish committing as soon as LaunchServices reflects the changed applications instead of always waiting at least 60 seconds (about 15\u201330 seconds in total on iOS 15-26).\n- Restart `appstored` together with App Store so blocked and unblocked applications appear correctly in the update list.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fit application icons to the Settings list rows.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial public release.\n- Selectively blocks and restores App Store updates per application.\n- Supports staging multiple changes and applying one LaunchServices refresh.\n- Separates blocked updates from available applications.\n- Excludes TrollStore-installed applications.\n- Detects reinstalled applications and clears obsolete blocked metadata.\n- Supports rootless iOS 15 and later on arm64 and arm64e devices.\n- Requests Restart SpringBoard after installation, upgrade and removal.",
+          "useSpacing": true
         }
       ]
     }

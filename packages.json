@@ -78,33 +78,75 @@
     "repository": "BlockAppUpdates",
     "package": "com.sahinkaa.blockappupdates",
     "name": "Block App Updates",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.blockappupdates_1.0.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.0",
-    "original_sha256": "a51fd4bb3e7c9fee343b738de58daf8c1e24059940e55831f39d752f708b994e",
-    "sha256": "190da7bd3d5912ffc63cd8c9694373009e2933c3365b6ad73d472d7531e20e32",
+    "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3",
+    "original_sha256": "8864b86d089f1676b52dcb44703d8d2f1c87124f9028daf73f6bbe667aee8556",
+    "sha256": "8e5b5f12e6cd68aaebe8b83f0be6e27514d168e876f779386aa1b219646d8b02",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
-      "Icon",
-      "Homepage",
-      "Depiction",
-      "SileoDepiction"
+      "Icon"
     ],
-    "compatibility": "Targets iOS 15 and later on rootless jailbreaks. Private LaunchServices behavior may vary by iOS version. No native RootHide package has been released.",
+    "compatibility": "Targets iOS 15 and later on rootless and native RootHide jailbreaks. Private LaunchServices behavior may vary by iOS version and jailbreak. Version 1.0.3 executable payloads and installer scripts are preserved from ichitaso's published builds; no additional device testing by sahinkaa is claimed.",
     "ios": "iOS 15+",
-    "description": "Selectively block updates for individual App Store apps on rootless iOS 15 and later.",
-    "author": "sahinkaa",
+    "description": "Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.",
+    "author": "sahinkaa \u2022 ichitaso",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png",
+    "changelog": [
+      {
+        "version": "1.0.3",
+        "date": "2026-11-02",
+        "changes": [
+          "Show each application's version next to its name in the Settings list, as in 1.0.0's original design.",
+          "Fall back to the bundle name when an application's display name is empty, fixing applications listed without a name."
+        ]
+      },
+      {
+        "version": "1.0.2",
+        "date": "",
+        "changes": [
+          "Re-register jailbreak, TrollStore and TrollStore Lite applications after the LaunchServices rebuild, fixing apps that stopped launching, lost their icon labels, disappeared or ran letterboxed after committing changes.",
+          "Finish committing as soon as LaunchServices reflects the changed applications instead of always waiting at least 60 seconds (about 15\u201330 seconds in total on iOS 15-26).",
+          "Restart `appstored` together with App Store so blocked and unblocked applications appear correctly in the update list."
+        ]
+      },
+      {
+        "version": "1.0.1",
+        "date": "",
+        "changes": [
+          "Fit application icons to the Settings list rows."
+        ]
+      },
+      {
+        "version": "1.0.0",
+        "date": "",
+        "changes": [
+          "Initial public release.",
+          "Selectively blocks and restores App Store updates per application.",
+          "Supports staging multiple changes and applying one LaunchServices refresh.",
+          "Separates blocked updates from available applications.",
+          "Excludes TrollStore-installed applications.",
+          "Detects reinstalled applications and clears obsolete blocked metadata.",
+          "Supports rootless iOS 15 and later on arm64 and arm64e devices.",
+          "Requests Restart SpringBoard after installation, upgrade and removal."
+        ]
+      }
+    ],
     "architectures": [
-      "iphoneos-arm64"
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
     ],
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.blockappupdates_1.0.0_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb"
       }
     ]
   },
