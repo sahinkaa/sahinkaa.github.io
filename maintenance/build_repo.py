@@ -156,7 +156,8 @@ def write_indexes(folder,data,release=True):
     if release:(folder/'Release').write_text(globals()['release'](list(variants.items())))
 def release(entries,components=False):
     out='Origin: sahinkaa\nLabel: sahinkaa\nSuite: stable\nCodename: sahinkaa\nVersion: 1.0\nArchitectures: iphoneos-arm64 iphoneos-arm64e\n'
-    if components:out+='Components: main\n'
+    # Sileo requires Components even for a flat source.
+    out+='Components: main\n'
     out+='Description: Jailbreak tweaks from sahinkaa\nIcon: '+URL+'CydiaIcon.png\nDate: '+email.utils.format_datetime(datetime.datetime.now(datetime.timezone.utc),usegmt=True)+'\n'
     for label,algo in [('MD5Sum','md5'),('SHA1','sha1'),('SHA256','sha256'),('SHA512','sha512')]:
         out+=label+':\n'+''.join(' '+digest(raw,algo)+' '+str(len(raw))+' '+name+'\n' for name,raw in entries)
@@ -181,6 +182,7 @@ def verify():
         for key in ['Depiction','SileoDepiction','Icon']:assert p[key].startswith(URL) and (SITE/p[key][len(URL):]).is_file()
     for r in [SITE/'Release',SITE/'dists/stable/Release']:
         f=fields(r.read_text());assert f['Origin']==f['Label']=='sahinkaa' and set(f['Architectures'].split())==set(ARCHES)
+        assert f.get('Components')=='main', 'Sileo requires Components in every Release file'
         for label,algo in [('MD5Sum','md5'),('SHA1','sha1'),('SHA256','sha256'),('SHA512','sha512')]:
             for line in f[label].splitlines():
                 if not line.strip():continue

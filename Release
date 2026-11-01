@@ -4,6 +4,7 @@ Suite: stable
 Codename: sahinkaa
 Version: 1.0
 Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
 Description: Jailbreak tweaks from sahinkaa
 Icon: https://sahinkaa.github.io/CydiaIcon.png
 Date: Sun, 01 Nov 2026 18:04:37 GMT
