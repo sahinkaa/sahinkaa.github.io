@@ -15,11 +15,11 @@ Homepage: https://github.com/sahinkaa/AskBeforeCallingToo26
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.askbeforecallingtoo26.json
 Filename: debs/com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64e.deb
-Size: 44698
-MD5sum: ad86a10def7b39b0ca09d47c58bcff6d
-SHA1: 3e96e113ca1eb1f4e9d173ecfaea24ee6fcb0428
-SHA256: 0a000925110a23012cc2b7cd8d6cf5971ad9c782bd7970ae65ebc7c133cff0b5
-SHA512: a209aed020fb72fb044ef6d0238ac517b15b77d513a60ba1e951b956a3b9cece3ee0b9c8787eee35958717d697c45d0eaab619c9fa31f4ddb7c5ef04338d28e4
+Size: 43056
+MD5sum: f20751bd85687e3d9ec9bf3756d29aea
+SHA1: 77e1304d2d4cdc66b839dc0f025df2b28638a20a
+SHA256: 1d2f7a4fbcfe67e916c8bd57550a3eb0c4b0b03f5824d15d3b3d9f40ddfe4adb
+SHA512: 5c28b2c6316c7c75d0232c927ef55900a0488489741a48c09d95cdc85cfca3ae4165d5797bcd8712a1ca0b2864d5f7366172d26f2516674ee89b6cdea33b2da2
 
 Package: com.sahinkaa.blockappupdates
 Name: Block App Updates
@@ -51,17 +51,17 @@ Section: Tweaks
 Depends: firmware (>= 26.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.0
-Installed-Size: 76
+Installed-Size: 72
 Icon: https://sahinkaa.github.io/CydiaIcon.png
 Homepage: https://github.com/sahinkaa/NoHomeBar26
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.nohomebar26.json
 Filename: debs/com.sahinkaa.nohomebar26_1.0_iphoneos-arm64e.deb
-Size: 4946
-MD5sum: 2abd41ca76d08ee63e767a8410b8721f
-SHA1: 63ddb0b1ea4348c1450861096a3ab7f162429399
-SHA256: 8a6f93578ca066cdce4071e4f4afdc43ed6c36d436d8c8db47ac6c3612ad1d7d
-SHA512: 63ff9d8b9f73e33c95550b8a9f9ce3d49bf86d8376c91e9031ca0745c2c3c881d6486715bed9a13a6c771465c85366b5f3ea404f7493cfef89ace8c3409c256c
+Size: 4104
+MD5sum: d02d37aa8fb925435bb0078f16e8a390
+SHA1: 9c291d256f1b11438f25dd6160be0d1e28dfeafa
+SHA256: c921c461162987a79b8138a46c693cf21236b13aac85ca2efa4d23fa5780bed9
+SHA512: a341c8aabecfa83cca11497080621804739e51d50d6ba132f67e281c3b29abaa609aa670fc74112ba864295593ec8927e4e9c023c1974598f910e71c2779f76a
 
 Package: com.sahinkaa.noshutterscreenshotsounds
 Name: No Shutter & Screenshot Sounds
@@ -78,11 +78,11 @@ Homepage: https://github.com/sahinkaa/NoShutterAndScreenshotSounds
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.noshutterscreenshotsounds.json
 Filename: debs/com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64e.deb
-Size: 51762
-MD5sum: 168ee597f4e0c7b6f087a58129dbd8c9
-SHA1: 0396ffe9796c6da5046b51a668e53dbb463725e8
-SHA256: 5e095a804acbcbad2cd217bc14938c68f9d9c52ab1fa0c75e7519bc5f2399432
-SHA512: 763b0e9c951fa4317ccf98a74509a43c6203bb3072d5f2792c44689ec642e5300dda591dbd2fa77e1c04e410f035fc07929d74a965a57814dfba5d1bf087cb94
+Size: 50700
+MD5sum: f52cb28c8511b1ededef2d509a27eb36
+SHA1: 38fd69c8f42a896b370283379f076dc9a6532a97
+SHA256: 3c0e5eb11a7d18750104ff240e015c943f6f53517c7e318166b6373f74c6afb5
+SHA512: 682aa17efaf1bf4b8c367e604098495b365cf394d06d8490932121c4c8b20bdda06bc4d57f21e8204b4d133686c6530911c361fdbe2a75554fa46ff4f3056f79
 
 Package: com.sahinkaa.tinge26
 Name: Tinge 26
@@ -98,15 +98,15 @@ Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepa
 Pre-Depends: rootless-compat (>= 0.9)
 Architecture: iphoneos-arm64e
 Version: 1.0.1
-Installed-Size: 452
+Installed-Size: 436
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
 Filename: debs/com.sahinkaa.tinge26_1.0.1_iphoneos-arm64e.deb
-Size: 57800
-MD5sum: 2160d42ba65015527b92ff3919ce49ee
-SHA1: 41a8e23de8da82b751306354b3dc4996608938fc
-SHA256: f7f9a50e5de9f839ac9900f89fd7e675743d7da34a51d7ff7b4f2b8d45328001
-SHA512: 47203142c054243763be6a7cf1da24c3573af306cfd79a26e5de015ec7149ab4a68764ed98e913ca67fb746f2640543967045c5c445cbbacea296bcb3b5e7547
+Size: 53110
+MD5sum: 8b111fb0398a3cd8b95e19b48267b1b3
+SHA1: 9ffda567e9e72d343f525d9ea18147ac1807e6e3
+SHA256: 887206edb1e6e6b42edab3012bd4afb3f5f65d84d2964cd7837f845c56e187fd
+SHA512: 9a2349bf524106bffcbc9909f82dc92c2b57224edf06f78604a57b70d639c0841658a3c2b58348452e8b33d5083e13d2a75d97d98e5ef54747966b5cb28e9b1c
 
 Package: com.sahinkaa.velvetliquidglass
 Name: Velvet - Liquid Glass
@@ -119,15 +119,15 @@ Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.sahinkaa.velvet
 Replaces: com.noisyflake.velvet2, com.sahinkaa.velvet26plus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
-Installed-Size: 692
+Installed-Size: 660
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.velvetliquidglass.png
 Homepage: https://github.com/sahinkaa/VelvetLiquidGlass
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.velvetliquidglass.json
 Filename: debs/com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64e.deb
-Size: 164992
-MD5sum: 2ff2eff88cd88c461f2335c824f80e1d
-SHA1: 78ecc8475d9909960a072c58387972701aebe446
-SHA256: ac17f93add2e7387c69ee20ec7adf737610dd0843e929c66dca50bc5a4a41d49
-SHA512: 4a178c2c9b18b216577a92ba98d4303742037b745772c2baff284d8564c676e579318e62c7233463c3aeba1a9f5a97728685e8908358909796b62d56ca6c861d
+Size: 157766
+MD5sum: f6c3b02f7a7d2c0b0fd8789c9d2e0213
+SHA1: f2cff70f2f6ae14d3c55e883c25302f7b33c5866
+SHA256: fee59eba39fada5cada37eec45c478438cce0f07b5e3ddc1d95f0117b4d68e72
+SHA512: 84e19f305077dd83c90ed3215ecfaf59ebc0a07e6379d8806355109a0d60157b457966ff5fb5cee7648ae7e1bd943448eb18e18d6d76ef16815125cf0adf42c6
 
