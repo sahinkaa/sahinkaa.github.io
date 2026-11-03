@@ -53,6 +53,15 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0.4 - 2026-11-04"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Automatically save and restore Home Screen folders and icon placement when applying changes. The restored layout persists across later resprings.\n- Preserve Sileo's existing notification choice after the App Store refresh so it does not ask again.\n- Shorten the confirmation and show that the device will respring when the refresh is complete.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0.3 - 2026-11-02"
         },
         {
