@@ -84,7 +84,8 @@ def build():
         # Keep source credits unless this repository has an explicit credit correction.
         if compat.get('author'):f['Author']=compat['author']
         # Enrich only descriptions missing iOS information, keeping source compatibility claims.
-        if not re.search(r'\biOS\s*(?:/\s*iPadOS\s*)?\d|\biPadOS\s*\d',f.get('Description',''),re.I):f['Description']=f['Description'].rstrip()+f' {compat["ios"]}.'
+        if compat.get('description'):f['Description']=compat['description']
+        elif not re.search(r'\biOS\s*(?:/\s*iPadOS\s*)?\d|\biPadOS\s*\d',f.get('Description',''),re.I):f['Description']=f['Description'].rstrip()+f' {compat["ios"]}.'
         slug=identifier
         icon=original_icon(members)
         if icon:(SITE/'assets/icons'/f'{slug}.png').write_bytes(icon)

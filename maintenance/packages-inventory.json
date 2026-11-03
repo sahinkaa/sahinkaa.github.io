@@ -130,13 +130,13 @@
   },
   {
     "repository": "BlockAppUpdates",
-    "release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3",
-    "tag": "v1.0.3",
+    "release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4",
+    "tag": "v1.0.4",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/BlockAppUpdates/releases/assets/699572018",
-      "id": 699572018,
-      "node_id": "RA_kwDOTqN4784psp8y",
-      "name": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/BlockAppUpdates/releases/assets/707214096",
+      "id": 707214096,
+      "node_id": "RA_kwDOTqN4784qJzsQ",
+      "name": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -161,25 +161,25 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 84172,
-      "digest": "sha256:8864b86d089f1676b52dcb44703d8d2f1c87124f9028daf73f6bbe667aee8556",
+      "size": 96156,
+      "digest": "sha256:be0918aab4fb7a1fb8d0c7c8c85cc92b76bb4daac580b3cdd199da2a95aae422",
       "download_count": 0,
-      "created_at": "2026-11-01T21:26:50Z",
-      "updated_at": "2026-11-01T21:26:53Z",
-      "browser_download_url": "https://github.com/sahinkaa/BlockAppUpdates/releases/download/v1.0.3/com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb"
+      "created_at": "2026-11-03T21:51:11Z",
+      "updated_at": "2026-11-03T21:51:15Z",
+      "browser_download_url": "https://github.com/sahinkaa/BlockAppUpdates/releases/download/v1.0.4/com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb"
     },
-    "sha256": "8864b86d089f1676b52dcb44703d8d2f1c87124f9028daf73f6bbe667aee8556",
-    "control": "Package: com.sahinkaa.blockappupdates\nName: Block App Updates\nDescription: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.\nMaintainer: sahinkaa/ichitaso\nAuthor: sahinkaa \u2022 ichitaso\nSection: Tweaks\nDepends: firmware (>= 15.0), preferenceloader\nDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html\nSileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json\nIcon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png\nArchitecture: iphoneos-arm64\nVersion: 1.0.3\nInstalled-Size: 476\nHomepage: https://github.com/sahinkaa/BlockAppUpdates\n"
+    "sha256": "be0918aab4fb7a1fb8d0c7c8c85cc92b76bb4daac580b3cdd199da2a95aae422",
+    "control": "Package: com.sahinkaa.blockappupdates\nName: Block App Updates\nDescription: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.\nMaintainer: sahinkaa/ichitaso\nAuthor: sahinkaa \u2022 ichitaso\nSection: Tweaks\nDepends: firmware (>= 15.0), preferenceloader, mobilesubstrate\nDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html\nSileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json\nIcon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png\nHomepage: https://github.com/sahinkaa/BlockAppUpdates\nArchitecture: iphoneos-arm64\nVersion: 1.0.4\nInstalled-Size: 668\n"
   },
   {
     "repository": "BlockAppUpdates",
-    "release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3",
-    "tag": "v1.0.3",
+    "release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4",
+    "tag": "v1.0.4",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/BlockAppUpdates/releases/assets/699572138",
-      "id": 699572138,
-      "node_id": "RA_kwDOTqN4784psp-q",
-      "name": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb",
+      "url": "https://api.github.com/repos/sahinkaa/BlockAppUpdates/releases/assets/707214209",
+      "id": 707214209,
+      "node_id": "RA_kwDOTqN4784qJzuB",
+      "name": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64e.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -204,15 +204,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 84242,
-      "digest": "sha256:892afb9c59c7dff6d51004e5902c43615fd1a7f31cec9ce217a10859b7f07dc0",
+      "size": 93930,
+      "digest": "sha256:a484540c61c349463bc57548b441dc679e7903158b479996c61e36739f4e7ba1",
       "download_count": 0,
-      "created_at": "2026-11-01T21:26:53Z",
-      "updated_at": "2026-11-01T21:26:54Z",
-      "browser_download_url": "https://github.com/sahinkaa/BlockAppUpdates/releases/download/v1.0.3/com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb"
+      "created_at": "2026-11-03T21:51:15Z",
+      "updated_at": "2026-11-03T21:51:16Z",
+      "browser_download_url": "https://github.com/sahinkaa/BlockAppUpdates/releases/download/v1.0.4/com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64e.deb"
     },
-    "sha256": "892afb9c59c7dff6d51004e5902c43615fd1a7f31cec9ce217a10859b7f07dc0",
-    "control": "Package: com.sahinkaa.blockappupdates\nName: Block App Updates\nDescription: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.\nMaintainer: sahinkaa/ichitaso\nAuthor: sahinkaa \u2022 ichitaso\nSection: Tweaks\nDepends: firmware (>= 15.0), preferenceloader\nDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html\nSileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json\nIcon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png\nArchitecture: iphoneos-arm64e\nVersion: 1.0.3\nInstalled-Size: 476\nHomepage: https://github.com/sahinkaa/BlockAppUpdates\n"
+    "sha256": "a484540c61c349463bc57548b441dc679e7903158b479996c61e36739f4e7ba1",
+    "control": "Package: com.sahinkaa.blockappupdates\nName: Block App Updates\nDescription: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.\nMaintainer: sahinkaa/ichitaso\nAuthor: sahinkaa \u2022 ichitaso\nSection: Tweaks\nDepends: firmware (>= 15.0), preferenceloader, mobilesubstrate\nDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html\nSileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json\nIcon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png\nHomepage: https://github.com/sahinkaa/BlockAppUpdates\nArchitecture: iphoneos-arm64e\nVersion: 1.0.4\nInstalled-Size: 664\n"
   },
   {
     "repository": "NeverLowerMusic16",

@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.",
+          "markdown": "Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26.",
           "useSpacing": true
         },
         {
@@ -22,13 +22,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Targets iOS 15 and later on rootless and native RootHide jailbreaks. Private LaunchServices behavior may vary by iOS version and jailbreak. Version 1.0.3 executable payloads and installer scripts are preserved from ichitaso's published builds; no additional device testing by sahinkaa is claimed.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Targets iOS 15-26 on rootless and native RootHide. Device tested on iOS 16.6 RootHide and iOS 26.0.1 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.3"
+          "text": "1.0.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3"
+          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4"
         }
       ]
     },

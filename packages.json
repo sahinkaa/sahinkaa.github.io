@@ -78,21 +78,22 @@
     "repository": "BlockAppUpdates",
     "package": "com.sahinkaa.blockappupdates",
     "name": "Block App Updates",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.3",
-    "original_sha256": "8864b86d089f1676b52dcb44703d8d2f1c87124f9028daf73f6bbe667aee8556",
-    "sha256": "8e5b5f12e6cd68aaebe8b83f0be6e27514d168e876f779386aa1b219646d8b02",
+    "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4",
+    "original_sha256": "be0918aab4fb7a1fb8d0c7c8c85cc92b76bb4daac580b3cdd199da2a95aae422",
+    "sha256": "9b69163ddaf5b13048b90d7f24df1db97e34d0de683932d75432fe5b59b24f05",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
+      "Description",
       "Icon"
     ],
-    "compatibility": "Targets iOS 15 and later on rootless and native RootHide jailbreaks. Private LaunchServices behavior may vary by iOS version and jailbreak. Version 1.0.3 executable payloads and installer scripts are preserved from ichitaso's published builds; no additional device testing by sahinkaa is claimed.",
+    "compatibility": "Targets iOS 15-26 on rootless and native RootHide. Device tested on iOS 16.6 RootHide and iOS 26.0.1 RootHide.",
     "ios": "iOS 15+",
-    "description": "Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.",
+    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26.",
     "author": "sahinkaa \u2022 ichitaso",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png",
     "changelog": [
@@ -142,11 +143,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb"
       },
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64e.deb"
       }
     ]
   },

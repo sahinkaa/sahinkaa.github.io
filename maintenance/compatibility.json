@@ -9,9 +9,18 @@
   },
   "BlockAppUpdates": {
     "ios": "iOS 15+",
-    "compatibility": "Targets iOS 15 and later on rootless and native RootHide jailbreaks. Private LaunchServices behavior may vary by iOS version and jailbreak. Version 1.0.3 executable payloads and installer scripts are preserved from ichitaso's published builds; no additional device testing by sahinkaa is claimed.",
+    "compatibility": "Targets iOS 15-26 on rootless and native RootHide. Device tested on iOS 16.6 RootHide and iOS 26.0.1 RootHide.",
     "author": "sahinkaa \u2022 ichitaso",
     "changelog": [
+      {
+        "version": "1.0.4",
+        "date": "2026-11-04",
+        "changes": [
+          "Automatically save and restore Home Screen folders and icon placement when applying changes. The restored layout persists across later resprings.",
+          "Preserve Sileo's existing notification choice after the App Store refresh so it does not ask again.",
+          "Shorten the confirmation and show that the device will respring when the refresh is complete."
+        ]
+      },
       {
         "version": "1.0.3",
         "date": "2026-11-02",
@@ -50,7 +59,8 @@
           "Requests Restart SpringBoard after installation, upgrade and removal."
         ]
       }
-    ]
+    ],
+    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26."
   },
   "NeverLowerMusic16": {
     "ios": "iOS 16",
