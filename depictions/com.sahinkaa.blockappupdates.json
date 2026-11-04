@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26.",
+          "markdown": "Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.",
           "useSpacing": true
         },
         {
@@ -22,13 +22,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Targets iOS 15-26 on rootless and native RootHide. Device tested on iOS 16.6 RootHide and iOS 26.0.1 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Targets iOS 15-26 on rootless and native RootHide. ichitaso tested 1.0.5 on iOS 16.5 Dopamine, iOS 17.5.1 Dopamine and iOS 26.0.1 RootHide. sahinkaa tested 1.0.4 on iOS 16.6 RootHide and iOS 26.0.1 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.4"
+          "text": "1.0.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4"
+          "action": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.5"
         }
       ]
     },
@@ -51,6 +51,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.5 - 2026-11-04"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Preserve the existing Allow or Don't Allow notification choice of all jailbreak, TrollStore and TrollStore Lite apps after the App Store refresh, not only Sileo's.\n- Trim stray whitespace from helper messages shown in alerts.\n- Set the helper's setuid bit and the installer scripts' permissions while packaging, so `make package` alone produces a correct package. Remove `normalize_package.py` and simplify `build.sh`.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0.4 - 2026-11-04"

@@ -23,7 +23,7 @@ SHA512: 5c28b2c6316c7c75d0232c927ef55900a0488489741a48c09d95cdc85cfca3ae4165d579
 
 Package: com.sahinkaa.blockappupdates
 Name: Block App Updates
-Description: Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26.
+Description: Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.
 Maintainer: sahinkaa/ichitaso
 Author: sahinkaa • ichitaso
 Section: Tweaks
@@ -33,14 +33,14 @@ SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdat
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png
 Homepage: https://github.com/sahinkaa/BlockAppUpdates
 Architecture: iphoneos-arm64e
-Version: 1.0.4
-Installed-Size: 664
-Filename: debs/com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64e.deb
-Size: 93904
-MD5sum: 34bcd1a234e65b84b09bbfaff9abb0a8
-SHA1: 19bf0adfabb3744872b72c3738709f3f1f4efb60
-SHA256: 63e586d7836909fac102a28a7ce0ac91f3393f87783b2d1b6c27af12df8c69c1
-SHA512: 3b26aa5db3c73cf80cdf9f05aca8d1175e7dc71604d8ea7fd7012842b4f359eca74bb9239d1efb3759e849e4c10e9f69f0f9363ae31cd9e043d7b7813406572a
+Version: 1.0.5
+Installed-Size: 692
+Filename: debs/com.sahinkaa.blockappupdates_1.0.5_iphoneos-arm64e.deb
+Size: 92492
+MD5sum: bea51bd37143fdae4f05192ab42e76bd
+SHA1: 5188d2190375804822630308b35c217a4602c5d3
+SHA256: 27a012e62b4226b57e5a6ea5de6601baabd7cdeae6df3c7bb2d40a859b29bd35
+SHA512: a845263254834a9f2e44a47307e9e6853b5a850eecba26fe9899349d7446d4bff221a6f0f13023e6db13ae89a279b78465a784347aaf46db06bccf87d5efb02f
 
 Package: com.sahinkaa.nohomebar26
 Name: No Home Bar 26

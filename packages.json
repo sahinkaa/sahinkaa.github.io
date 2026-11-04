@@ -78,25 +78,33 @@
     "repository": "BlockAppUpdates",
     "package": "com.sahinkaa.blockappupdates",
     "name": "Block App Updates",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.4",
-    "original_sha256": "be0918aab4fb7a1fb8d0c7c8c85cc92b76bb4daac580b3cdd199da2a95aae422",
-    "sha256": "9b69163ddaf5b13048b90d7f24df1db97e34d0de683932d75432fe5b59b24f05",
+    "filename": "com.sahinkaa.blockappupdates_1.0.5_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/BlockAppUpdates/releases/tag/v1.0.5",
+    "original_sha256": "90e9daa4efa3d608b9e31411feaf1c3635209dc70845b81d0bd653f81504fb4d",
+    "sha256": "b64989430b42e6febf0dfedfdbbbc3dcf46482e00475ad7fabbe43df3329bbc8",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
-      "Description",
       "Icon"
     ],
-    "compatibility": "Targets iOS 15-26 on rootless and native RootHide. Device tested on iOS 16.6 RootHide and iOS 26.0.1 RootHide.",
+    "compatibility": "Targets iOS 15-26 on rootless and native RootHide. ichitaso tested 1.0.5 on iOS 16.5 Dopamine, iOS 17.5.1 Dopamine and iOS 26.0.1 RootHide. sahinkaa tested 1.0.4 on iOS 16.6 RootHide and iOS 26.0.1 RootHide.",
     "ios": "iOS 15-26",
-    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and Sileo notification choice. iOS 15-26.",
+    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.",
     "author": "sahinkaa \u2022 ichitaso",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockappupdates.png",
     "changelog": [
+      {
+        "version": "1.0.5",
+        "date": "2026-11-04",
+        "changes": [
+          "Preserve the existing Allow or Don't Allow notification choice of all jailbreak, TrollStore and TrollStore Lite apps after the App Store refresh, not only Sileo's.",
+          "Trim stray whitespace from helper messages shown in alerts.",
+          "Set the helper's setuid bit and the installer scripts' permissions while packaging, so `make package` alone produces a correct package. Remove `normalize_package.py` and simplify `build.sh`."
+        ]
+      },
       {
         "version": "1.0.4",
         "date": "2026-11-04",
@@ -152,11 +160,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.blockappupdates_1.0.5_iphoneos-arm64.deb"
       },
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.blockappupdates_1.0.4_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.blockappupdates_1.0.5_iphoneos-arm64e.deb"
       }
     ]
   },
