@@ -66,25 +66,26 @@ SHA256: b64989430b42e6febf0dfedfdbbbc3dcf46482e00475ad7fabbe43df3329bbc8
 SHA512: 258de0c94d53ddfeb5cba0c52f0d9ed6f9e56aee1de1cb9a652c23d56d057758c4934e64eb33fdf395b9465fd033d286b1a0e5a187fb06c747938464601658c4
 
 Package: com.sahinkaa.neverlowermusic16
-Name: NeverLowerMusic16
-Description: Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.
+Name: Never Lower Music
+Description: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.
+ Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).
 Maintainer: sahinkaa
 Author: Rishanan • sahinkaa
 Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate
+Depends: firmware (>= 16.0), mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 172
 Icon: https://sahinkaa.github.io/CydiaIcon.png
-Homepage: https://github.com/sahinkaa/NeverLowerMusic16
+Homepage: https://github.com/sahinkaa/NeverLowerMusic
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.json
-Filename: debs/com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb
-Size: 9758
-MD5sum: d3897ac56ada33ca8faa0eda5064c296
-SHA1: f64e3b02388410fdeb55ac8df43f0d6eac36364d
-SHA256: 778da2a6126182af5f043db6f7c6a173f0defde5c3fdd1532528f1b6c6ddcabe
-SHA512: edc085308ec31ef0209efd839a4ae66ed9293d5a0cd1f0f67baf3753802c16adb48621cdf8b649beadac96f472dcbfbfd147dede39c05ff2d17fd29241b9b080
+Filename: debs/com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64.deb
+Size: 9998
+MD5sum: e197eae28a6ac79cb6c58dfb6e61c64a
+SHA1: b6b69ed85cec016ccaa0eb34f47a43b8fcb0fdf3
+SHA256: babe6d802098ffcbee7a9945038b009b650a459067312b51b17cf9399fa4858f
+SHA512: 93bf2d550523e750327fd5478ad7bcfb3ad2c49ad69aad89ce24376846a67ab54ddeec7a0fe14572848c32e6cb8307e1cfd6e3a3bd9f6dd793397fc8bf3620f3
 
 Package: com.sahinkaa.nohomebar26
 Name: No Home Bar 26

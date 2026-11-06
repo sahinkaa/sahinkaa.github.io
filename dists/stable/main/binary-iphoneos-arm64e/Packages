@@ -42,6 +42,28 @@ SHA1: 5188d2190375804822630308b35c217a4602c5d3
 SHA256: 27a012e62b4226b57e5a6ea5de6601baabd7cdeae6df3c7bb2d40a859b29bd35
 SHA512: a845263254834a9f2e44a47307e9e6853b5a850eecba26fe9899349d7446d4bff221a6f0f13023e6db13ae89a279b78465a784347aaf46db06bccf87d5efb02f
 
+Package: com.sahinkaa.neverlowermusic16
+Name: Never Lower Music
+Description: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.
+ Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).
+Maintainer: sahinkaa
+Author: Rishanan • sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/NeverLowerMusic
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.neverlowermusic16.json
+Filename: debs/com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64e.deb
+Size: 9954
+MD5sum: 63f7e7a0f9d4e30e5efe7f310e3f2c31
+SHA1: e31bf7945cfa08e882f37515de2a14554e3d8426
+SHA256: 3b70bd2f9f5c59c66fa79d6c19d611995a3c36ca5742c166b9a857162013357f
+SHA512: 685d3f49f02b12294f8494d1363b13d0e35f105f01c1add3702e3084f643b289ee6dfecd3bf50bc162084ade36670aebf3d2c0eabd1b5ca5356404cb462f8ae6
+
 Package: com.sahinkaa.nohomebar26
 Name: No Home Bar 26
 Description: Hide the home indicator throughout iOS while keeping swipe gestures. iOS 26.

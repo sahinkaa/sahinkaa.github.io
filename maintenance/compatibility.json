@@ -71,10 +71,21 @@
     ],
     "description": "Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26."
   },
-  "NeverLowerMusic16": {
-    "ios": "iOS 16",
-    "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release.",
-    "author": "Rishanan \u2022 sahinkaa"
+  "NeverLowerMusic": {
+    "ios": "iOS 16.0 and later",
+    "compatibility": "Installable on iOS 16.0 and later. Tested on iPhone 8 Plus with iOS 16.6 and Dopamine RootHide using the earlier converted package. The native build was tested on iPhone 11 Pro Max with iOS 26.0.1 and Dopamine 3 RootHide.",
+    "author": "Rishanan \u2022 sahinkaa",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-06",
+        "changes": [
+          "Renamed NeverLowerMusic16 to Never Lower Music.",
+          "Opens installation to iOS 16.0 and later. Includes separate rootless and native RootHide packages."
+        ]
+      }
+    ],
+    "description": "Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.\n Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide)."
   },
   "NoHomeBar26": {
     "ios": "iOS 26",

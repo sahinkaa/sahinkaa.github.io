@@ -169,37 +169,51 @@
     ]
   },
   {
-    "repository": "NeverLowerMusic16",
+    "repository": "NeverLowerMusic",
     "package": "com.sahinkaa.neverlowermusic16",
-    "name": "NeverLowerMusic16",
-    "version": "1.0.0",
+    "name": "Never Lower Music",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/NeverLowerMusic16/releases/tag/v1.0.0",
-    "original_sha256": "0e66a4811edb88f324b99756ebc76485172c6c7e5e580b5cfced46f65902a660",
-    "sha256": "778da2a6126182af5f043db6f7c6a173f0defde5c3fdd1532528f1b6c6ddcabe",
+    "filename": "com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/NeverLowerMusic/releases/tag/v1.0.1",
+    "original_sha256": "75d15879b5c16c093923d1e52348e33f7eb80091884b736e389efe417bb0109e",
+    "sha256": "babe6d802098ffcbee7a9945038b009b650a459067312b51b17cf9399fa4858f",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
-      "Author",
       "Icon",
       "Homepage",
       "Depiction",
       "SileoDepiction"
     ],
-    "compatibility": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release.",
-    "ios": "iOS 16",
-    "description": "Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.",
+    "compatibility": "Installable on iOS 16.0 and later. Tested on iPhone 8 Plus with iOS 16.6 and Dopamine RootHide using the earlier converted package. The native build was tested on iPhone 11 Pro Max with iOS 26.0.1 and Dopamine 3 RootHide.",
+    "ios": "iOS 16.0 and later",
+    "description": "Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.\n Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).",
     "author": "Rishanan \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/CydiaIcon.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-06",
+        "changes": [
+          "Renamed NeverLowerMusic16 to Never Lower Music.",
+          "Opens installation to iOS 16.0 and later. Includes separate rootless and native RootHide packages."
+        ]
+      }
+    ],
     "architectures": [
-      "iphoneos-arm64"
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
     ],
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64e.deb"
       }
     ]
   },

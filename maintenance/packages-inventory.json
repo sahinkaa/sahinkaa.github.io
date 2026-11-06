@@ -215,14 +215,14 @@
     "control": "Package: com.sahinkaa.blockappupdates\nName: Block App Updates\nDescription: Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.\nMaintainer: sahinkaa/ichitaso\nAuthor: sahinkaa \u2022 ichitaso\nSection: Tweaks\nDepends: firmware (>= 15.0), preferenceloader, mobilesubstrate\nDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.html\nSileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockappupdates.json\nIcon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png\nHomepage: https://github.com/sahinkaa/BlockAppUpdates\nArchitecture: iphoneos-arm64e\nVersion: 1.0.5\nInstalled-Size: 692\n"
   },
   {
-    "repository": "NeverLowerMusic16",
-    "release": "https://github.com/sahinkaa/NeverLowerMusic16/releases/tag/v1.0.0",
-    "tag": "v1.0.0",
+    "repository": "NeverLowerMusic",
+    "release": "https://github.com/sahinkaa/NeverLowerMusic/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/NeverLowerMusic16/releases/assets/490695306",
-      "id": 490695306,
-      "node_id": "RA_kwDOTkUy9s4dP2qK",
-      "name": "com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/NeverLowerMusic/releases/assets/717810343",
+      "id": 717810343,
+      "node_id": "RA_kwDOTkUy9s4qyOqn",
+      "name": "com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -247,15 +247,58 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 9646,
-      "digest": "sha256:0e66a4811edb88f324b99756ebc76485172c6c7e5e580b5cfced46f65902a660",
-      "download_count": 28,
-      "created_at": "2026-07-26T21:05:05Z",
-      "updated_at": "2026-07-26T21:05:07Z",
-      "browser_download_url": "https://github.com/sahinkaa/NeverLowerMusic16/releases/download/v1.0.0/com.sahinkaa.neverlowermusic16_1.0.0_iphoneos-arm64.deb"
+      "size": 9920,
+      "digest": "sha256:75d15879b5c16c093923d1e52348e33f7eb80091884b736e389efe417bb0109e",
+      "download_count": 0,
+      "created_at": "2026-11-06T16:41:32Z",
+      "updated_at": "2026-11-06T16:41:34Z",
+      "browser_download_url": "https://github.com/sahinkaa/NeverLowerMusic/releases/download/v1.0.1/com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64.deb"
     },
-    "sha256": "0e66a4811edb88f324b99756ebc76485172c6c7e5e580b5cfced46f65902a660",
-    "control": "Package: com.sahinkaa.neverlowermusic16\nName: NeverLowerMusic16\nDescription: Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate\nArchitecture: iphoneos-arm64\nVersion: 1.0.0\nInstalled-Size: 172\n"
+    "sha256": "75d15879b5c16c093923d1e52348e33f7eb80091884b736e389efe417bb0109e",
+    "control": "Package: com.sahinkaa.neverlowermusic16\nName: Never Lower Music\nDescription: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.\n Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).\nMaintainer: sahinkaa\nAuthor: Rishanan \u2022 sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64\nVersion: 1.0.1\nInstalled-Size: 172\n"
+  },
+  {
+    "repository": "NeverLowerMusic",
+    "release": "https://github.com/sahinkaa/NeverLowerMusic/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
+    "asset": {
+      "url": "https://api.github.com/repos/sahinkaa/NeverLowerMusic/releases/assets/717810443",
+      "id": 717810443,
+      "node_id": "RA_kwDOTkUy9s4qyOsL",
+      "name": "com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64e.deb",
+      "label": null,
+      "uploader": {
+        "login": "sahinkaa",
+        "id": 9750267,
+        "node_id": "MDQ6VXNlcjk3NTAyNjc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9750267?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sahinkaa",
+        "html_url": "https://github.com/sahinkaa",
+        "followers_url": "https://api.github.com/users/sahinkaa/followers",
+        "following_url": "https://api.github.com/users/sahinkaa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sahinkaa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sahinkaa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sahinkaa/subscriptions",
+        "organizations_url": "https://api.github.com/users/sahinkaa/orgs",
+        "repos_url": "https://api.github.com/users/sahinkaa/repos",
+        "events_url": "https://api.github.com/users/sahinkaa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sahinkaa/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "content_type": "application/octet-stream",
+      "state": "uploaded",
+      "size": 9874,
+      "digest": "sha256:b86b53215e3666c256a43687f5c4b3fd3dd56a230439fe92878aee987da07407",
+      "download_count": 0,
+      "created_at": "2026-11-06T16:41:34Z",
+      "updated_at": "2026-11-06T16:41:35Z",
+      "browser_download_url": "https://github.com/sahinkaa/NeverLowerMusic/releases/download/v1.0.1/com.sahinkaa.neverlowermusic16_1.0.1_iphoneos-arm64e.deb"
+    },
+    "sha256": "b86b53215e3666c256a43687f5c4b3fd3dd56a230439fe92878aee987da07407",
+    "control": "Package: com.sahinkaa.neverlowermusic16\nName: Never Lower Music\nDescription: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.\n Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).\nMaintainer: sahinkaa\nAuthor: Rishanan \u2022 sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64e\nVersion: 1.0.1\nInstalled-Size: 172\n"
   },
   {
     "repository": "NoHomeBar26",

@@ -8,12 +8,12 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "NeverLowerMusic16",
+          "title": "Never Lower Music",
           "useBoldText": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Prevents notification sounds from lowering now-playing audio on iOS 16. During playback, notification volume follows media volume.",
+          "markdown": "Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.\n Tested on iPhone 8 Plus (iOS 16.6, Dopamine RootHide via conversion) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine 3 RootHide).",
           "useSpacing": true
         },
         {
@@ -22,13 +22,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "iOS 16.x only. Rootless package; tested on iPhone 8 Plus, iOS 16.6, Dopamine RootHide after conversion. No native RootHide release.\n\nRootless only.",
+          "markdown": "Installable on iOS 16.0 and later. Tested on iPhone 8 Plus with iOS 16.6 and Dopamine RootHide using the earlier converted package. The native build was tested on iPhone 11 Pro Max with iOS 26.0.1 and Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -38,12 +38,27 @@
         {
           "class": "DepictionButtonView",
           "text": "Source and instructions",
-          "action": "https://github.com/sahinkaa/NeverLowerMusic16"
+          "action": "https://github.com/sahinkaa/NeverLowerMusic"
         },
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/NeverLowerMusic16/releases/tag/v1.0.0"
+          "action": "https://github.com/sahinkaa/NeverLowerMusic/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1 - 2026-11-06"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Renamed NeverLowerMusic16 to Never Lower Music.\n- Opens installation to iOS 16.0 and later. Includes separate rootless and native RootHide packages.",
+          "useSpacing": true
         }
       ]
     }
