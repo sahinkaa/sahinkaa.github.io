@@ -18,6 +18,41 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{155, 335}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/control-center.png",
+              "accessibilityText": "Tinted Control Center with brightness and volume percentages"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/background-tint.png",
+              "accessibilityText": "Background tint and opacity settings"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/active-fill.png",
+              "accessibilityText": "Active switch fills and percentage options"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/percentage-appearance.png",
+              "accessibilityText": "Percentage font, position and color settings"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/switch-backgrounds.png",
+              "accessibilityText": "Individual active switch background colors"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/icon-colors.png",
+              "accessibilityText": "Individual switch and slider icon colors"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "Compatibility"
         },
         {

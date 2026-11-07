@@ -119,7 +119,7 @@ def build():
     catalog=[]
     for identifier in sorted(set(a['package'] for a in audit),key=lambda i:next(a['name'].lower() for a in audit if a['package']==i)):
         entries=[a for a in audit if a['package']==identifier];a=entries[0];a=dict(a,architectures=[x['architecture'] for x in entries],downloads=[{'architecture':x['architecture'],'filename':x['filename']} for x in entries]);catalog.append(a)
-        render_depiction(a)
+        render_depiction(a, config[a['repository']].get('screenshots', ()))
     (SITE/'assets/style.css').write_text(CSS)
     cards=''.join('<a class="card" href="/depictions/'+a['package']+'.html"><div class="cardhead"><img src="'+html.escape(a['icon'].replace(URL,'/'),quote=True)+'" alt="" loading="lazy"><div><h3>'+html.escape(a['name'])+'</h3><div class="version">'+html.escape(a['version'])+'</div></div></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+html.escape(a['ios'])+'</span><span class="tag">Rootless</span>'+('<span class="tag">RootHide</span>' if 'iphoneos-arm64e' in a['architectures'] else '')+'</div></a>' for a in catalog)
     body='''<main><header class="brand"><img src="/assets/profile.png" alt="sahinkaa GitHub profile picture"><h1>sahinkaa</h1></header><section class="intro"><h2>Tweaks for your jailbreak.</h2><p class="muted">Add one source. Your package manager selects the build for your jailbreak. Each tweak lists its supported iOS versions.</p><div class="actions"><a class="btn primary" href="sileo://source/https://sahinkaa.github.io/">Add to Sileo</a><a class="btn" href="zbra://sources/add/https://sahinkaa.github.io/">Add to Zebra</a></div><div class="address"><code>https://sahinkaa.github.io/</code><button class="btn" id="copy-address" type="button">Copy address</button><span id="copy-status" role="status" aria-live="polite"></span></div></section><div class="summary"><h2>All tweaks</h2><span class="muted">9 tweaks · 16 packages</span></div><div class="grid">'''+cards+'''</div><footer><p>Rootless and native RootHide builds share the same package identity and version. Rootless-only releases are marked above. Native RootHide packages install directly without Patcher.</p><p>Compatibility reflects each project's published requirements. A supported range does not mean every device and OS version has been tested.</p><a href="https://github.com/sahinkaa">GitHub</a> · <a href="https://github.com/sahinkaa/sahinkaa.github.io">Repository source</a></footer></main><script src="/assets/site.js" defer></script>'''
@@ -166,16 +166,30 @@ def release(entries,components=False):
     for label,algo in [('MD5Sum','md5'),('SHA1','sha1'),('SHA256','sha256'),('SHA512','sha512')]:
         out+=label+':\n'+''.join(' '+digest(raw,algo)+' '+str(len(raw))+' '+name+'\n' for name,raw in entries)
     return out
-def render_depiction(a):
+def render_depiction(a, screenshots=()):
     name=a['name'];slug=a['package'];hasrh='iphoneos-arm64e' in a['architectures'];env='Rootless and native RootHide' if hasrh else 'Rootless only'
     links=''.join('<a class="btn" href="/debs/'+html.escape(d['filename'],quote=True)+'">'+('RootHide' if d['architecture']=='iphoneos-arm64e' else 'Rootless')+' .deb</a>' for d in a['downloads'])
     body='<main class="detail"><a class="muted" href="/">← sahinkaa</a><div class="cardhead" style="margin-top:30px"><img src="'+a['icon'].replace(URL,'/')+'" alt="" width="64" height="64"><h1>'+html.escape(name)+'</h1></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+a['ios']+'</span><span class="tag">'+env+'</span><span class="tag">'+a['version']+'</span></div><section style="margin-top:28px"><h2>Compatibility</h2><p>'+html.escape(a['compatibility'])+'</p><p>'+('Install the native RootHide package directly without converting the rootless package.' if hasrh else 'Only the published rootless build is hosted. This is not a native RootHide package.')+'</p></section><section><h2>Developer</h2><p>'+html.escape(a['author'])+'</p></section><section><h2>Download</h2><div class="downloads">'+links+'</div><p class="muted">When installed through Sileo or Zebra, your package manager chooses the matching architecture.</p></section><footer><a href="https://github.com/sahinkaa/'+a['repository']+'">Source and instructions</a> · <a href="'+a['source_release']+'">GitHub release</a></footer></main>'
+    if screenshots:
+        tiles=[]
+        for screenshot in screenshots:
+            image=html.escape(screenshot['url'], quote=True)
+            alt=html.escape(screenshot['accessibilityText'], quote=True)
+            tiles.append(f'<a href="{image}"><img src="{image}" alt="{alt}" width="1242" height="2688" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px"></a>')
+        gallery='<section><h2>Screenshots</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:12px">' + ''.join(tiles) + '</div></section>'
+        body=body.replace('<section style="margin-top:28px"><h2>Compatibility</h2>', gallery + '<section><h2>Compatibility</h2>', 1)
     history=a.get('changelog',[])
     if history:
         sections=''.join('<h3>'+html.escape(entry['version'])+' <span class="muted">'+html.escape(entry['date'])+'</span></h3><ul>'+''.join('<li>'+html.escape(change)+'</li>' for change in entry['changes'])+'</ul>' for entry in history)
         body=body.replace('<section><h2>Developer</h2>','<section><h2>Changelog</h2>'+sections+'</section><section><h2>Developer</h2>',1)
     (SITE/'depictions'/f'{slug}.html').write_text(page(name+' - sahinkaa',body,a['description']))
     views=[{'class':'DepictionHeaderView','title':name,'useBoldText':True}, {'class':'DepictionMarkdownView','markdown':a['description'],'useSpacing':True}, {'class':'DepictionHeaderView','title':'Compatibility'}, {'class':'DepictionMarkdownView','markdown':a['compatibility']+'\n\n'+env+'.'+ (' Native RootHide installs directly without Patcher.' if hasrh else ''),'useSpacing':True}, {'class':'DepictionTableTextView','title':'Version','text':a['version']}, {'class':'DepictionTableTextView','title':'Developer','text':a['author']}, {'class':'DepictionButtonView','text':'Source and instructions','action':'https://github.com/sahinkaa/'+a['repository']}, {'class':'DepictionButtonView','text':'GitHub release','action':a['source_release']}]
+    if screenshots:
+        views[2:2]=[
+            {'class':'DepictionHeaderView','title':'Screenshots'},
+            {'class':'DepictionScreenshotsView','itemSize':'{155, 335}','itemCornerRadius':12,
+             'screenshots':list(screenshots)}
+        ]
     tabs=[{'class':'DepictionStackView','tabname':'Details','views':views}]
     if history:
         history_views=[]
