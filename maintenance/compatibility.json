@@ -119,7 +119,21 @@
   },
   "VelvetLiquidGlass": {
     "ios": "iOS 26",
-    "compatibility": "Requires iOS 26. Tested only on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide. Rootless and other devices have not been independently device-tested."
+    "compatibility": "Requires iOS 26. Tested only on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide. Rootless and other devices have not been independently device-tested.",
+    "screenshots": [
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/notification-center.png",
+        "accessibilityText": "Notification Center with tinted Liquid Glass notification stacks"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/velvet-settings.png",
+        "accessibilityText": "Velvet settings with a live test banner and per-app controls"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/global-settings.png",
+        "accessibilityText": "Global settings for banner borders, glow, text and corner radius"
+      }
+    ]
   },
   "CCFlex": {
     "ios": "iOS 26",

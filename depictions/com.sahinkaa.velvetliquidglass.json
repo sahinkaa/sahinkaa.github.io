@@ -18,6 +18,29 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{155, 335}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/notification-center.png",
+              "accessibilityText": "Notification Center with tinted Liquid Glass notification stacks"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/velvet-settings.png",
+              "accessibilityText": "Velvet settings with a live test banner and per-app controls"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/VelvetLiquidGlass/df10a7797b9112e4f7408ff44a990531e083f779/global-settings.png",
+              "accessibilityText": "Global settings for banner borders, glow, text and corner radius"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "Compatibility"
         },
         {
