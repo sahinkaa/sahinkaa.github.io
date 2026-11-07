@@ -120,5 +120,9 @@
   "VelvetLiquidGlass": {
     "ios": "iOS 26",
     "compatibility": "Requires iOS 26. Tested only on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide. Rootless and other devices have not been independently device-tested."
+  },
+  "CCFlex": {
+    "ios": "iOS 26",
+    "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested."
   }
 }

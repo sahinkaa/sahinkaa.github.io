@@ -65,6 +65,34 @@ SHA1: cd630affe47662ead090cb1438144db89c380c0a
 SHA256: b64989430b42e6febf0dfedfdbbbc3dcf46482e00475ad7fabbe43df3329bbc8
 SHA512: 258de0c94d53ddfeb5cba0c52f0d9ed6f9e56aee1de1cb9a652c23d56d057758c4934e64eb33fdf395b9465fd033d286b1a0e5a187fb06c747938464601658c4
 
+Package: com.sahinkaa.ccflex
+Name: CCFlex
+Description: Customize Control Center on iOS 26
+  - Tint glass backgrounds and adjust their opacity.
+  - Recolor active fills and set their opacity, or hide supported switch fills.
+  - Pick individual colors for supported switch backgrounds and icons.
+  - See brightness and volume percentages in compact and expanded sliders.
+ .
+ Configure in Settings > CCFlex.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
+Conflicts: com.sahinkaa.cleancc26
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 708
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png
+Homepage: https://github.com/sahinkaa/CCFlex
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.json
+Filename: debs/com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb
+Size: 186300
+MD5sum: bceb7780a90e80d5d15762e8ce2a4220
+SHA1: b251b3e60709664edbc7e91a20d3a6a24b1c9843
+SHA256: 903fd6f9dbfc2b5fbc195e7a3a1fa653909d1156b40e8c3d4e714b76cff194cf
+SHA512: 2d00de5233d14a44f8dadc453aac1721c157dcaf394433948851bdc3e81ad92d6d6e23003ef89f2453f75ffcffdad42b32792e388cc965810b661b01d1010f07
+
 Package: com.sahinkaa.neverlowermusic16
 Name: Never Lower Music
 Description: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.

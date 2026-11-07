@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "CCFlex",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/CCFlex"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.0"
+        }
+      ]
+    }
+  ]
+}

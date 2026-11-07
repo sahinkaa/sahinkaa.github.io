@@ -169,6 +169,45 @@
     ]
   },
   {
+    "repository": "CCFlex",
+    "package": "com.sahinkaa.ccflex",
+    "name": "CCFlex",
+    "version": "1.0.0",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.0",
+    "original_sha256": "62950a101e720d2f45799afc5a73b21cda0b1863e5945621dc3d55fe11f36a51",
+    "sha256": "903fd6f9dbfc2b5fbc195e7a3a1fa653909d1156b40e8c3d4e714b76cff194cf",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "ios": "iOS 26",
+    "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.",
+    "description": "Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png",
+    "architectures": [
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "downloads": [
+      {
+        "architecture": "iphoneos-arm64",
+        "filename": "com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.ccflex_1.0.0_iphoneos-arm64e.deb"
+      }
+    ]
+  },
+  {
     "repository": "NeverLowerMusic",
     "package": "com.sahinkaa.neverlowermusic16",
     "name": "Never Lower Music",

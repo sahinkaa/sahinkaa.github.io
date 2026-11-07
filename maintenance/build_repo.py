@@ -139,7 +139,7 @@ Add the URL to Sileo or Zebra. Repository label: **sahinkaa**. The icon is the a
 
 The root is a flat Debian repository. Both flat and suite Release files include `Components: main`, which Sileo requires even for flat sources. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
 
-There are nine released tweaks and sixteen packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
+There are ten released tweaks and eighteen packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
 
 Each package has an HTML depiction for Zebra and a native JSON depiction for Sileo, with compatibility information and links to its original project. GitHub release assets remain unchanged. Repository copies add compatibility text when missing, HTTP icons and depiction links. Versions, dependencies, maintainer scripts and executable payloads are preserved. `metadata-audit.json` records original/repository checksums and changed fields.
 
@@ -185,7 +185,7 @@ def render_depiction(a):
     (SITE/'depictions'/f'{slug}.json').write_text(json.dumps({'class':'DepictionTabView','minVersion':'0.4','tabs':tabs},indent=2)+'\n')
 def verify():
     raw=(SITE/'Packages').read_bytes();packages=[fields(x) for x in raw.decode().strip().split('\n\n')]
-    assert len(packages)==16 and len({p['Package'] for p in packages})==9
+    assert len(packages)==18 and len({p['Package'] for p in packages})==10
     assert gzip.decompress((SITE/'Packages.gz').read_bytes())==raw and bz2.decompress((SITE/'Packages.bz2').read_bytes())==raw and lzma.decompress((SITE/'Packages.xz').read_bytes())==raw
     for p in packages:
         data=(SITE/p['Filename']).read_bytes();f=control_fields(ar_read(data));assert all(f[k]==p[k] for k in f)
@@ -203,11 +203,11 @@ def verify():
             for line in f[label].splitlines():
                 if not line.strip():continue
                 sha,size,name=line.split();data=(r.parent/name).read_bytes();assert digest(data,algo)==sha and len(data)==int(size)
-    for arch,count in [('iphoneos-arm64',9),('iphoneos-arm64e',7)]:
+    for arch,count in [('iphoneos-arm64',10),('iphoneos-arm64e',8)]:
         d=(SITE/f'dists/stable/main/binary-{arch}/Packages').read_bytes();entries=[fields(x) for x in d.decode().strip().split('\n\n')];assert len(entries)==count and all(p['Architecture']==arch for p in entries)
     for p in (SITE/'depictions').glob('*.json'):assert json.loads(p.read_text())['class']=='DepictionTabView'
     assert all(x['payload_unchanged'] and x['maintainer_scripts_unchanged'] and x['dependencies_unchanged'] for x in json.loads((SITE/'metadata-audit.json').read_text()))
-    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, 9 rootless/7 RootHide entries and depictions.')
+    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, 10 rootless/8 RootHide entries and depictions.')
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--verify',action='store_true');args=parser.parse_args()
     if args.verify:verify()
