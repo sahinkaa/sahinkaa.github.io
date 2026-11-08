@@ -119,10 +119,11 @@ def build():
     catalog=[]
     for identifier in sorted(set(a['package'] for a in audit),key=lambda i:next(a['name'].lower() for a in audit if a['package']==i)):
         entries=[a for a in audit if a['package']==identifier];a=entries[0];a=dict(a,architectures=[x['architecture'] for x in entries],downloads=[{'architecture':x['architecture'],'filename':x['filename']} for x in entries]);catalog.append(a)
-        render_depiction(a, config[a['repository']].get('screenshots', ()))
+        depiction = config[a['repository']]
+        render_depiction(a, depiction.get('screenshots', ()), depiction.get('screenshotSize'))
     (SITE/'assets/style.css').write_text(CSS)
     cards=''.join('<a class="card" href="/depictions/'+a['package']+'.html"><div class="cardhead"><img src="'+html.escape(a['icon'].replace(URL,'/'),quote=True)+'" alt="" loading="lazy"><div><h3>'+html.escape(a['name'])+'</h3><div class="version">'+html.escape(a['version'])+'</div></div></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+html.escape(a['ios'])+'</span><span class="tag">Rootless</span>'+('<span class="tag">RootHide</span>' if 'iphoneos-arm64e' in a['architectures'] else '')+'</div></a>' for a in catalog)
-    body='''<main><header class="brand"><img src="/assets/profile.png" alt="sahinkaa GitHub profile picture"><h1>sahinkaa</h1></header><section class="intro"><h2>Tweaks for your jailbreak.</h2><p class="muted">Add one source. Your package manager selects the build for your jailbreak. Each tweak lists its supported iOS versions.</p><div class="actions"><a class="btn primary" href="sileo://source/https://sahinkaa.github.io/">Add to Sileo</a><a class="btn" href="zbra://sources/add/https://sahinkaa.github.io/">Add to Zebra</a></div><div class="address"><code>https://sahinkaa.github.io/</code><button class="btn" id="copy-address" type="button">Copy address</button><span id="copy-status" role="status" aria-live="polite"></span></div></section><div class="summary"><h2>All tweaks</h2><span class="muted">11 tweaks · 20 packages</span></div><div class="grid">'''+cards+'''</div><footer><p>Rootless and native RootHide builds share the same package identity and version. Rootless-only releases are marked above. Native RootHide packages install directly without Patcher.</p><p>Compatibility reflects each project's published requirements. A supported range does not mean every device and OS version has been tested.</p><a href="https://github.com/sahinkaa">GitHub</a> · <a href="https://github.com/sahinkaa/sahinkaa.github.io">Repository source</a></footer></main><script src="/assets/site.js" defer></script>'''
+    body='''<main><header class="brand"><img src="/assets/profile.png" alt="sahinkaa GitHub profile picture"><h1>sahinkaa</h1></header><section class="intro"><h2>Tweaks for your jailbreak.</h2><p class="muted">Add one source. Your package manager selects the build for your jailbreak. Each tweak lists its supported iOS versions.</p><div class="actions"><a class="btn primary" href="sileo://source/https://sahinkaa.github.io/">Add to Sileo</a><a class="btn" href="zbra://sources/add/https://sahinkaa.github.io/">Add to Zebra</a></div><div class="address"><code>https://sahinkaa.github.io/</code><button class="btn" id="copy-address" type="button">Copy address</button><span id="copy-status" role="status" aria-live="polite"></span></div></section><div class="summary"><h2>All tweaks</h2><span class="muted">12 tweaks · 22 packages</span></div><div class="grid">'''+cards+'''</div><footer><p>Rootless and native RootHide builds share the same package identity and version. Rootless-only releases are marked above. Native RootHide packages install directly without Patcher.</p><p>Compatibility reflects each project's published requirements. A supported range does not mean every device and OS version has been tested.</p><a href="https://github.com/sahinkaa">GitHub</a> · <a href="https://github.com/sahinkaa/sahinkaa.github.io">Repository source</a></footer></main><script src="/assets/site.js" defer></script>'''
     (SITE/'index.html').write_text(page('sahinkaa',body))
     (SITE/'assets/site.js').write_text("document.querySelector('#copy-address')?.addEventListener('click',async()=>{const status=document.querySelector('#copy-status');try{await navigator.clipboard.writeText('https://sahinkaa.github.io/');status.textContent='Copied';}catch{status.textContent='Select and copy the address above.';}});\n")
     (SITE/'.nojekyll').write_text('')
@@ -139,7 +140,7 @@ Add the URL to Sileo or Zebra. Repository label: **sahinkaa**. The icon is the a
 
 The root is a flat Debian repository. Both flat and suite Release files include `Components: main`, which Sileo requires even for flat sources. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
 
-There are eleven released tweaks and twenty packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
+There are twelve released tweaks and twenty-two packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
 
 Each package has an HTML depiction for Zebra and a native JSON depiction for Sileo, with compatibility information and links to its original project. GitHub release assets remain unchanged. Repository copies add compatibility text when missing, HTTP icons and depiction links. Versions, dependencies, maintainer scripts and executable payloads are preserved. `metadata-audit.json` records original/repository checksums and changed fields.
 
@@ -166,16 +167,17 @@ def release(entries,components=False):
     for label,algo in [('MD5Sum','md5'),('SHA1','sha1'),('SHA256','sha256'),('SHA512','sha512')]:
         out+=label+':\n'+''.join(' '+digest(raw,algo)+' '+str(len(raw))+' '+name+'\n' for name,raw in entries)
     return out
-def render_depiction(a, screenshots=()):
+def render_depiction(a, screenshots=(), screenshot_size=None):
     name=a['name'];slug=a['package'];hasrh='iphoneos-arm64e' in a['architectures'];env='Rootless and native RootHide' if hasrh else 'Rootless only'
     links=''.join('<a class="btn" href="/debs/'+html.escape(d['filename'],quote=True)+'">'+('RootHide' if d['architecture']=='iphoneos-arm64e' else 'Rootless')+' .deb</a>' for d in a['downloads'])
     body='<main class="detail"><a class="muted" href="/">← sahinkaa</a><div class="cardhead" style="margin-top:30px"><img src="'+a['icon'].replace(URL,'/')+'" alt="" width="64" height="64"><h1>'+html.escape(name)+'</h1></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+a['ios']+'</span><span class="tag">'+env+'</span><span class="tag">'+a['version']+'</span></div><section style="margin-top:28px"><h2>Compatibility</h2><p>'+html.escape(a['compatibility'])+'</p><p>'+('Install the native RootHide package directly without converting the rootless package.' if hasrh else 'Only the published rootless build is hosted. This is not a native RootHide package.')+'</p></section><section><h2>Developer</h2><p>'+html.escape(a['author'])+'</p></section><section><h2>Download</h2><div class="downloads">'+links+'</div><p class="muted">When installed through Sileo or Zebra, your package manager chooses the matching architecture.</p></section><footer><a href="https://github.com/sahinkaa/'+a['repository']+'">Source and instructions</a> · <a href="'+a['source_release']+'">GitHub release</a></footer></main>'
     if screenshots:
+        width, height = screenshot_size or (1242, 2688)
         tiles=[]
         for screenshot in screenshots:
             image=html.escape(screenshot['url'], quote=True)
             alt=html.escape(screenshot['accessibilityText'], quote=True)
-            tiles.append(f'<a href="{image}"><img src="{image}" alt="{alt}" width="1242" height="2688" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px"></a>')
+            tiles.append(f'<a href="{image}"><img src="{image}" alt="{alt}" width="{width}" height="{height}" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px"></a>')
         gallery='<section><h2>Screenshots</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:12px">' + ''.join(tiles) + '</div></section>'
         body=body.replace('<section style="margin-top:28px"><h2>Compatibility</h2>', gallery + '<section><h2>Compatibility</h2>', 1)
     history=a.get('changelog',[])
@@ -187,7 +189,7 @@ def render_depiction(a, screenshots=()):
     if screenshots:
         views[2:2]=[
             {'class':'DepictionHeaderView','title':'Screenshots'},
-            {'class':'DepictionScreenshotsView','itemSize':'{155, 335}','itemCornerRadius':12,
+            {'class':'DepictionScreenshotsView','itemSize':f'{{{width}, {height}}}' if screenshot_size else '{155, 335}','itemCornerRadius':12,
              'screenshots':list(screenshots)}
         ]
     tabs=[{'class':'DepictionStackView','tabname':'Details','views':views}]
@@ -199,7 +201,7 @@ def render_depiction(a, screenshots=()):
     (SITE/'depictions'/f'{slug}.json').write_text(json.dumps({'class':'DepictionTabView','minVersion':'0.4','tabs':tabs},indent=2)+'\n')
 def verify():
     raw=(SITE/'Packages').read_bytes();packages=[fields(x) for x in raw.decode().strip().split('\n\n')]
-    assert len(packages)==20 and len({p['Package'] for p in packages})==11
+    assert len(packages)==22 and len({p['Package'] for p in packages})==12
     assert gzip.decompress((SITE/'Packages.gz').read_bytes())==raw and bz2.decompress((SITE/'Packages.bz2').read_bytes())==raw and lzma.decompress((SITE/'Packages.xz').read_bytes())==raw
     for p in packages:
         data=(SITE/p['Filename']).read_bytes();f=control_fields(ar_read(data));assert all(f[k]==p[k] for k in f)
@@ -217,11 +219,11 @@ def verify():
             for line in f[label].splitlines():
                 if not line.strip():continue
                 sha,size,name=line.split();data=(r.parent/name).read_bytes();assert digest(data,algo)==sha and len(data)==int(size)
-    for arch,count in [('iphoneos-arm64',11),('iphoneos-arm64e',9)]:
+    for arch,count in [('iphoneos-arm64',12),('iphoneos-arm64e',10)]:
         d=(SITE/f'dists/stable/main/binary-{arch}/Packages').read_bytes();entries=[fields(x) for x in d.decode().strip().split('\n\n')];assert len(entries)==count and all(p['Architecture']==arch for p in entries)
     for p in (SITE/'depictions').glob('*.json'):assert json.loads(p.read_text())['class']=='DepictionTabView'
     assert all(x['payload_unchanged'] and x['maintainer_scripts_unchanged'] and x['dependencies_unchanged'] for x in json.loads((SITE/'metadata-audit.json').read_text()))
-    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, 11 rootless/9 RootHide entries and depictions.')
+    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, 12 rootless/10 RootHide entries and depictions.')
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--verify',action='store_true');args=parser.parse_args()
     if args.verify:verify()

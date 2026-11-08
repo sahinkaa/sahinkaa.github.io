@@ -208,6 +208,46 @@
     ]
   },
   {
+    "repository": "ClearCharge",
+    "package": "com.sahinkaa.clearcharge",
+    "name": "Clear Charge",
+    "version": "1.0",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0",
+    "original_sha256": "e0e4b278227f7968e652f46e220bf1f4312d6fd1f81e0e5bd247163149650eb0",
+    "sha256": "29eb4b0b3f75503b91f9829a2f513139a2163153826eae91a4b54a58bf559b66",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "ios": "iOS 16 and later",
+    "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
+    "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/CydiaIcon.png",
+    "architectures": [
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "downloads": [
+      {
+        "architecture": "iphoneos-arm64",
+        "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb"
+      }
+    ]
+  },
+  {
     "repository": "iOS6ChargingSound",
     "package": "com.sahinkaa.ios6chargingsound",
     "name": "iOS 6 Charging Sound",

@@ -6,7 +6,7 @@ Add the URL to Sileo or Zebra. Repository label: **sahinkaa**. The icon is the a
 
 The root is a flat Debian repository. Both flat and suite Release files include `Components: main`, which Sileo requires even for flat sources. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
 
-There are eleven released tweaks and twenty packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
+There are twelve released tweaks and twenty-two packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
 
 Each package has an HTML depiction for Zebra and a native JSON depiction for Sileo, with compatibility information and links to its original project. GitHub release assets remain unchanged. Repository copies add compatibility text when missing, HTTP icons and depiction links. Versions, dependencies, maintainer scripts and executable payloads are preserved. `metadata-audit.json` records original/repository checksums and changed fields.
 

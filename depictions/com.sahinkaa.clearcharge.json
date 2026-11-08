@@ -1,0 +1,66 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Clear Charge",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{342, 141}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/ClearCharge/8864b80ef8b55ee66068114aea79cc4a5aa5b7b9/screenshots/charging.png",
+              "accessibilityText": "Green charging battery with a black percentage and no persistent bolt"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/ClearCharge"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0"
+        }
+      ]
+    }
+  ]
+}

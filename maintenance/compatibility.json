@@ -182,5 +182,19 @@
   "iOS6ChargingSound": {
     "ios": "iOS 15 and later",
     "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide."
+  },
+  "ClearCharge": {
+    "ios": "iOS 16 and later",
+    "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
+    "screenshots": [
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/ClearCharge/8864b80ef8b55ee66068114aea79cc4a5aa5b7b9/screenshots/charging.png",
+        "accessibilityText": "Green charging battery with a black percentage and no persistent bolt"
+      }
+    ],
+    "screenshotSize": [
+      342,
+      141
+    ]
   }
 }
