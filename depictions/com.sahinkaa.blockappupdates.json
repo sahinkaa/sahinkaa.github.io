@@ -18,6 +18,29 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{155, 335}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/blocked-updates.jpg",
+              "accessibilityText": "Blocked Updates list with installed app versions"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/apply-changes.jpg",
+              "accessibilityText": "Confirmation before allowing updates again for selected apps"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/updating-app-store-status.jpg",
+              "accessibilityText": "App Store refresh in progress after applying changes"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "Compatibility"
         },
         {

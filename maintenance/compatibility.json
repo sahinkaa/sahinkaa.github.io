@@ -69,7 +69,21 @@
         ]
       }
     ],
-    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26."
+    "description": "Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.",
+    "screenshots": [
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/blocked-updates.jpg",
+        "accessibilityText": "Blocked Updates list with installed app versions"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/apply-changes.jpg",
+        "accessibilityText": "Confirmation before allowing updates again for selected apps"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sahinkaa/BlockAppUpdates/9c93be901cf4759cf31c93142f045b3f113be68c/screenshots/updating-app-store-status.jpg",
+        "accessibilityText": "App Store refresh in progress after applying changes"
+      }
+    ]
   },
   "NeverLowerMusic": {
     "ios": "iOS 16.0 and later",
