@@ -178,5 +178,9 @@
         "accessibilityText": "Individual switch and slider icon colors"
       }
     ]
+  },
+  "iOS6ChargingSound": {
+    "ios": "iOS 15 and later",
+    "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide."
   }
 }

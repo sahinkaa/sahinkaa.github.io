@@ -70,6 +70,27 @@ SHA1: ec3d9d51483d9b470845af04b64cd130308ad806
 SHA256: 8329ce700ba8add427488b6410960ca2dfb04fe7d03fa8bc14c9e3c2ddf5865c
 SHA512: 59deb5d7151165b1cb527ee6c55fa14f5ae74e3e44340148f323d976324b3ddcfe704e96e2c82b1b85155d268ade544a3b04e4833632200746b8a0f483f76010
 
+Package: com.sahinkaa.ios6chargingsound
+Name: iOS 6 Charging Sound
+Description: iOS 6 charging sound for iOS 15 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 216
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/iOS6ChargingSound
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ios6chargingsound.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ios6chargingsound.json
+Filename: debs/com.sahinkaa.ios6chargingsound_1.0_iphoneos-arm64e.deb
+Size: 27912
+MD5sum: d2c2cea89a5871c53b525cab55713a74
+SHA1: 331a28a241305373115b22ade7395c6a5950a5a0
+SHA256: 325bfdea437c9a0fb1f029d369d0371a8cfa74e1808df05c6e164d02c309da9f
+SHA512: 5809d9c77ed0b88f910c8c9e4fb6d7ac2e2d3c89dada66701de92a7ca7d7ab51d6a87028a0bef39649ffe182bc41d69ab6423895ec7b8682ec8ffee542fb07ad
+
 Package: com.sahinkaa.neverlowermusic16
 Name: Never Lower Music
 Description: Prevents notification sounds from lowering now-playing audio. During playback, notification volume follows media volume.
@@ -275,6 +296,27 @@ MD5sum: bceb7780a90e80d5d15762e8ce2a4220
 SHA1: b251b3e60709664edbc7e91a20d3a6a24b1c9843
 SHA256: 903fd6f9dbfc2b5fbc195e7a3a1fa653909d1156b40e8c3d4e714b76cff194cf
 SHA512: 2d00de5233d14a44f8dadc453aac1721c157dcaf394433948851bdc3e81ad92d6d6e23003ef89f2453f75ffcffdad42b32792e388cc965810b661b01d1010f07
+
+Package: com.sahinkaa.ios6chargingsound
+Name: iOS 6 Charging Sound
+Description: iOS 6 charging sound for iOS 15 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 216
+Icon: https://sahinkaa.github.io/CydiaIcon.png
+Homepage: https://github.com/sahinkaa/iOS6ChargingSound
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ios6chargingsound.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ios6chargingsound.json
+Filename: debs/com.sahinkaa.ios6chargingsound_1.0_iphoneos-arm64.deb
+Size: 27894
+MD5sum: 09a3c4fd4263918569400b6a2dcd5605
+SHA1: 4fff659574367fe2bc81326d63ea5a546accf54e
+SHA256: ff7d04cd9414efe015bad1eedcd91eaaca6cd6a1bb03ad01acced7f1e4a6c24c
+SHA512: a32d4402b7b2163bc86e0657b6cd8045587e3404423fcb4bf666ace15f0b8871e39bfeffa4eca30dabcba1b6fbf517ecf3c88d5f809ac96f31f5e09830fe58b1
 
 Package: com.sahinkaa.neverlowermusic16
 Name: Never Lower Music
