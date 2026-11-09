@@ -154,6 +154,10 @@
     "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.",
     "screenshots": [
       {
+        "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.1/control-center-high-contrast.png",
+        "accessibilityText": "Control Center with Increase Contrast enabled"
+      },
+      {
         "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/control-center.png",
         "accessibilityText": "Tinted Control Center with brightness and volume percentages"
       },
@@ -176,6 +180,17 @@
       {
         "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/icon-colors.png",
         "accessibilityText": "Individual switch and slider icon colors"
+      }
+    ],
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-09",
+        "changes": [
+          "Added Increase Contrast for Control Center. With the switch off, Control Center follows the system setting.",
+          "Settings previews now update when Increase Contrast is toggled, including solid fills.",
+          "Fixed custom icon colors for Amber Switch and other supported switches with image-based icons. Their previews now follow the same fill and background rules as built-in switches."
+        ]
       }
     ]
   },

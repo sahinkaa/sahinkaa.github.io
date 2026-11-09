@@ -26,6 +26,10 @@
           "itemCornerRadius": 12,
           "screenshots": [
             {
+              "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.1/control-center-high-contrast.png",
+              "accessibilityText": "Control Center with Increase Contrast enabled"
+            },
+            {
               "url": "https://raw.githubusercontent.com/sahinkaa/CCFlex/v1.0.0/control-center.png",
               "accessibilityText": "Tinted Control Center with brightness and volume percentages"
             },
@@ -63,7 +67,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -78,7 +82,22 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.0"
+          "action": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1 - 2026-11-09"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added Increase Contrast for Control Center. With the switch off, Control Center follows the system setting.\n- Settings previews now update when Increase Contrast is toggled, including solid fills.\n- Fixed custom icon colors for Amber Switch and other supported switches with image-based icons. Their previews now follow the same fill and background rules as built-in switches.",
+          "useSpacing": true
         }
       ]
     }

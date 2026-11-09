@@ -57,18 +57,18 @@ Section: Tweaks
 Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
 Conflicts: com.sahinkaa.cleancc26
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 404
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png
 Homepage: https://github.com/sahinkaa/CCFlex
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.json
-Filename: debs/com.sahinkaa.ccflex_1.0.0_iphoneos-arm64e.deb
-Size: 158842
-MD5sum: 2176fa3876084fc6f6136d6f79077d1c
-SHA1: ec3d9d51483d9b470845af04b64cd130308ad806
-SHA256: 8329ce700ba8add427488b6410960ca2dfb04fe7d03fa8bc14c9e3c2ddf5865c
-SHA512: 59deb5d7151165b1cb527ee6c55fa14f5ae74e3e44340148f323d976324b3ddcfe704e96e2c82b1b85155d268ade544a3b04e4833632200746b8a0f483f76010
+Filename: debs/com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb
+Size: 160488
+MD5sum: 356e3006ae792e9676e900e6e846a13e
+SHA1: df16679edcd231d7557fa55bf45c9954c3eaea99
+SHA256: 556d3b4e648458141a14c3d49ce1ffe07b9b168241189f2b8a4541b7407cecd8
+SHA512: 8736854481a34caeb1fa06669cc5cf0cea722f990a791eccf33a0e1bbab3e5fe98a7f5f6fc5eca2da2ecaba0aee1570aa5b0a1eb1ec7a82a1410483098fd93ac
 
 Package: com.sahinkaa.clearcharge
 Name: Clear Charge
@@ -326,18 +326,18 @@ Section: Tweaks
 Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader
 Conflicts: com.sahinkaa.cleancc26
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 708
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png
 Homepage: https://github.com/sahinkaa/CCFlex
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.ccflex.json
-Filename: debs/com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb
-Size: 186300
-MD5sum: bceb7780a90e80d5d15762e8ce2a4220
-SHA1: b251b3e60709664edbc7e91a20d3a6a24b1c9843
-SHA256: 903fd6f9dbfc2b5fbc195e7a3a1fa653909d1156b40e8c3d4e714b76cff194cf
-SHA512: 2d00de5233d14a44f8dadc453aac1721c157dcaf394433948851bdc3e81ad92d6d6e23003ef89f2453f75ffcffdad42b32792e388cc965810b661b01d1010f07
+Filename: debs/com.sahinkaa.ccflex_1.0.1_iphoneos-arm64.deb
+Size: 188620
+MD5sum: 44905c5fdbcb7fdc2f0d191a7ba91305
+SHA1: 3d64d80d3443b6451a01a1d493b6dd78d21e8e31
+SHA256: 3efa625b5edb46f2800961e6651fef02441bd490a12bb854df4c21f964c9d54c
+SHA512: 32f3e941b1fff813335cd8d704580742953e29e15bfbf388ca14cc3743c861d8b4dcd620cd6e42dbc090bec515f1dadba95e82c9f18c576ba535bdb3abb43fea
 
 Package: com.sahinkaa.clearcharge
 Name: Clear Charge

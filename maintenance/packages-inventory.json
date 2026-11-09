@@ -689,13 +689,13 @@
   },
   {
     "repository": "CCFlex",
-    "release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.0",
-    "tag": "v1.0.0",
+    "release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/CCFlex/releases/assets/721661987",
-      "id": 721661987,
-      "node_id": "RA_kwDOVmgN-84rA7Aj",
-      "name": "com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/CCFlex/releases/assets/727272139",
+      "id": 727272139,
+      "node_id": "RA_kwDOVmgN-84rWUrL",
+      "name": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -720,25 +720,25 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 186208,
-      "digest": "sha256:62950a101e720d2f45799afc5a73b21cda0b1863e5945621dc3d55fe11f36a51",
-      "download_count": 0,
-      "created_at": "2026-11-07T19:10:41Z",
-      "updated_at": "2026-11-07T19:12:25Z",
-      "browser_download_url": "https://github.com/sahinkaa/CCFlex/releases/download/v1.0.0/com.sahinkaa.ccflex_1.0.0_iphoneos-arm64.deb"
+      "size": 188530,
+      "digest": "sha256:c8835fb1a1ed273199cb0485fdb68a6876b6f7bb5177f3cbcc92c1f053bacafc",
+      "download_count": 1,
+      "created_at": "2026-11-09T11:40:16Z",
+      "updated_at": "2026-11-09T11:40:17Z",
+      "browser_download_url": "https://github.com/sahinkaa/CCFlex/releases/download/v1.0.1/com.sahinkaa.ccflex_1.0.1_iphoneos-arm64.deb"
     },
-    "sha256": "62950a101e720d2f45799afc5a73b21cda0b1863e5945621dc3d55fe11f36a51",
-    "control": "Package: com.sahinkaa.ccflex\nName: CCFlex\nDescription: Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 26.0), mobilesubstrate, preferenceloader\nConflicts: com.sahinkaa.cleancc26\nArchitecture: iphoneos-arm64\nVersion: 1.0.0\nInstalled-Size: 708\n"
+    "sha256": "c8835fb1a1ed273199cb0485fdb68a6876b6f7bb5177f3cbcc92c1f053bacafc",
+    "control": "Package: com.sahinkaa.ccflex\nName: CCFlex\nDescription: Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 26.0), mobilesubstrate, preferenceloader\nConflicts: com.sahinkaa.cleancc26\nArchitecture: iphoneos-arm64\nVersion: 1.0.1\nInstalled-Size: 708\n"
   },
   {
     "repository": "CCFlex",
-    "release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.0",
-    "tag": "v1.0.0",
+    "release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/CCFlex/releases/assets/721661937",
-      "id": 721661937,
-      "node_id": "RA_kwDOVmgN-84rA6_x",
-      "name": "com.sahinkaa.ccflex_1.0.0_iphoneos-arm64e.deb",
+      "url": "https://api.github.com/repos/sahinkaa/CCFlex/releases/assets/727272102",
+      "id": 727272102,
+      "node_id": "RA_kwDOVmgN-84rWUqm",
+      "name": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -763,15 +763,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 158750,
-      "digest": "sha256:f895e8aa024793fc7996c876a99f896ff45469e742cc3fd344d46c060ad00c22",
-      "download_count": 0,
-      "created_at": "2026-11-07T19:10:40Z",
-      "updated_at": "2026-11-07T19:12:25Z",
-      "browser_download_url": "https://github.com/sahinkaa/CCFlex/releases/download/v1.0.0/com.sahinkaa.ccflex_1.0.0_iphoneos-arm64e.deb"
+      "size": 160396,
+      "digest": "sha256:6cdf5672603aab37318adb36f342d4f9441e4f19d366b4557a96ac1c84b0fe98",
+      "download_count": 1,
+      "created_at": "2026-11-09T11:40:15Z",
+      "updated_at": "2026-11-09T11:40:16Z",
+      "browser_download_url": "https://github.com/sahinkaa/CCFlex/releases/download/v1.0.1/com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb"
     },
-    "sha256": "f895e8aa024793fc7996c876a99f896ff45469e742cc3fd344d46c060ad00c22",
-    "control": "Package: com.sahinkaa.ccflex\nName: CCFlex\nDescription: Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 26.0), mobilesubstrate, preferenceloader\nConflicts: com.sahinkaa.cleancc26\nArchitecture: iphoneos-arm64e\nVersion: 1.0.0\nInstalled-Size: 404\n"
+    "sha256": "6cdf5672603aab37318adb36f342d4f9441e4f19d366b4557a96ac1c84b0fe98",
+    "control": "Package: com.sahinkaa.ccflex\nName: CCFlex\nDescription: Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 26.0), mobilesubstrate, preferenceloader\nConflicts: com.sahinkaa.cleancc26\nArchitecture: iphoneos-arm64e\nVersion: 1.0.1\nInstalled-Size: 404\n"
   },
   {
     "repository": "iOS6ChargingSound",
