@@ -80,16 +80,16 @@ Depends: firmware (>= 16.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 172
-Icon: https://sahinkaa.github.io/CydiaIcon.png
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png
 Homepage: https://github.com/sahinkaa/ClearCharge
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.json
 Filename: debs/com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb
-Size: 6812
-MD5sum: d11dd6eef3159eaea6d1e27ecd6418c6
-SHA1: ccfaf40b50ac79b460c06a6a05973b2457989a7a
-SHA256: 61d2114756123f39c6af620418aa7fd43740e51fdc567babae15483eb5db2004
-SHA512: 4edf00c419ee7587f2ccd1d99c23403ffb2c1a4ab310b6896ac5e955fc73950d73e27e0cd755348fb591b6fbf5a777295e0374e3b3571d85b420b6ac35283023
+Size: 6814
+MD5sum: 82dab3f9e2bf371ae21af143a046ce9b
+SHA1: 065f2b090820b690182bd39b6bfb94f9e36fff5e
+SHA256: 8056fb1290ccb52451150c466b2b13d25030dfbb47b0e64bdcf2041ed88390bf
+SHA512: 56f99c6069422774c134f8edeb27b3b62ea341306c89add72d70392e16da55e34e6f1248e68bd450b6a5b0b7ab5c181d9d589d7349f34788b961e29e65ca8965
 
 Package: com.sahinkaa.ios6chargingsound
 Name: iOS 6 Charging Sound

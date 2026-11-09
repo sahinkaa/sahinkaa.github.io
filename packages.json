@@ -216,7 +216,7 @@
     "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0",
     "original_sha256": "e0e4b278227f7968e652f46e220bf1f4312d6fd1f81e0e5bd247163149650eb0",
-    "sha256": "29eb4b0b3f75503b91f9829a2f513139a2163153826eae91a4b54a58bf559b66",
+    "sha256": "bdbf6bf3f49e2b391e7940d860be94f43715efbf81a4da26db5cad908d2fe1c0",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -231,7 +231,7 @@
     "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
     "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
     "author": "sahinkaa",
-    "icon": "https://sahinkaa.github.io/CydiaIcon.png",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png",
     "architectures": [
       "iphoneos-arm64",
       "iphoneos-arm64e"

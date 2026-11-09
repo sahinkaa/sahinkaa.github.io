@@ -89,7 +89,7 @@ def build():
         slug=identifier
         icon=original_icon(members)
         if icon:(SITE/'assets/icons'/f'{slug}.png').write_bytes(icon)
-        f['Icon']=URL+(f'assets/icons/{slug}.png' if icon else 'CydiaIcon.png')
+        f['Icon']=URL+compat.get('icon', f'assets/icons/{slug}.png' if icon else 'CydiaIcon.png')
         f['Homepage']=f'https://github.com/sahinkaa/{repo}'
         f['Depiction']=URL+f'depictions/{slug}.html'
         f['SileoDepiction']=URL+f'depictions/{slug}.json'
