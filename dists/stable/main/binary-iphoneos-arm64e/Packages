@@ -244,3 +244,24 @@ SHA1: f2cff70f2f6ae14d3c55e883c25302f7b33c5866
 SHA256: fee59eba39fada5cada37eec45c478438cce0f07b5e3ddc1d95f0117b4d68e72
 SHA512: 84e19f305077dd83c90ed3215ecfaf59ebc0a07e6379d8806355109a0d60157b457966ff5fb5cee7648ae7e1bd943448eb18e18d6d76ef16815125cf0adf42c6
 
+Package: com.sahinkaa.wifirssienabler
+Name: WiFi RSSI Enabler
+Description: Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Homepage: https://github.com/sahinkaa/WiFiRSSIEnabler
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.json
+Filename: debs/com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64e.deb
+Size: 11654
+MD5sum: 0ed948ec65a31d198070a957f27a9cdf
+SHA1: 5be00db363fdc758810bf6311bf7b74bbcf2dfaa
+SHA256: 5b12007a847d64385eb5784fb359aa8d9aca3198757c8cfaf81a51efdbebb432
+SHA512: 3d64b2d1bd6750c08ad7135b3c4cdd599f0d1e96d5f85927832fe5c10fb1e07aedd5f305048a384138ff7e10eaa760ea956f03a93235d135880aff3fb6998fe2
+

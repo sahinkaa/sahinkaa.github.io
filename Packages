@@ -244,6 +244,27 @@ SHA1: f2cff70f2f6ae14d3c55e883c25302f7b33c5866
 SHA256: fee59eba39fada5cada37eec45c478438cce0f07b5e3ddc1d95f0117b4d68e72
 SHA512: 84e19f305077dd83c90ed3215ecfaf59ebc0a07e6379d8806355109a0d60157b457966ff5fb5cee7648ae7e1bd943448eb18e18d6d76ef16815125cf0adf42c6
 
+Package: com.sahinkaa.wifirssienabler
+Name: WiFi RSSI Enabler
+Description: Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Homepage: https://github.com/sahinkaa/WiFiRSSIEnabler
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.json
+Filename: debs/com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64e.deb
+Size: 11654
+MD5sum: 0ed948ec65a31d198070a957f27a9cdf
+SHA1: 5be00db363fdc758810bf6311bf7b74bbcf2dfaa
+SHA256: 5b12007a847d64385eb5784fb359aa8d9aca3198757c8cfaf81a51efdbebb432
+SHA512: 3d64b2d1bd6750c08ad7135b3c4cdd599f0d1e96d5f85927832fe5c10fb1e07aedd5f305048a384138ff7e10eaa760ea956f03a93235d135880aff3fb6998fe2
+
 Package: com.sahinkaa.askbeforecallingtoo26
 Name: AskBeforeCalling Too 26
 Description: Confirm before making calls or sending messages and emails. iOS 26.
@@ -535,4 +556,25 @@ MD5sum: bc3a60687bfbb067755364132190c989
 SHA1: 52bed227af6ff36e79dee0d9d1962eca4eec14d0
 SHA256: 12867e6bcb63c771ec45f3671991dad5782de730a7d85718f2d850d1ac2ec549
 SHA512: ddbf0386aecaa7f452b6e33351d0d191823996bc369b027cf3a1d96b506d507361d61fb476df8374bd8fded28a29f5931d2ae3f6215ff883b3b16159ebddc7aa
+
+Package: com.sahinkaa.wifirssienabler
+Name: WiFi RSSI Enabler
+Description: Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Homepage: https://github.com/sahinkaa/WiFiRSSIEnabler
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.json
+Filename: debs/com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64.deb
+Size: 11720
+MD5sum: b866f95d68926f674cbab3376c918583
+SHA1: 3983e8575f4901f7005aae4a29bd57148bef4d78
+SHA256: 6da0a9a17a8b8e5ef38bbfba76afeeb68b1797bc74a6a1d5bc2d9bfb3c7a092d
+SHA512: 18148c39c405975b2f54bde1fceeb70515ef56b846ccc66ccffb4a2ddbb1e570bcd4493870897b8c2a884131d62683ddc3a69354446c18115e6936ad5993af11
 
