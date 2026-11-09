@@ -197,5 +197,10 @@
       141
     ],
     "icon": "assets/icons/com.sahinkaa.clearcharge.png"
+  },
+  "NoVoicemailTab": {
+    "ios": "iOS 16 and later",
+    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "icon": "assets/icons/com.sahinkaa.novoicemailtab.png"
   }
 }

@@ -176,6 +176,27 @@ SHA1: 38fd69c8f42a896b370283379f076dc9a6532a97
 SHA256: 3c0e5eb11a7d18750104ff240e015c943f6f53517c7e318166b6373f74c6afb5
 SHA512: 682aa17efaf1bf4b8c367e604098495b365cf394d06d8490932121c4c8b20bdda06bc4d57f21e8204b4d133686c6530911c361fdbe2a75554fa46ff4f3056f79
 
+Package: com.sahinkaa.novoicemailtab
+Name: No Voicemail Tab
+Description: Remove the Voicemail tab from the Phone app. iOS 16 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png
+Homepage: https://github.com/sahinkaa/NoVoicemailTab
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.novoicemailtab.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.novoicemailtab.json
+Filename: debs/com.sahinkaa.novoicemailtab_1.0_iphoneos-arm64e.deb
+Size: 7224
+MD5sum: 5f300df5aecc67be9ba7a84fe8441e2e
+SHA1: 3778ed4b1d7db627c9332488eca75eb071a0dc1e
+SHA256: 4ca4c0450b0fe2ea2908b7ac0fdae61bd2a7bde466be07b6638aa8ba77fe09fa
+SHA512: f55bd65ca3e8c5536562908efb3fdd903e70172eddad83703d1882c5c62c33197019645b99b773eac7fffdb8bcbbc7c5c9c6b8b687020bc3c3a8c5a1ab490077
+
 Package: com.sahinkaa.tinge26
 Name: Tinge 26
 Description: Customize your notification badges with adaptive colors, text colors and borders. iOS 26.

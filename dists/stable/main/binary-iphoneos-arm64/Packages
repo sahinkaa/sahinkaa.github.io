@@ -199,6 +199,27 @@ SHA1: 49459fca06a6107547dcdaecc24a5d9859aafba9
 SHA256: 8e9140516da142c0e616b00f1a19e53a3a81c0dae479450d15241bd5a52afc32
 SHA512: 32523b9d9b65698e9b356371f800be844b2a830af472c956fe91fc97b327db2a57361914628fc3188288e0f648723e52cb3ce9ff22d0cee205f0bad6214537d2
 
+Package: com.sahinkaa.novoicemailtab
+Name: No Voicemail Tab
+Description: Remove the Voicemail tab from the Phone app. iOS 16 and later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 172
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png
+Homepage: https://github.com/sahinkaa/NoVoicemailTab
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.novoicemailtab.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.novoicemailtab.json
+Filename: debs/com.sahinkaa.novoicemailtab_1.0_iphoneos-arm64.deb
+Size: 7292
+MD5sum: 83ae26892078e9ad91bc9d8d7df2c2d3
+SHA1: 7fd7d4c2a929044ce71d488bb239eead035374ff
+SHA256: 08d2f38785b5832905e65e6a821892b752cca419dd49ba4e9a32eccdf59af9f4
+SHA512: 459ac019f0ea2803cdaf43243f8639dfc797a6cb5ea08dd219a85b9e7fe806ea7675d476746d9ef067fc4cf9e411f75e1873968bfe305bc54617bc733ac78efc
+
 Package: com.sahinkaa.systeminfodisplayfix
 Name: System Info Display Fix
 Version: 1.0.3

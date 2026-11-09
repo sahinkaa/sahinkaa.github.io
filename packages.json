@@ -416,6 +416,46 @@
     ]
   },
   {
+    "repository": "NoVoicemailTab",
+    "package": "com.sahinkaa.novoicemailtab",
+    "name": "No Voicemail Tab",
+    "version": "1.0",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.novoicemailtab_1.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/NoVoicemailTab/releases/tag/v1.0",
+    "original_sha256": "c40c2e800038ddc82b71ab60635888a60b361721e9922dd0a7f58f47ef5618a7",
+    "sha256": "08d2f38785b5832905e65e6a821892b752cca419dd49ba4e9a32eccdf59af9f4",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "ios": "iOS 16 and later",
+    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "description": "Remove the Voicemail tab from the Phone app. iOS 16 and later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png",
+    "architectures": [
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "downloads": [
+      {
+        "architecture": "iphoneos-arm64",
+        "filename": "com.sahinkaa.novoicemailtab_1.0_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.novoicemailtab_1.0_iphoneos-arm64e.deb"
+      }
+    ]
+  },
+  {
     "repository": "SystemInfoDisplayFix",
     "package": "com.sahinkaa.systeminfodisplayfix",
     "name": "System Info Display Fix",
