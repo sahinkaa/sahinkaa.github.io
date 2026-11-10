@@ -223,5 +223,11 @@
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "icon": "assets/icons/com.sahinkaa.wifirssienabler.png"
+  },
+  "AppStoreUpdatesPage": {
+    "ios": "iOS 15 and later",
+    "compatibility": "Targets jailbroken iOS 15 and later. Tested on iOS 16.6 and 26.0.1.",
+    "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
+    "icon": "assets/icons/com.sahinkaa.appstoreupdatespage.png"
   }
 }

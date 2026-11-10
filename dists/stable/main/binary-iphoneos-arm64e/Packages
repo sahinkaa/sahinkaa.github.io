@@ -1,3 +1,24 @@
+Package: com.sahinkaa.appstoreupdatespage
+Name: App Store Updates Page
+Description: Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.appstoreupdatespage.png
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+Homepage: https://github.com/sahinkaa/AppStoreUpdatesPage
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.appstoreupdatespage.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.appstoreupdatespage.json
+Filename: debs/com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64e.deb
+Size: 8774
+MD5sum: e4c11534a606c926689ac490ab765153
+SHA1: 17cfefee6682800430b8c8ee1035f84d1d386e36
+SHA256: 248835433affe409f74f39389b43d0c7d2d50916f1f6449184f21e2694fea21b
+SHA512: 9e8fe230c4ac422fa07b6ed45165e054bec1ee5b6cce965f0d23eef2b23f8928b71d362fcf544aa79f404a81bd2820189e20d3798be06f6b29cf5eed50bbc6ca
+
 Package: com.sahinkaa.askbeforecallingtoo26
 Name: AskBeforeCalling Too 26
 Description: Confirm before making calls or sending messages and emails. iOS 26.

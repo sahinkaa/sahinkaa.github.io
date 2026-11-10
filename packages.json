@@ -1,5 +1,45 @@
 [
   {
+    "repository": "AppStoreUpdatesPage",
+    "package": "com.sahinkaa.appstoreupdatespage",
+    "name": "App Store Updates Page",
+    "version": "1.0",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/AppStoreUpdatesPage/releases/tag/v1.0",
+    "original_sha256": "0ad2c57efe5b81de3e4e7c409485815a216c4c7c68b095e14d7706c025be2c59",
+    "sha256": "0a36a8c3b6a9042f9de730c038afb4ce20f34e3d22fb057f11d24070b9bfe903",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "compatibility": "Targets jailbroken iOS 15 and later. Tested on iOS 16.6 and 26.0.1.",
+    "ios": "iOS 15 and later",
+    "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.appstoreupdatespage.png",
+    "architectures": [
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "downloads": [
+      {
+        "architecture": "iphoneos-arm64",
+        "filename": "com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64e.deb"
+      }
+    ]
+  },
+  {
     "repository": "AskBeforeCallingToo26",
     "package": "com.sahinkaa.askbeforecallingtoo26",
     "name": "AskBeforeCalling Too 26",
@@ -7,8 +47,8 @@
     "architecture": "iphoneos-arm64",
     "filename": "com.sahinkaa.askbeforecallingtoo26_1.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/AskBeforeCallingToo26/releases/tag/v1.0",
-    "original_sha256": "6ca989af6da16838b0186dfd1a64c8c0080ada9c75e6f1d625a89efd76430b10",
-    "sha256": "ba040accc1f9636dc99aecdf4dbfbe509f8aa0b4bd9c4d6a669948b444ea106b",
+    "original_sha256": "3340b8b6f0871b1631fbf66915402ba3140a2f9f1aa621e5e3168d506c49a947",
+    "sha256": "e07cb22b66c99f392f7d8380805ed42b01aa8cddcdc4f7098b52a100ad300d17",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -173,11 +213,11 @@
     "package": "com.sahinkaa.ccflex",
     "name": "CCFlex",
     "version": "1.0.1",
-    "architecture": "iphoneos-arm64e",
-    "filename": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/CCFlex/releases/tag/v1.0.1",
-    "original_sha256": "6cdf5672603aab37318adb36f342d4f9441e4f19d366b4557a96ac1c84b0fe98",
-    "sha256": "556d3b4e648458141a14c3d49ce1ffe07b9b168241189f2b8a4541b7407cecd8",
+    "original_sha256": "c8835fb1a1ed273199cb0485fdb68a6876b6f7bb5177f3cbcc92c1f053bacafc",
+    "sha256": "3efa625b5edb46f2800961e6651fef02441bd490a12bb854df4c21f964c9d54c",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -187,8 +227,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 26",
     "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.",
+    "ios": "iOS 26",
     "description": "Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png",
@@ -204,17 +244,17 @@
       }
     ],
     "architectures": [
-      "iphoneos-arm64e",
-      "iphoneos-arm64"
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
     ],
     "downloads": [
       {
-        "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb"
-      },
-      {
         "architecture": "iphoneos-arm64",
         "filename": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.ccflex_1.0.1_iphoneos-arm64e.deb"
       }
     ]
   },
@@ -238,8 +278,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png",
@@ -277,8 +317,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 15 and later",
     "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide.",
+    "ios": "iOS 15 and later",
     "description": "iOS 6 charging sound for iOS 15 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/CydiaIcon.png",
@@ -354,8 +394,8 @@
     "architecture": "iphoneos-arm64",
     "filename": "com.sahinkaa.nohomebar26_1.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/NoHomeBar26/releases/tag/v1.0",
-    "original_sha256": "3796808a9f63555c6e6f7c46ab4ddd218cd562f120e8c56ede994a812af5343b",
-    "sha256": "41ee9a03ee4ada87c3f4bc878c60fb8f795489a5e7951bedd631485bac5f813e",
+    "original_sha256": "9c7a3cde7dcde790b068a51091f0a8d2cba26c56af7fa7a75c51983a7f7d6a37",
+    "sha256": "ddf26ae5bc21dbbb708a2e8e68e950ad924aecc0ffa80424c5a02a0d7b0b9188",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -394,8 +434,8 @@
     "architecture": "iphoneos-arm64",
     "filename": "com.sahinkaa.noshutterscreenshotsounds_1.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/NoShutterAndScreenshotSounds/releases/tag/v1.0",
-    "original_sha256": "fcacead611e3c6efd8df43807375171553a2b42c9544cc81433f174f20bfee33",
-    "sha256": "3a4a5c1e883ebfaafffe110d3042f0a5884fc0f7ae2fcea4786a4123f8f26839",
+    "original_sha256": "8fffc1e07800226ce470c1a3b935e33e4d8c7290510fddd87f765f91668db6aa",
+    "sha256": "8e9140516da142c0e616b00f1a19e53a3a81c0dae479450d15241bd5a52afc32",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -446,8 +486,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Remove the Voicemail tab from the Phone app. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png",
@@ -508,8 +548,8 @@
     "architecture": "iphoneos-arm64",
     "filename": "com.sahinkaa.tinge26_1.0.1_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1",
-    "original_sha256": "ddde6b73461329dde5e0c982351f4102a51d234adef8df5f876f687c095a0b9e",
-    "sha256": "fbb688d9b7f4493af91778cf3135ca477abfd44d34e51186b7c4c0de785afcf5",
+    "original_sha256": "996cd0791d05aa651603ec974576022eb741199f0eda21602333bc133a56c96b",
+    "sha256": "2df1828ea2eaacc0b470dd8a1fb665c6225d07cf44f814bb1f0009efd01401c8",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -562,8 +602,8 @@
     "architecture": "iphoneos-arm64",
     "filename": "com.sahinkaa.velvetliquidglass_1.0.0_iphoneos-arm64.deb",
     "source_release": "https://github.com/sahinkaa/VelvetLiquidGlass/releases/tag/v1.0.0",
-    "original_sha256": "ed439b4ea3cd641f016432d8fb5ddacae94a1c4820a49e7bc7b6adf00672dd97",
-    "sha256": "516753f1e0b85098bf469636f33d90f70e095c9bcf6038c24996ac2ae4ee5ecf",
+    "original_sha256": "a9d96465544bdc24e6b002a281a187e25e8aa75106f5c0ebc6cba940659d619f",
+    "sha256": "12867e6bcb63c771ec45f3671991dad5782de730a7d85718f2d850d1ac2ec549",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -613,8 +653,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png",

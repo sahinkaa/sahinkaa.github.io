@@ -587,8 +587,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 26",
     "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.",
+    "ios": "iOS 26",
     "description": "Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png",
@@ -623,8 +623,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 26",
     "compatibility": "Requires jailbroken iOS 26. Choose the Rootless or native RootHide build for your jailbreak. iOS 27 support may be possible once a compatible jailbreak is available and CCFlex can be tested.",
+    "ios": "iOS 26",
     "description": "Customize Control Center on iOS 26\n  - Tint glass backgrounds and adjust their opacity.\n  - Recolor active fills and set their opacity, or hide supported switch fills.\n  - Pick individual colors for supported switch backgrounds and icons.\n  - See brightness and volume percentages in compact and expanded sliders.\n .\n Configure in Settings > CCFlex.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.ccflex.png",
@@ -659,8 +659,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 15 and later",
     "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide.",
+    "ios": "iOS 15 and later",
     "description": "iOS 6 charging sound for iOS 15 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/CydiaIcon.png"
@@ -684,8 +684,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 15 and later",
     "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide.",
+    "ios": "iOS 15 and later",
     "description": "iOS 6 charging sound for iOS 15 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/CydiaIcon.png"
@@ -710,8 +710,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png"
@@ -736,8 +736,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png"
@@ -762,8 +762,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Remove the Voicemail tab from the Phone app. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png"
@@ -788,8 +788,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Remove the Voicemail tab from the Phone app. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png"
@@ -813,8 +813,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png"
@@ -838,10 +838,62 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png"
+  },
+  {
+    "repository": "AppStoreUpdatesPage",
+    "package": "com.sahinkaa.appstoreupdatespage",
+    "name": "App Store Updates Page",
+    "version": "1.0",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/AppStoreUpdatesPage/releases/tag/v1.0",
+    "original_sha256": "0ad2c57efe5b81de3e4e7c409485815a216c4c7c68b095e14d7706c025be2c59",
+    "sha256": "0a36a8c3b6a9042f9de730c038afb4ce20f34e3d22fb057f11d24070b9bfe903",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "compatibility": "Targets jailbroken iOS 15 and later. Tested on iOS 16.6 and 26.0.1.",
+    "ios": "iOS 15 and later",
+    "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.appstoreupdatespage.png"
+  },
+  {
+    "repository": "AppStoreUpdatesPage",
+    "package": "com.sahinkaa.appstoreupdatespage",
+    "name": "App Store Updates Page",
+    "version": "1.0",
+    "architecture": "iphoneos-arm64e",
+    "filename": "com.sahinkaa.appstoreupdatespage_1.0_iphoneos-arm64e.deb",
+    "source_release": "https://github.com/sahinkaa/AppStoreUpdatesPage/releases/tag/v1.0",
+    "original_sha256": "f93154a9dab2ce8fec58f82436cf38a72a14ffd6512f96591f979e36880118ac",
+    "sha256": "248835433affe409f74f39389b43d0c7d2d50916f1f6449184f21e2694fea21b",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Homepage",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "compatibility": "Targets jailbroken iOS 15 and later. Tested on iOS 16.6 and 26.0.1.",
+    "ios": "iOS 15 and later",
+    "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.appstoreupdatespage.png"
   }
 ]
