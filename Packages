@@ -274,17 +274,17 @@ Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate
 Homepage: https://github.com/sahinkaa/WiFiRSSIEnabler
 Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 172
+Version: 1.0.1
+Installed-Size: 176
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.json
-Filename: debs/com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64e.deb
-Size: 11654
-MD5sum: 0ed948ec65a31d198070a957f27a9cdf
-SHA1: 5be00db363fdc758810bf6311bf7b74bbcf2dfaa
-SHA256: 5b12007a847d64385eb5784fb359aa8d9aca3198757c8cfaf81a51efdbebb432
-SHA512: 3d64b2d1bd6750c08ad7135b3c4cdd599f0d1e96d5f85927832fe5c10fb1e07aedd5f305048a384138ff7e10eaa760ea956f03a93235d135880aff3fb6998fe2
+Filename: debs/com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64e.deb
+Size: 12962
+MD5sum: 6b74f1ac6578978a80e7612edfc4199f
+SHA1: 03ccd3486355fb440ba12e5d7f222fdeddd657a9
+SHA256: 56edb0e168314b5094744bc3f353d7ec7a4d74fa6b6f7067e71977b33dc20f10
+SHA512: 4f35fa49023f24c2db2f0af2e75cb6d5eb2cc0bbc6567ffa591b362e9f8ee42915144c43bbd108887bad9a3dfdfa898af6cf4552b4aa34e06fc60a2bb65d4e92
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page
@@ -608,15 +608,15 @@ Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate
 Homepage: https://github.com/sahinkaa/WiFiRSSIEnabler
 Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 172
+Version: 1.0.1
+Installed-Size: 176
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.wifirssienabler.json
-Filename: debs/com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64.deb
-Size: 11720
-MD5sum: b866f95d68926f674cbab3376c918583
-SHA1: 3983e8575f4901f7005aae4a29bd57148bef4d78
-SHA256: 6da0a9a17a8b8e5ef38bbfba76afeeb68b1797bc74a6a1d5bc2d9bfb3c7a092d
-SHA512: 18148c39c405975b2f54bde1fceeb70515ef56b846ccc66ccffb4a2ddbb1e570bcd4493870897b8c2a884131d62683ddc3a69354446c18115e6936ad5993af11
+Filename: debs/com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64.deb
+Size: 13004
+MD5sum: 9c06911120d14a468b14a9ce82c72bd3
+SHA1: 10c4274ec5c4f20d87c50d8ff9908f20cd5a2696
+SHA256: 0b0519db7b11272b4c8b8ec8465da4cc2a649c3bba02c1081d09989c2151ae61
+SHA512: a8594e7a9c9b5de722ce61a48a92cf4eaab7f64fad24e9a399a52b7df79f4a61350cf249b20a79589ab64c49237a0a7b245b5e14d152b2ecba88e240684ad502
 

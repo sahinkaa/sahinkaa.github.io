@@ -222,7 +222,17 @@
     "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
-    "icon": "assets/icons/com.sahinkaa.wifirssienabler.png"
+    "icon": "assets/icons/com.sahinkaa.wifirssienabler.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-11",
+        "changes": [
+          "Fixed VPN badge overlap in iOS 26 Control Center by reserving space for the full RSSI reading.",
+          "Kept Control Center RSSI at 16 pt regular in Airplane Mode."
+        ]
+      }
+    ]
   },
   "AppStoreUpdatesPage": {
     "ios": "iOS 15 and later",

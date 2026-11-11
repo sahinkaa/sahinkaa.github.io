@@ -28,7 +28,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,22 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0"
+          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1 - 2026-11-11"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed VPN badge overlap in iOS 26 Control Center by reserving space for the full RSSI reading.\n- Kept Control Center RSSI at 16 pt regular in Airplane Mode.",
+          "useSpacing": true
         }
       ]
     }

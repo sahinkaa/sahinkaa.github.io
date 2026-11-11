@@ -795,56 +795,6 @@
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.novoicemailtab.png"
   },
   {
-    "repository": "WiFiRSSIEnabler",
-    "package": "com.sahinkaa.wifirssienabler",
-    "name": "WiFi RSSI Enabler",
-    "version": "1.0",
-    "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0",
-    "original_sha256": "95b54608cdbf7640d1abd206c115698f80ada22c3cc44c233aae3047304561dd",
-    "sha256": "6da0a9a17a8b8e5ef38bbfba76afeeb68b1797bc74a6a1d5bc2d9bfb3c7a092d",
-    "payload_unchanged": true,
-    "maintainer_scripts_unchanged": true,
-    "dependencies_unchanged": true,
-    "changed_fields": [
-      "Description",
-      "Icon",
-      "Depiction",
-      "SileoDepiction"
-    ],
-    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
-    "ios": "iOS 16 and later",
-    "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
-    "author": "sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png"
-  },
-  {
-    "repository": "WiFiRSSIEnabler",
-    "package": "com.sahinkaa.wifirssienabler",
-    "name": "WiFi RSSI Enabler",
-    "version": "1.0",
-    "architecture": "iphoneos-arm64e",
-    "filename": "com.sahinkaa.wifirssienabler_1.0_iphoneos-arm64e.deb",
-    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0",
-    "original_sha256": "5c9c58a2d8df47baaec817fe7669ac10b2fdf15c84439e4728b9938ce573443a",
-    "sha256": "5b12007a847d64385eb5784fb359aa8d9aca3198757c8cfaf81a51efdbebb432",
-    "payload_unchanged": true,
-    "maintainer_scripts_unchanged": true,
-    "dependencies_unchanged": true,
-    "changed_fields": [
-      "Description",
-      "Icon",
-      "Depiction",
-      "SileoDepiction"
-    ],
-    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
-    "ios": "iOS 16 and later",
-    "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
-    "author": "sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png"
-  },
-  {
     "repository": "AppStoreUpdatesPage",
     "package": "com.sahinkaa.appstoreupdatespage",
     "name": "App Store Updates Page",
@@ -895,5 +845,75 @@
     "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.appstoreupdatespage.png"
+  },
+  {
+    "repository": "WiFiRSSIEnabler",
+    "package": "com.sahinkaa.wifirssienabler",
+    "name": "WiFi RSSI Enabler",
+    "version": "1.0.1",
+    "architecture": "iphoneos-arm64",
+    "filename": "com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.1",
+    "original_sha256": "8263650414daf5db0226fe9c006f31a3c84fefe9c5e29fccb9cd8f53353f5729",
+    "sha256": "0b0519db7b11272b4c8b8ec8465da4cc2a649c3bba02c1081d09989c2151ae61",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "ios": "iOS 16 and later",
+    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-11",
+        "changes": [
+          "Fixed VPN badge overlap in iOS 26 Control Center by reserving space for the full RSSI reading.",
+          "Kept Control Center RSSI at 16 pt regular in Airplane Mode."
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "WiFiRSSIEnabler",
+    "package": "com.sahinkaa.wifirssienabler",
+    "name": "WiFi RSSI Enabler",
+    "version": "1.0.1",
+    "architecture": "iphoneos-arm64e",
+    "filename": "com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64e.deb",
+    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.1",
+    "original_sha256": "dbe7fd0250a1e4c1f6d5ad224964f8c5ad3ed44bada180a66eb5a561c3fbba15",
+    "sha256": "56edb0e168314b5094744bc3f353d7ec7a4d74fa6b6f7067e71977b33dc20f10",
+    "payload_unchanged": true,
+    "maintainer_scripts_unchanged": true,
+    "dependencies_unchanged": true,
+    "changed_fields": [
+      "Description",
+      "Icon",
+      "Depiction",
+      "SileoDepiction"
+    ],
+    "ios": "iOS 16 and later",
+    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
+    "author": "sahinkaa",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-11",
+        "changes": [
+          "Fixed VPN badge overlap in iOS 26 Control Center by reserving space for the full RSSI reading.",
+          "Kept Control Center RSSI at 16 pt regular in Airplane Mode."
+        ]
+      }
+    ]
   }
 ]
