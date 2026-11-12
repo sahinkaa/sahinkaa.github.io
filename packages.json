@@ -638,12 +638,12 @@
     "repository": "WiFiRSSIEnabler",
     "package": "com.sahinkaa.wifirssienabler",
     "name": "WiFi RSSI Enabler",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.1",
-    "original_sha256": "8263650414daf5db0226fe9c006f31a3c84fefe9c5e29fccb9cd8f53353f5729",
-    "sha256": "0b0519db7b11272b4c8b8ec8465da4cc2a649c3bba02c1081d09989c2151ae61",
+    "filename": "com.sahinkaa.wifirssienabler_1.0.2_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.2",
+    "original_sha256": "e0bb2529c8cd2b88a09b781208182266edd54dca5e88c679985bf904f29dd409",
+    "sha256": "92c6b30bbb1ebecd96ba6eed721d06e116723fb05ee2e422e5871c86c29da657",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -660,11 +660,12 @@
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png",
     "changelog": [
       {
-        "version": "1.0.1",
-        "date": "2026-11-11",
+        "version": "1.0.2",
+        "date": "2026-11-12",
         "changes": [
-          "Fixed VPN badge overlap in iOS 26 Control Center by reserving space for the full RSSI reading.",
-          "Kept Control Center RSSI at 16 pt regular in Airplane Mode."
+          "Fixed an iOS 26 Control Center freeze when toggling Airplane Mode. `Searching` and `No Service` display normally again.",
+          "Kept the signed RSSI reading clear of the VPN badge with a fixed width.",
+          "Matched the carrier font when visible and used 16-point regular when the carrier label is absent."
         ]
       }
     ],
@@ -675,11 +676,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.wifirssienabler_1.0.2_iphoneos-arm64.deb"
       },
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.wifirssienabler_1.0.1_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.wifirssienabler_1.0.2_iphoneos-arm64e.deb"
       }
     ]
   }
