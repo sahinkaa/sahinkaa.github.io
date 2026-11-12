@@ -99,18 +99,23 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "compatibility": "Supports iOS 15 and 16 with Dopamine 2 rootless. No native RootHide package has been released.",
-    "ios": "iOS 15-16",
-    "description": "Manage blocked alphanumeric SMS senders from Settings. iOS 15-16.",
+    "compatibility": "Supports iOS 15 and later. The RootHide build was tested on iOS 16.6 and 26.0.1 and requires rootless-compat 0.9 or newer.",
+    "ios": "iOS 15 and later",
+    "description": "Manage blocked alphanumeric SMS senders from Settings.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockalphanumericsenders.png",
     "architectures": [
-      "iphoneos-arm64"
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
     ],
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
         "filename": "com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64.deb"
+      },
+      {
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64e.deb"
       }
     ]
   },
@@ -653,8 +658,8 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 16 and later",
     "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "author": "sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.wifirssienabler.png",

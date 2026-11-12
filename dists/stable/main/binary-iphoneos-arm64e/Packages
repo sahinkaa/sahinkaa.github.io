@@ -42,6 +42,30 @@ SHA1: 77e1304d2d4cdc66b839dc0f025df2b28638a20a
 SHA256: 1d2f7a4fbcfe67e916c8bd57550a3eb0c4b0b03f5824d15d3b3d9f40ddfe4adb
 SHA512: 5c28b2c6316c7c75d0232c927ef55900a0488489741a48c09d95cdc85cfca3ae4165d5797bcd8712a1ca0b2864d5f7366172d26f2516674ee89b6cdea33b2da2
 
+Package: com.sahinkaa.blockalphanumericsenders
+Name: Block Alphanumeric Senders
+Description: Manage blocked alphanumeric SMS senders from Settings. iOS 15-16.
+Maintainer: sahinkaa
+Author: sahinkaa
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Conflicts: com.codex.blockalphanumericsenders
+Replaces: com.codex.blockalphanumericsenders
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 268
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.blockalphanumericsenders.png
+Homepage: https://github.com/sahinkaa/BlockAlphanumericSenders
+Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockalphanumericsenders.html
+SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.blockalphanumericsenders.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sahinkaa.blockalphanumericsenders_1.0.1_iphoneos-arm64e.deb
+Size: 48062
+MD5sum: 144e167e468993ab8eaf6051641f3ac8
+SHA1: 8f7bb4a37bcd641c31c274636630090eabe0620e
+SHA256: 808a54d2b7f7cc35c40315eb2eb71e4e4a9394067531a17eb8f2037a32dd1c70
+SHA512: 0cc08dcbc4495a1251b1d2c8fc93d0ceaf4a5a62d45e9ec6a11b2159c4adcfcfa719c524231cc63557297a406fd2be7116dc9b3d81ed5d0dd4a67ad4424148b7
+
 Package: com.sahinkaa.blockappupdates
 Name: Block App Updates
 Description: Block updates for selected App Store apps while preserving your Home Screen layout and notification choices. iOS 15-26.

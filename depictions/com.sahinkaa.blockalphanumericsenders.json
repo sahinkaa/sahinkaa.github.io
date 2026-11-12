@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Manage blocked alphanumeric SMS senders from Settings. iOS 15-16.",
+          "markdown": "Manage blocked alphanumeric SMS senders from Settings.",
           "useSpacing": true
         },
         {
@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supports iOS 15 and 16 with Dopamine 2 rootless. No native RootHide package has been released.\n\nRootless only.",
+          "markdown": "Supports iOS 15 and later. The RootHide build was tested on iOS 16.6 and 26.0.1 and requires rootless-compat 0.9 or newer.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {

@@ -2,6 +2,7 @@
 """Build sahinkaa's flat APT repository without changing executable payloads."""
 from pathlib import Path
 import argparse,base64,bz2,copy,datetime,email.utils,gzip,hashlib,html,io,json,lzma,re,shutil,tarfile
+import subprocess
 ROOT=Path(__file__).resolve().parent
 SITE=ROOT.parent if ROOT.name=='maintenance' else ROOT/'site'
 URL='https://sahinkaa.github.io/'
@@ -37,8 +38,12 @@ def fields(text):
 def serialize(f):return ''.join(k+': '+v+'\n' for k,v in f.items())
 def control_member(items):
     return next((n,h,d) for n,h,d in items if n.startswith('control.tar'))
+def decompress_zstd(raw):
+    if raw.startswith(b'\x28\xb5\x2f\xfd'):
+        return subprocess.run(['zstd','-q','-d','-c'],input=raw,stdout=subprocess.PIPE,check=True).stdout
+    return raw
 def tar_members(raw):
-    with tarfile.open(fileobj=io.BytesIO(raw),mode='r:*') as t:
+    with tarfile.open(fileobj=io.BytesIO(decompress_zstd(raw)),mode='r:*') as t:
         return [(copy.copy(m),t.extractfile(m).read() if m.isfile() else None) for m in t.getmembers()]
 def control_fields(items):
     for m,d in tar_members(control_member(items)[2]):
@@ -54,12 +59,13 @@ def change_control(items,newfields):
     if name.endswith('.gz'):raw=gzip.compress(raw,mtime=0)
     elif name.endswith('.xz'):raw=lzma.compress(raw)
     elif name.endswith('.bz2'):raw=bz2.compress(raw)
+    elif name.endswith('.zst'):raw=subprocess.run(['zstd','-q','-c'],input=raw,stdout=subprocess.PIPE,check=True).stdout
     elif name!='control.tar':raise ValueError('Unsupported control compression')
     return ar_write([(n,h,raw if n==name else d) for n,h,d in items])
 def digest(raw,algo='sha256'):return hashlib.new(algo,raw).hexdigest()
 def original_icon(items):
     data=next(d for n,h,d in items if n.startswith('data.tar'))
-    with tarfile.open(fileobj=io.BytesIO(data),mode='r:*') as t:
+    with tarfile.open(fileobj=io.BytesIO(decompress_zstd(data)),mode='r:*') as t:
         candidates=[m for m in t.getmembers() if m.isfile() and re.search(r'/PreferenceBundles/[^/]+\.bundle/(?:icon|Icon)(?:@[23]x)?\.png$',m.name)]
         candidates.sort(key=lambda m:('@3x' not in m.name,'@2x' not in m.name,m.name))
         return t.extractfile(candidates[0]).read() if candidates else None
@@ -93,7 +99,7 @@ def build():
         f['Homepage']=f'https://github.com/sahinkaa/{repo}'
         f['Depiction']=URL+f'depictions/{slug}.html'
         f['SileoDepiction']=URL+f'depictions/{slug}.json'
-        updated=change_control(members,f)
+        updated=raw if f==old else change_control(members,f)
         check=ar_read(updated);assert control_fields(check)==f
         # Archive payload, signature-bearing Mach-O files and maintainer scripts stay byte-identical.
         assert [(n,d) for n,h,d in members if not n.startswith('control.tar')]==[(n,d) for n,h,d in check if not n.startswith('control.tar')]
@@ -120,6 +126,7 @@ def build():
     for identifier in sorted(set(a['package'] for a in audit),key=lambda i:next(a['name'].lower() for a in audit if a['package']==i)):
         entries=[a for a in audit if a['package']==identifier];a=entries[0];a=dict(a,architectures=[x['architecture'] for x in entries],downloads=[{'architecture':x['architecture'],'filename':x['filename']} for x in entries]);catalog.append(a)
         depiction = config[a['repository']]
+        a['description'] = depiction.get('displayDescription', a['description'])
         render_depiction(a, depiction.get('screenshots', ()), depiction.get('screenshotSize'))
     (SITE/'assets/style.css').write_text(CSS)
     cards=''.join('<a class="card" href="/depictions/'+a['package']+'.html"><div class="cardhead"><img src="'+html.escape(a['icon'].replace(URL,'/'),quote=True)+'" alt="" loading="lazy"><div><h3>'+html.escape(a['name'])+'</h3><div class="version">'+html.escape(a['version'])+'</div></div></div><p>'+html.escape(a['description'])+'</p><div class="tags"><span class="tag os">'+html.escape(a['ios'])+'</span><span class="tag">Rootless</span>'+('<span class="tag">RootHide</span>' if 'iphoneos-arm64e' in a['architectures'] else '')+'</div></a>' for a in catalog)
@@ -140,7 +147,7 @@ Add the URL to Sileo or Zebra. Repository label: **sahinkaa**. The icon is the a
 
 The root is a flat Debian repository. Both flat and suite Release files include `Components: main`, which Sileo requires even for flat sources. `Release` advertises `iphoneos-arm64` (rootless) and `iphoneos-arm64e` (native RootHide). `Packages` contains separate entries for both builds with the original package IDs and unchanged versions. Current clients select by their jailbreak's package architecture, not the phone CPU name. RootHide requires a RootHide-aware package manager.
 
-There are {len(catalog)} released tweaks and {len(packages)} packages. Two projects have only rootless releases and are distributed as rootless only. The repository does not relabel or convert those packages. A native RootHide release can be added later after it is built and tested.
+There are {len(catalog)} released tweaks and {len(packages)} packages. The catalog identifies projects that provide only a rootless build.
 
 Each package has an HTML depiction for Zebra and a native JSON depiction for Sileo, with compatibility information and links to its original project. GitHub release assets remain unchanged. Repository copies add compatibility text when missing, HTTP icons and depiction links. Versions, dependencies, maintainer scripts and executable payloads are preserved. `metadata-audit.json` records original/repository checksums and changed fields.
 
@@ -150,7 +157,7 @@ Each package has an HTML depiction for Zebra and a native JSON depiction for Sil
 
 Only add published packages belonging to this account. Keep genuine rootless and RootHide builds separate. Preserve `Package`, `Version`, `Architecture` and dependency requirements. Refresh all package sizes and hashes whenever a .deb changes, then regenerate compressed indexes and Release hashes. Do not edit a .deb after indexing it.
 
-The reproducible builder is `maintenance/build_repo.py`, with pinned source-release checksums and compatibility data alongside it. Run `python3 maintenance/build_repo.py` from a clone to rebuild, or `python3 maintenance/build_repo.py --verify` to check the committed repository without downloading anything. The builder verifies that metadata changes preserve the complete data archive and non-control maintainer files. Downloaded upstream .debs are stored outside the published repository.
+The reproducible builder is `maintenance/build_repo.py`, with pinned source-release checksums and compatibility data alongside it. Install `zstd` to read Zstandard-compressed packages. Run `python3 maintenance/build_repo.py` from a clone to rebuild, or `python3 maintenance/build_repo.py --verify` to check the committed repository without downloading anything. The builder verifies that metadata changes preserve the complete data archive and non-control maintainer files. Downloaded upstream .debs are stored outside the published repository.
 
 Package licenses and original developer credits remain in each package and source project. See each tweak's project for its license and device-testing details.
 ''')
@@ -201,7 +208,8 @@ def render_depiction(a, screenshots=(), screenshot_size=None):
     (SITE/'depictions'/f'{slug}.json').write_text(json.dumps({'class':'DepictionTabView','minVersion':'0.4','tabs':tabs},indent=2)+'\n')
 def verify():
     raw=(SITE/'Packages').read_bytes();packages=[fields(x) for x in raw.decode().strip().split('\n\n')]
-    assert len(packages)==28 and len({p['Package'] for p in packages})==15
+    inventory=json.loads((ROOT/'packages-inventory.json').read_text())
+    assert sorted(p['Filename'] for p in packages)==sorted('debs/'+item['asset']['name'] for item in inventory)
     assert gzip.decompress((SITE/'Packages.gz').read_bytes())==raw and bz2.decompress((SITE/'Packages.bz2').read_bytes())==raw and lzma.decompress((SITE/'Packages.xz').read_bytes())==raw
     for p in packages:
         data=(SITE/p['Filename']).read_bytes();f=control_fields(ar_read(data));assert all(f[k]==p[k] for k in f)
@@ -219,11 +227,11 @@ def verify():
             for line in f[label].splitlines():
                 if not line.strip():continue
                 sha,size,name=line.split();data=(r.parent/name).read_bytes();assert digest(data,algo)==sha and len(data)==int(size)
-    for arch,count in [('iphoneos-arm64',15),('iphoneos-arm64e',13)]:
-        d=(SITE/f'dists/stable/main/binary-{arch}/Packages').read_bytes();entries=[fields(x) for x in d.decode().strip().split('\n\n')];assert len(entries)==count and all(p['Architecture']==arch for p in entries)
+    for arch in ARCHES:
+        d=(SITE/f'dists/stable/main/binary-{arch}/Packages').read_bytes();entries=[fields(x) for x in d.decode().strip().split('\n\n')];assert entries==[p for p in packages if p['Architecture']==arch]
     for p in (SITE/'depictions').glob('*.json'):assert json.loads(p.read_text())['class']=='DepictionTabView'
     assert all(x['payload_unchanged'] and x['maintainer_scripts_unchanged'] and x['dependencies_unchanged'] for x in json.loads((SITE/'metadata-audit.json').read_text()))
-    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, 15 rootless/13 RootHide entries and depictions.')
+    print('PASS: package controls, unchanged payload audit, all hashes, compression variants, architecture indexes and depictions.')
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--verify',action='store_true');args=parser.parse_args()
     if args.verify:verify()
