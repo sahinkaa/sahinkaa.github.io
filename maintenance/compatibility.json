@@ -222,10 +222,20 @@
   },
   "WiFiRSSIEnabler": {
     "ios": "iOS 16 and later",
-    "compatibility": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.",
+    "compatibility": "Requires iOS 16 or later. Tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "icon": "assets/icons/com.sahinkaa.wifirssienabler.png",
     "changelog": [
+      {
+        "version": "1.0.3",
+        "date": "2026-11-12",
+        "changes": [
+          "RSSI now follows the system status bar color, including black text in light apps.",
+          "Fixed the RSSI and battery indicators shifting after closing Control Center on iOS 26.",
+          "Improved VPN badge spacing in both iOS 16 bars and in iOS 26 Control Center.",
+          "iOS 16 Control Center uses a fixed 14-point regular font for RSSI, even when the carrier name is absent."
+        ]
+      },
       {
         "version": "1.0.2",
         "date": "2026-11-12",

@@ -22,13 +22,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Requires iOS 16 or later. Tested on iOS 16.6 and iOS 26.0.1 with RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Requires iOS 16 or later. Tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.2"
+          "text": "1.0.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.2"
+          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.3"
         }
       ]
     },
@@ -51,6 +51,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.3 - 2026-11-12"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- RSSI now follows the system status bar color, including black text in light apps.\n- Fixed the RSSI and battery indicators shifting after closing Control Center on iOS 26.\n- Improved VPN badge spacing in both iOS 16 bars and in iOS 26 Control Center.\n- iOS 16 Control Center uses a fixed 14-point regular font for RSSI, even when the carrier name is absent.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0.2 - 2026-11-12"
