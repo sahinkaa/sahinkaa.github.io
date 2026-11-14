@@ -252,5 +252,13 @@
     "compatibility": "Targets jailbroken iOS 15 and later. Tested on iOS 16.6 and 26.0.1.",
     "description": "Open the App Store Account / Updates Page and quietly refresh available updates every time App Store comes to the foreground, including after a cold launch. If the Account / Updates Page is already visible, it refreshes in place. Requires iOS 15 or later.",
     "icon": "assets/icons/com.sahinkaa.appstoreupdatespage.png"
+  },
+  "ApnHistoryRemade": {
+    "ios": "iOS 15-26",
+    "compatibility": "Targets iOS 15 through iOS 26. Tested on iOS 16.6 and iOS 26.0.1 with RootHide. iOS 15 and rootless still need device testing.",
+    "description": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.",
+    "displayDescription": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa using V\u0113 Enhanced\u2019s notification capture method.",
+    "icon": "assets/icons/com.sahinkaa.apnhistory.png",
+    "detailIcon": "assets/icons/com.sahinkaa.apnhistory-full.png"
   }
 }

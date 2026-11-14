@@ -1,0 +1,59 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "ApnHistory Remade",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory-full.png",
+          "width": 200,
+          "height": 200,
+          "cornerRadius": 0,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa using V\u0113 Enhanced\u2019s notification capture method.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Targets iOS 15 through iOS 26. Tested on iOS 16.6 and iOS 26.0.1 with RootHide. iOS 15 and rootless still need device testing.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "m156nrkvv \u2022 sahinkaa"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Source and instructions",
+          "action": "https://github.com/sahinkaa/ApnHistoryRemade"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub release",
+          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0"
+        }
+      ]
+    }
+  ]
+}
