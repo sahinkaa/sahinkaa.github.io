@@ -1,6 +1,6 @@
 Package: com.sahinkaa.apnhistory
 Name: ApnHistory Remade
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 27.0)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)
 Architecture: iphoneos-arm64e
 Description: Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.
 Maintainer: sahinkaa
@@ -16,11 +16,11 @@ Replaces: com.nrkvv.apnhistory
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.json
 Filename: debs/com.sahinkaa.apnhistory_1.0_iphoneos-arm64e.deb
-Size: 7887400
-MD5sum: 0496b2efa5727bfaf2dabdbcd8c3e784
-SHA1: 4b71a206af478056d1d6c28a79f870ace730fdb1
-SHA256: 428588cdcc6e764a020820d8505ddf26eff14cd1efcb3417c06ff2b8af79d1a2
-SHA512: 3dc3ff2e5926216c12e3edcd9233fc201dbd2d9319ed0ca4f7f2456e6008028e0d5c1ca1703c1051222339869f94930d141a61ebf42ed9e001094863de0df23a
+Size: 7844542
+MD5sum: e7b66a600279b873a1990f24aa353ea5
+SHA1: 543fe1f63a759b17677ddb75f841905852691cca
+SHA256: 4798342febd2eb7540277b61cca1387f9f5f72927adab1c34e2bb39bd52c9a59
+SHA512: 89ed553eb8143f1f6e5dbca679e3a8c0a1283906ba4e02ecdc16261021efcc871c3d8cb201a020166addfea13448c4e0b39ec7af98e5f117863143e561bfb214
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page
