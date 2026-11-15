@@ -3,12 +3,12 @@
     "repository": "ApnHistoryRemade",
     "package": "com.sahinkaa.apnhistory",
     "name": "ApnHistory Remade",
-    "version": "1.0",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.apnhistory_1.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0",
-    "original_sha256": "bb4eae89670c3bd8d902eb15dbe62049460a55579d62d534a53263cb17c44b5f",
-    "sha256": "59b7091d382795f8ef8bcc57dd02ff063f9402d0ad8d271b5468ae72ff8134ba",
+    "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0.1",
+    "original_sha256": "d1dbc2182deb47403554939123879b134ed132913a7017c855a8873203a7ff1d",
+    "sha256": "752c23fff7c9f485065e7a6624529e36bb91f0fa10ab4eaf3076b7d724fd9c2d",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -20,22 +20,35 @@
       "SileoDepiction"
     ],
     "ios": "iOS 15-26",
-    "compatibility": "Targets iOS 15 through iOS 26. Tested on iOS 16.6 and iOS 26.0.1 with RootHide. iOS 15 and rootless still need device testing.",
-    "description": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.",
+    "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
+    "description": "Save, search and copy app notifications, including silenced alerts that iOS still delivers. Also logs incoming SMS and calls. iOS 15-26.",
     "author": "m156nrkvv \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-15",
+        "changes": [
+          "Added live search to Per App and Timeline.",
+          "Tap an app header to expand or collapse its history. Counts show all saved items or only matches while searching.",
+          "Added a 0\u2013100% blur strength control for photo backgrounds.",
+          "Set Maximum Items Saved to 0 for unlimited history or enter a custom limit, including values above 10,000.",
+          "Renamed Settings controls to Log App Notifications, Log SMS, Log Calls, Solid Color and Blur Effect."
+        ]
+      }
+    ],
     "architectures": [
       "iphoneos-arm64e",
       "iphoneos-arm64"
     ],
     "downloads": [
       {
-        "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.apnhistory_1.0_iphoneos-arm64.deb"
+        "architecture": "iphoneos-arm64e",
+        "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64e.deb"
       },
       {
-        "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.apnhistory_1.0_iphoneos-arm64e.deb"
+        "architecture": "iphoneos-arm64",
+        "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb"
       }
     ]
   },

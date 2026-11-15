@@ -2,25 +2,25 @@ Package: com.sahinkaa.apnhistory
 Name: ApnHistory Remade
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)
 Architecture: iphoneos-arm64e
-Description: Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.
+Description: Save, search and copy app notifications, including silenced alerts that iOS still delivers. Also logs incoming SMS and calls. iOS 15-26.
 Maintainer: sahinkaa
 Author: m156nrkvv • sahinkaa
 Section: Utilities
 Homepage: https://github.com/sahinkaa/ApnHistoryRemade
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png
-Version: 1.0
+Version: 1.0.1
 Installed-Size: 4624
 Pre-Depends: rootless-compat(>= 0.9)
 Conflicts: com.nrkvv.apnhistory
 Replaces: com.nrkvv.apnhistory
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.json
-Filename: debs/com.sahinkaa.apnhistory_1.0_iphoneos-arm64e.deb
-Size: 7844542
-MD5sum: e7b66a600279b873a1990f24aa353ea5
-SHA1: 543fe1f63a759b17677ddb75f841905852691cca
-SHA256: 4798342febd2eb7540277b61cca1387f9f5f72927adab1c34e2bb39bd52c9a59
-SHA512: 89ed553eb8143f1f6e5dbca679e3a8c0a1283906ba4e02ecdc16261021efcc871c3d8cb201a020166addfea13448c4e0b39ec7af98e5f117863143e561bfb214
+Filename: debs/com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64e.deb
+Size: 7890604
+MD5sum: d4dadb59409c6e1344ad0be63fe23aa0
+SHA1: d1915bfcc3f5dfc5c3f7a6b94bea3b7f78db3e89
+SHA256: 7397c58e1d2bac06c237aaca133adc162218dcc720503fe4500d62f1e6ba9b31
+SHA512: 29c51430088bd6897908779bdbcc8f1fba7431f55eeebc2292a22824bafbe8095e8bcf2eb2659da3ce97843660443bf510aeba5f41e7fd23970907463145adf6
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page
@@ -338,24 +338,24 @@ Package: com.sahinkaa.apnhistory
 Name: ApnHistory Remade
 Depends: uikittools, mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)
 Architecture: iphoneos-arm64
-Description: Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.
+Description: Save, search and copy app notifications, including silenced alerts that iOS still delivers. Also logs incoming SMS and calls. iOS 15-26.
 Maintainer: sahinkaa
 Author: m156nrkvv • sahinkaa
 Section: Utilities
 Homepage: https://github.com/sahinkaa/ApnHistoryRemade
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png
-Version: 1.0
+Version: 1.0.1
 Installed-Size: 4624
 Conflicts: com.nrkvv.apnhistory
 Replaces: com.nrkvv.apnhistory
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.json
-Filename: debs/com.sahinkaa.apnhistory_1.0_iphoneos-arm64.deb
-Size: 4042844
-MD5sum: fce0a348b1bf792286f935131469bc16
-SHA1: 336bee2045649e6adf1fe766246c43daee9ff8af
-SHA256: 59b7091d382795f8ef8bcc57dd02ff063f9402d0ad8d271b5468ae72ff8134ba
-SHA512: 32a27f84d8f50bccde57332b6cd0cd7dd88eac91b1078dbe1c0039f8ff6b4a2f1cebba6437e20712cd1d964691270398dcf5eb15b39cb0b2ec1751474f8722aa
+Filename: debs/com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb
+Size: 4088202
+MD5sum: 6a2e025b872f7c39725538cf70913024
+SHA1: e3ad0d3a98136e91c5210d622f7f12840672fe59
+SHA256: 752c23fff7c9f485065e7a6624529e36bb91f0fa10ab4eaf3076b7d724fd9c2d
+SHA512: 5611cbdf8b094451f3d062830b524d8ab186f662d3ee56c868f6f3fa73c5ada690366d9b25b4ff2dc9e95f363e47e0758aa3cc67f0f3690f269e77aeb2d86599
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page
