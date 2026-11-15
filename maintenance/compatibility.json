@@ -255,10 +255,57 @@
   },
   "ApnHistoryRemade": {
     "ios": "iOS 15-26",
-    "compatibility": "Targets iOS 15 through iOS 26. Tested on iOS 16.6 and iOS 26.0.1 with RootHide. iOS 15 and rootless still need device testing.",
-    "description": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them. iOS 15-26.",
-    "displayDescription": "Keep a local history of app notifications, incoming SMS and calls. Copy notification text and revisit alerts you turned off when iOS still posts them.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa using V\u0113 Enhanced\u2019s notification capture method.",
+    "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
+    "description": "Save, search and copy app notifications, including silenced alerts that iOS still delivers. Also logs incoming SMS and calls. iOS 15-26.",
+    "displayDescription": "ApnHistory Remade keeps an on-device history of app notifications, incoming SMS and calls. Find old alerts with live search, browse by app or in a timeline and copy notification text for later.\n\nKeep track of alerts from apps you\u2019ve silenced when iOS still delivers those notifications. Protect important entries and choose how much history to keep.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa, using V\u0113 Enhanced\u2019s notification capture method.",
     "icon": "assets/icons/com.sahinkaa.apnhistory.png",
-    "detailIcon": "assets/icons/com.sahinkaa.apnhistory-full.png"
+    "detailIcon": "assets/icons/com.sahinkaa.apnhistory-full.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-15",
+        "changes": [
+          "Added live search to Per App and Timeline.",
+          "Tap an app header to expand or collapse its history. Counts show all saved items or only matches while searching.",
+          "Added a 0\u2013100% blur strength control for photo backgrounds.",
+          "Set Maximum Items Saved to 0 for unlimited history or enter a custom limit, including values above 10,000.",
+          "Renamed Settings controls to Log App Notifications, Log SMS, Log Calls, Solid Color and Blur Effect."
+        ]
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/01.jpg",
+        "accessibilityText": "Settings and the unlimited history option"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/02.jpg",
+        "accessibilityText": "Background blur strength and protection settings"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/03.jpg",
+        "accessibilityText": "Background color picker"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/04.jpg",
+        "accessibilityText": "Timeline with a solid color background"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/05.jpg",
+        "accessibilityText": "Timeline with a photo background"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/06.jpg",
+        "accessibilityText": "Search results grouped by app with matching item counts"
+      },
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/07.jpg",
+        "accessibilityText": "Collapsed app groups with saved item counts"
+      }
+    ],
+    "screenshotSize": [
+      155,
+      276
+    ]
   }
 }
