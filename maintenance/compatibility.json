@@ -201,19 +201,25 @@
     "compatibility": "Targets jailbroken iOS 15 and later on Rootless and native RootHide."
   },
   "ClearCharge": {
-    "ios": "iOS 16 and later",
-    "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
-    "screenshots": [
+    "ios": "iOS 16 and later \u00b7 Face ID",
+    "compatibility": "Clear Charge targets Face ID iPhones with Battery Percentage displayed inside the status bar battery icon. iOS 16 compatibility is untested. Verified on iOS 26.0.1 with RootHide.",
+    "icon": "assets/icons/com.sahinkaa.clearcharge-1.0.1.png",
+    "description": "Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode. Targets Face ID iPhones on iOS 16 and later. iOS 16 compatibility is untested.",
+    "detailIcon": "assets/icons/com.sahinkaa.clearcharge-full.png",
+    "changelog": [
       {
-        "url": "https://raw.githubusercontent.com/sahinkaa/ClearCharge/8864b80ef8b55ee66068114aea79cc4a5aa5b7b9/screenshots/charging.png",
-        "accessibilityText": "Green charging battery with a black percentage and no persistent bolt"
+        "version": "1.0.1",
+        "date": "2026-11-21",
+        "changes": [
+          "Replaced the battery outline and percent sign with a plain number on the Home Screen, Lock Screen and in apps.",
+          "Added a bolt to the right of the number. It matches the height of the digits and dims when charging is on hold.",
+          "Removed the large plug-in animation. The battery number stays in place when you plug in or unplug.",
+          "Added an amber Low Power Mode indicator that adapts to light and dark status bars.",
+          "Updated the package icon."
+        ]
       }
     ],
-    "screenshotSize": [
-      342,
-      141
-    ],
-    "icon": "assets/icons/com.sahinkaa.clearcharge.png"
+    "displayDescription": "Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode."
   },
   "NoVoicemailTab": {
     "ios": "iOS 16 and later",

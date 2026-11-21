@@ -874,13 +874,13 @@
   },
   {
     "repository": "ClearCharge",
-    "release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0",
-    "tag": "v1.0",
+    "release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/ClearCharge/releases/assets/724807804",
-      "id": 724807804,
-      "node_id": "RA_kwDOVnWNq84rM7B8",
-      "name": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/ClearCharge/releases/assets/776889558",
+      "id": 776889558,
+      "node_id": "RA_kwDOVnWNq84uTmTW",
+      "name": "com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -905,25 +905,25 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 6778,
-      "digest": "sha256:e0e4b278227f7968e652f46e220bf1f4312d6fd1f81e0e5bd247163149650eb0",
+      "size": 20446,
+      "digest": "sha256:d19da97f8623b15e405decc2899805ee6ad399459dd85b615639e7708b657af1",
       "download_count": 0,
-      "created_at": "2026-11-08T18:24:07Z",
-      "updated_at": "2026-11-08T18:24:09Z",
-      "browser_download_url": "https://github.com/sahinkaa/ClearCharge/releases/download/v1.0/com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb"
+      "created_at": "2026-11-21T21:13:33Z",
+      "updated_at": "2026-11-21T21:13:35Z",
+      "browser_download_url": "https://github.com/sahinkaa/ClearCharge/releases/download/v1.0.1/com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64.deb"
     },
-    "sha256": "e0e4b278227f7968e652f46e220bf1f4312d6fd1f81e0e5bd247163149650eb0",
-    "control": "Package: com.sahinkaa.clearcharge\nName: Clear Charge\nDescription: Make the charging battery percentage black and hide the persistent status bar bolt.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64\nVersion: 1.0\nInstalled-Size: 172\n"
+    "sha256": "d19da97f8623b15e405decc2899805ee6ad399459dd85b615639e7708b657af1",
+    "control": "Package: com.sahinkaa.clearcharge\nName: Clear Charge\nDescription: Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64\nVersion: 1.0.1\nInstalled-Size: 208\n"
   },
   {
     "repository": "ClearCharge",
-    "release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0",
-    "tag": "v1.0",
+    "release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/ClearCharge/releases/assets/724807862",
-      "id": 724807862,
-      "node_id": "RA_kwDOVnWNq84rM7C2",
-      "name": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb",
+      "url": "https://api.github.com/repos/sahinkaa/ClearCharge/releases/assets/776889650",
+      "id": 776889650,
+      "node_id": "RA_kwDOVnWNq84uTmUy",
+      "name": "com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64e.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -948,15 +948,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 6718,
-      "digest": "sha256:29c7edf7189feb101ca104cf193719075effebd8f23c872c51c8cb4e559a2f67",
+      "size": 20398,
+      "digest": "sha256:1a82cafbe6585a9e333dbc63b02f237454aa340311260b2d7a57f2cfde1eebf1",
       "download_count": 0,
-      "created_at": "2026-11-08T18:24:09Z",
-      "updated_at": "2026-11-08T18:24:10Z",
-      "browser_download_url": "https://github.com/sahinkaa/ClearCharge/releases/download/v1.0/com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb"
+      "created_at": "2026-11-21T21:13:35Z",
+      "updated_at": "2026-11-21T21:13:36Z",
+      "browser_download_url": "https://github.com/sahinkaa/ClearCharge/releases/download/v1.0.1/com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64e.deb"
     },
-    "sha256": "29c7edf7189feb101ca104cf193719075effebd8f23c872c51c8cb4e559a2f67",
-    "control": "Package: com.sahinkaa.clearcharge\nName: Clear Charge\nDescription: Make the charging battery percentage black and hide the persistent status bar bolt.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64e\nVersion: 1.0\nInstalled-Size: 172\n"
+    "sha256": "1a82cafbe6585a9e333dbc63b02f237454aa340311260b2d7a57f2cfde1eebf1",
+    "control": "Package: com.sahinkaa.clearcharge\nName: Clear Charge\nDescription: Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nArchitecture: iphoneos-arm64e\nVersion: 1.0.1\nInstalled-Size: 208\n"
   },
   {
     "repository": "NoVoicemailTab",

@@ -12,24 +12,17 @@
           "useBoldText": true
         },
         {
+          "class": "DepictionImageView",
+          "URL": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge-full.png",
+          "width": 200,
+          "height": 200,
+          "cornerRadius": 0,
+          "alignment": 1
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
+          "markdown": "Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode.",
           "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Screenshots"
-        },
-        {
-          "class": "DepictionScreenshotsView",
-          "itemSize": "{342, 141}",
-          "itemCornerRadius": 12,
-          "screenshots": [
-            {
-              "url": "https://raw.githubusercontent.com/sahinkaa/ClearCharge/8864b80ef8b55ee66068114aea79cc4a5aa5b7b9/screenshots/charging.png",
-              "accessibilityText": "Green charging battery with a black percentage and no persistent bolt"
-            }
-          ]
         },
         {
           "class": "DepictionHeaderView",
@@ -37,13 +30,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Clear Charge targets Face ID iPhones with Battery Percentage displayed inside the status bar battery icon. iOS 16 compatibility is untested. Verified on iOS 26.0.1 with RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -58,7 +51,22 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0"
+          "action": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.1 - 2026-11-21"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Replaced the battery outline and percent sign with a plain number on the Home Screen, Lock Screen and in apps.\n- Added a bolt to the right of the number. It matches the height of the digits and dims when charging is on hold.\n- Removed the large plug-in animation. The battery number stays in place when you plug in or unplug.\n- Added an amber Low Power Mode indicator that adapts to light and dark status bars.\n- Updated the package icon.",
+          "useSpacing": true
         }
       ]
     }

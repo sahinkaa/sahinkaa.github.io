@@ -333,12 +333,12 @@
     "repository": "ClearCharge",
     "package": "com.sahinkaa.clearcharge",
     "name": "Clear Charge",
-    "version": "1.0",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0",
-    "original_sha256": "e0e4b278227f7968e652f46e220bf1f4312d6fd1f81e0e5bd247163149650eb0",
-    "sha256": "bdbf6bf3f49e2b391e7940d860be94f43715efbf81a4da26db5cad908d2fe1c0",
+    "filename": "com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ClearCharge/releases/tag/v1.0.1",
+    "original_sha256": "d19da97f8623b15e405decc2899805ee6ad399459dd85b615639e7708b657af1",
+    "sha256": "33d363337ec1f09d48fef247ba020090f709e0640f76b4a648f6fd70c6abdd0e",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -349,11 +349,24 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "compatibility": "iOS 16 and later. Tested on iOS 26.0.1 with RootHide.",
-    "ios": "iOS 16 and later",
-    "description": "Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.",
+    "compatibility": "Clear Charge targets Face ID iPhones with Battery Percentage displayed inside the status bar battery icon. iOS 16 compatibility is untested. Verified on iOS 26.0.1 with RootHide.",
+    "ios": "iOS 16 and later \u00b7 Face ID",
+    "description": "Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode.",
     "author": "sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge-1.0.1.png",
+    "changelog": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-21",
+        "changes": [
+          "Replaced the battery outline and percent sign with a plain number on the Home Screen, Lock Screen and in apps.",
+          "Added a bolt to the right of the number. It matches the height of the digits and dims when charging is on hold.",
+          "Removed the large plug-in animation. The battery number stays in place when you plug in or unplug.",
+          "Added an amber Low Power Mode indicator that adapts to light and dark status bars.",
+          "Updated the package icon."
+        ]
+      }
+    ],
     "architectures": [
       "iphoneos-arm64",
       "iphoneos-arm64e"
@@ -361,11 +374,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64.deb"
       },
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64e.deb"
       }
     ]
   },

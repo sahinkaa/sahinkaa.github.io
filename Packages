@@ -141,24 +141,24 @@ SHA512: 8736854481a34caeb1fa06669cc5cf0cea722f990a791eccf33a0e1bbab3e5fe98a7f5f6
 
 Package: com.sahinkaa.clearcharge
 Name: Clear Charge
-Description: Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.
+Description: Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode. Targets Face ID iPhones on iOS 16 and later. iOS 16 compatibility is untested.
 Maintainer: sahinkaa
 Author: sahinkaa
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate
 Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 172
-Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png
+Version: 1.0.1
+Installed-Size: 208
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge-1.0.1.png
 Homepage: https://github.com/sahinkaa/ClearCharge
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.json
-Filename: debs/com.sahinkaa.clearcharge_1.0_iphoneos-arm64e.deb
-Size: 6814
-MD5sum: 82dab3f9e2bf371ae21af143a046ce9b
-SHA1: 065f2b090820b690182bd39b6bfb94f9e36fff5e
-SHA256: 8056fb1290ccb52451150c466b2b13d25030dfbb47b0e64bdcf2041ed88390bf
-SHA512: 56f99c6069422774c134f8edeb27b3b62ea341306c89add72d70392e16da55e34e6f1248e68bd450b6a5b0b7ab5c181d9d589d7349f34788b961e29e65ca8965
+Filename: debs/com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64e.deb
+Size: 20538
+MD5sum: 0929ae24897f7dbc7ad5db0989f9af69
+SHA1: 9c73f7a1c1a91ce4b3b46ae9b50ad39be3d734f1
+SHA256: c9a42982b1bd2ad42754a7ed433f0ac6402e43bc42235d318eb26696966a77bb
+SHA512: be8ee7668c64cd674816124da18abecea7412e98e81cbfc58997578eb164dfa93479f5a83541149e6454eb84c6cbb6018e620aa3a001e70876d239ef0985192c
 
 Package: com.sahinkaa.ios6chargingsound
 Name: iOS 6 Charging Sound
@@ -475,24 +475,24 @@ SHA512: 32f3e941b1fff813335cd8d704580742953e29e15bfbf388ca14cc3743c861d8b4dcd620
 
 Package: com.sahinkaa.clearcharge
 Name: Clear Charge
-Description: Make the charging battery percentage black and hide the persistent status bar bolt. iOS 16 and later.
+Description: Clear Charge removes the battery outline and percent sign when Battery Percentage is enabled. You get a plain number on the Home Screen, Lock Screen and in apps, with a bolt beside it when connected to power. The number stays in place when you plug in or unplug. The bolt dims when charging is on hold and the number turns amber in Low Power Mode. Targets Face ID iPhones on iOS 16 and later. iOS 16 compatibility is untested.
 Maintainer: sahinkaa
 Author: sahinkaa
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 172
-Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge.png
+Version: 1.0.1
+Installed-Size: 208
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.clearcharge-1.0.1.png
 Homepage: https://github.com/sahinkaa/ClearCharge
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.clearcharge.json
-Filename: debs/com.sahinkaa.clearcharge_1.0_iphoneos-arm64.deb
-Size: 6868
-MD5sum: e83914d6eb3fc586dfe5b5af94c81424
-SHA1: d9d70dd626c6097978a4f9327fc34674999c151f
-SHA256: bdbf6bf3f49e2b391e7940d860be94f43715efbf81a4da26db5cad908d2fe1c0
-SHA512: 0d8b671cf9096f359fef89c1be81866847e8f62a3962a1dd6972732940d0355c171edc91629c297d713bbdc9887b89adca14a47be945ed26ddc95d6359adaf04
+Filename: debs/com.sahinkaa.clearcharge_1.0.1_iphoneos-arm64.deb
+Size: 20584
+MD5sum: 537e2f8506f6ea5b5f0e33f4ad0d1e62
+SHA1: ab84f1c00ef88018b6c8aab1d3553ffff3d26756
+SHA256: 33d363337ec1f09d48fef247ba020090f709e0640f76b4a648f6fd70c6abdd0e
+SHA512: 6cb30624b64054d00a6056e0dbb35568a5b61e0eb37051e5088bfe2247eb376acf9dd04221254d1f1137a62d1083348606d5d8be417f0b82e01842422a0fb5fb
 
 Package: com.sahinkaa.ios6chargingsound
 Name: iOS 6 Charging Sound
