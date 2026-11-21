@@ -1132,13 +1132,13 @@
   },
   {
     "repository": "WiFiRSSIEnabler",
-    "release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.3",
-    "tag": "v1.0.3",
+    "release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.4",
+    "tag": "v1.0.4",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/WiFiRSSIEnabler/releases/assets/740116236",
-      "id": 740116236,
-      "node_id": "RA_kwDOVokQM84sHUcM",
-      "name": "com.sahinkaa.wifirssienabler_1.0.3_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/WiFiRSSIEnabler/releases/assets/775552607",
+      "id": 775552607,
+      "node_id": "RA_kwDOVokQM84uOf5f",
+      "name": "com.sahinkaa.wifirssienabler_1.0.4_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -1163,25 +1163,25 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 14918,
-      "digest": "sha256:65160ef920fdedfacb35f19f1d047f0bd714f213e822c4bdbbfc2f90de2cbdde",
+      "size": 13568,
+      "digest": "sha256:90f7ab4d8e41d0df175fb2037f77919d4301aa61c06dd03c7df93c387919a22e",
       "download_count": 0,
-      "created_at": "2026-11-12T16:04:30Z",
-      "updated_at": "2026-11-12T16:04:32Z",
-      "browser_download_url": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/download/v1.0.3/com.sahinkaa.wifirssienabler_1.0.3_iphoneos-arm64.deb"
+      "created_at": "2026-11-21T12:42:51Z",
+      "updated_at": "2026-11-21T12:42:52Z",
+      "browser_download_url": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/download/v1.0.4/com.sahinkaa.wifirssienabler_1.0.4_iphoneos-arm64.deb"
     },
-    "sha256": "65160ef920fdedfacb35f19f1d047f0bd714f213e822c4bdbbfc2f90de2cbdde",
-    "control": "Package: com.sahinkaa.wifirssienabler\nName: WiFi RSSI Enabler\nDescription: Display the connected Wi-Fi network's signal strength in the status bar.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nHomepage: https://github.com/sahinkaa/WiFiRSSIEnabler\nArchitecture: iphoneos-arm64\nVersion: 1.0.3\nInstalled-Size: 192\n"
+    "sha256": "90f7ab4d8e41d0df175fb2037f77919d4301aa61c06dd03c7df93c387919a22e",
+    "control": "Package: com.sahinkaa.wifirssienabler\nName: WiFi RSSI Enabler\nDescription: Display the connected Wi-Fi network's signal strength in the status bar.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nHomepage: https://github.com/sahinkaa/WiFiRSSIEnabler\nArchitecture: iphoneos-arm64\nVersion: 1.0.4\nInstalled-Size: 176\n"
   },
   {
     "repository": "WiFiRSSIEnabler",
-    "release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.3",
-    "tag": "v1.0.3",
+    "release": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.4",
+    "tag": "v1.0.4",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/WiFiRSSIEnabler/releases/assets/740116422",
-      "id": 740116422,
-      "node_id": "RA_kwDOVokQM84sHUfG",
-      "name": "com.sahinkaa.wifirssienabler_1.0.3_iphoneos-arm64e.deb",
+      "url": "https://api.github.com/repos/sahinkaa/WiFiRSSIEnabler/releases/assets/775552636",
+      "id": 775552636,
+      "node_id": "RA_kwDOVokQM84uOf58",
+      "name": "com.sahinkaa.wifirssienabler_1.0.4_iphoneos-arm64e.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -1206,15 +1206,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 14860,
-      "digest": "sha256:acf0c6dc628ecac19ee15e5b6eb29cca8d44643bc5974f7fba3a3bf75339247c",
+      "size": 13492,
+      "digest": "sha256:92c7e675d13c9ad0a0bbbe4b6a80af9fca0347ca3bb0ad3886cf8fc39554238b",
       "download_count": 0,
-      "created_at": "2026-11-12T16:04:32Z",
-      "updated_at": "2026-11-12T16:04:33Z",
-      "browser_download_url": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/download/v1.0.3/com.sahinkaa.wifirssienabler_1.0.3_iphoneos-arm64e.deb"
+      "created_at": "2026-11-21T12:42:52Z",
+      "updated_at": "2026-11-21T12:42:53Z",
+      "browser_download_url": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/download/v1.0.4/com.sahinkaa.wifirssienabler_1.0.4_iphoneos-arm64e.deb"
     },
-    "sha256": "acf0c6dc628ecac19ee15e5b6eb29cca8d44643bc5974f7fba3a3bf75339247c",
-    "control": "Package: com.sahinkaa.wifirssienabler\nName: WiFi RSSI Enabler\nDescription: Display the connected Wi-Fi network's signal strength in the status bar.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nHomepage: https://github.com/sahinkaa/WiFiRSSIEnabler\nArchitecture: iphoneos-arm64e\nVersion: 1.0.3\nInstalled-Size: 192\n"
+    "sha256": "92c7e675d13c9ad0a0bbbe4b6a80af9fca0347ca3bb0ad3886cf8fc39554238b",
+    "control": "Package: com.sahinkaa.wifirssienabler\nName: WiFi RSSI Enabler\nDescription: Display the connected Wi-Fi network's signal strength in the status bar.\nMaintainer: sahinkaa\nAuthor: sahinkaa\nSection: Tweaks\nDepends: firmware (>= 16.0), mobilesubstrate\nHomepage: https://github.com/sahinkaa/WiFiRSSIEnabler\nArchitecture: iphoneos-arm64e\nVersion: 1.0.4\nInstalled-Size: 176\n"
   },
   {
     "repository": "ApnHistoryRemade",

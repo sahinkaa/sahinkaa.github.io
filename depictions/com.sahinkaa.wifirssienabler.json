@@ -22,13 +22,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Requires iOS 16 or later. Tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Requires iOS 16 or later. Earlier versions were tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.3"
+          "text": "1.0.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +43,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.3"
+          "action": "https://github.com/sahinkaa/WiFiRSSIEnabler/releases/tag/v1.0.4"
         }
       ]
     },
@@ -51,6 +51,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.4 - 2026-11-21"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the regular status bar reverting to Wi-Fi bars when Battery Percentage is turned off.\n- The regular status bar uses a fixed 12-point semibold system font. Existing Control Center font and spacing rules still apply.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0.3 - 2026-11-12"

@@ -222,10 +222,18 @@
   },
   "WiFiRSSIEnabler": {
     "ios": "iOS 16 and later",
-    "compatibility": "Requires iOS 16 or later. Tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.",
+    "compatibility": "Requires iOS 16 or later. Earlier versions were tested on iPhone 8 Plus (non-notched) with iOS 16.6 and Dopamine RootHide and on iPhone 11 Pro Max (notched) with iOS 26.0.1 and Dopamine 3 RootHide.",
     "description": "Show Wi-Fi RSSI (Received Signal Strength Indicator) in the status bar in place of the Wi-Fi bars. The number is in dBm: -50 is stronger than -70. iOS 16 and later.",
     "icon": "assets/icons/com.sahinkaa.wifirssienabler.png",
     "changelog": [
+      {
+        "version": "1.0.4",
+        "date": "2026-11-21",
+        "changes": [
+          "Fixed the regular status bar reverting to Wi-Fi bars when Battery Percentage is turned off.",
+          "The regular status bar uses a fixed 12-point semibold system font. Existing Control Center font and spacing rules still apply."
+        ]
+      },
       {
         "version": "1.0.3",
         "date": "2026-11-12",
