@@ -1218,13 +1218,13 @@
   },
   {
     "repository": "ApnHistoryRemade",
-    "release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0.1",
-    "tag": "v1.0.1",
+    "release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0",
+    "tag": "v1.1.0",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/ApnHistoryRemade/releases/assets/751815839",
-      "id": 751815839,
-      "node_id": "RA_kwDOVuIvb84sz8yf",
-      "name": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb",
+      "url": "https://api.github.com/repos/sahinkaa/ApnHistoryRemade/releases/assets/775409306",
+      "id": 775409306,
+      "node_id": "RA_kwDOVuIvb84uN86a",
+      "name": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -1249,25 +1249,25 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 4088262,
-      "digest": "sha256:d1dbc2182deb47403554939123879b134ed132913a7017c855a8873203a7ff1d",
+      "size": 1841312,
+      "digest": "sha256:8a29fa37bf1c291a4fa7d95aac13f94b9cfde4c9343fd63119c5d762c958faec",
       "download_count": 0,
-      "created_at": "2026-11-15T17:47:40Z",
-      "updated_at": "2026-11-15T17:47:45Z",
-      "browser_download_url": "https://github.com/sahinkaa/ApnHistoryRemade/releases/download/v1.0.1/com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb"
+      "created_at": "2026-11-21T11:48:38Z",
+      "updated_at": "2026-11-21T11:48:39Z",
+      "browser_download_url": "https://github.com/sahinkaa/ApnHistoryRemade/releases/download/v1.1.0/com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb"
     },
-    "sha256": "d1dbc2182deb47403554939123879b134ed132913a7017c855a8873203a7ff1d",
-    "control": "Package: com.sahinkaa.apnhistory\nName: ApnHistory Remade\nDepends: uikittools, mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)\nArchitecture: iphoneos-arm64\nDescription: Copy notification text and review alerts you turned off when iOS still posts them to the system. Browse a local history of notifications, incoming SMS and calls. For iOS 15 through iOS 26 on rootless. Original ApnHistory by m156nrkvv. Remade by sahinkaa using V\u0113 Enhanced\u2019s capture method.\nMaintainer: sahinkaa\nAuthor: m156nrkvv \u2022 sahinkaa\nSection: Utilities\nHomepage: http://twitter.com/m156nrkvv\nIcon: file:///var/jb/Applications/ApnHistory.app/ApnHistoryIcon-60@2x.png\nVersion: 1.0.1\nInstalled-Size: 4624\nConflicts: com.nrkvv.apnhistory\nReplaces: com.nrkvv.apnhistory\n"
+    "sha256": "8a29fa37bf1c291a4fa7d95aac13f94b9cfde4c9343fd63119c5d762c958faec",
+    "control": "Package: com.sahinkaa.apnhistory\nName: ApnHistory Remade\nDepends: uikittools, mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)\nArchitecture: iphoneos-arm64\nDescription: Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.\nMaintainer: sahinkaa\nAuthor: m156nrkvv \u2022 sahinkaa\nSection: Utilities\nHomepage: http://twitter.com/m156nrkvv\nIcon: file:///var/jb/Applications/ApnHistory.app/ApnHistoryIcon-60@2x.png\nVersion: 1.1.0\nInstalled-Size: 4624\nConflicts: com.nrkvv.apnhistory\nReplaces: com.nrkvv.apnhistory\n"
   },
   {
     "repository": "ApnHistoryRemade",
-    "release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0.1",
-    "tag": "v1.0.1",
+    "release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0",
+    "tag": "v1.1.0",
     "asset": {
-      "url": "https://api.github.com/repos/sahinkaa/ApnHistoryRemade/releases/assets/751816007",
-      "id": 751816007,
-      "node_id": "RA_kwDOVuIvb84sz81H",
-      "name": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64e.deb",
+      "url": "https://api.github.com/repos/sahinkaa/ApnHistoryRemade/releases/assets/775409149",
+      "id": 775409149,
+      "node_id": "RA_kwDOVuIvb84uN839",
+      "name": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64e.deb",
       "label": null,
       "uploader": {
         "login": "sahinkaa",
@@ -1292,14 +1292,14 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 7890670,
-      "digest": "sha256:ed0d23a399db10f38631808171dc8eb07cc0dfb29092a0ede2945932bcdcd01a",
+      "size": 3468894,
+      "digest": "sha256:d3164a56fb7b93d66cf1f7bfc782ba0850cee0db97291b1772f905111bdee6ae",
       "download_count": 0,
-      "created_at": "2026-11-15T17:47:45Z",
-      "updated_at": "2026-11-15T17:47:51Z",
-      "browser_download_url": "https://github.com/sahinkaa/ApnHistoryRemade/releases/download/v1.0.1/com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64e.deb"
+      "created_at": "2026-11-21T11:48:35Z",
+      "updated_at": "2026-11-21T11:48:38Z",
+      "browser_download_url": "https://github.com/sahinkaa/ApnHistoryRemade/releases/download/v1.1.0/com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64e.deb"
     },
-    "sha256": "ed0d23a399db10f38631808171dc8eb07cc0dfb29092a0ede2945932bcdcd01a",
-    "control": "Package: com.sahinkaa.apnhistory\nName: ApnHistory Remade\nDepends: mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)\nArchitecture: iphoneos-arm64e\nDescription: Copy notification text and review alerts you turned off when iOS still posts them to the system. Browse a local history of notifications, incoming SMS and calls. For iOS 15 through iOS 26 on RootHide. Original ApnHistory by m156nrkvv. Remade by sahinkaa using V\u0113 Enhanced\u2019s capture method.\nMaintainer: sahinkaa\nAuthor: m156nrkvv \u2022 sahinkaa\nSection: Utilities\nHomepage: http://twitter.com/m156nrkvv\nIcon: file:///Applications/ApnHistory.app/ApnHistoryIcon-60@2x.png\nVersion: 1.0.1\nInstalled-Size: 4624\nPre-Depends: rootless-compat(>= 0.9)\nConflicts: com.nrkvv.apnhistory\nReplaces: com.nrkvv.apnhistory\n"
+    "sha256": "d3164a56fb7b93d66cf1f7bfc782ba0850cee0db97291b1772f905111bdee6ae",
+    "control": "Package: com.sahinkaa.apnhistory\nName: ApnHistory Remade\nDepends: mobilesubstrate, firmware (>= 15.0), firmware (<< 27.0)\nArchitecture: iphoneos-arm64e\nDescription: Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.\nMaintainer: sahinkaa\nAuthor: m156nrkvv \u2022 sahinkaa\nSection: Utilities\nHomepage: http://twitter.com/m156nrkvv\nIcon: file:///Applications/ApnHistory.app/ApnHistoryIcon-60@2x.png\nVersion: 1.1.0\nInstalled-Size: 4624\nPre-Depends: rootless-compat(>= 0.9)\nConflicts: com.nrkvv.apnhistory\nReplaces: com.nrkvv.apnhistory\n"
   }
 ]

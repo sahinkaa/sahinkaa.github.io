@@ -3,17 +3,16 @@
     "repository": "ApnHistoryRemade",
     "package": "com.sahinkaa.apnhistory",
     "name": "ApnHistory Remade",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0.1",
-    "original_sha256": "d1dbc2182deb47403554939123879b134ed132913a7017c855a8873203a7ff1d",
-    "sha256": "752c23fff7c9f485065e7a6624529e36bb91f0fa10ab4eaf3076b7d724fd9c2d",
+    "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0",
+    "original_sha256": "8a29fa37bf1c291a4fa7d95aac13f94b9cfde4c9343fd63119c5d762c958faec",
+    "sha256": "4eff96b0d58cf9324344dfaed250eb9392223ea26e6e0ae3e45e5cdc96745676",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
     "changed_fields": [
-      "Description",
       "Homepage",
       "Icon",
       "Depiction",
@@ -21,10 +20,24 @@
     ],
     "ios": "iOS 15-26",
     "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
-    "description": "Save, search and copy app notifications, including silenced alerts that iOS still delivers. Also logs incoming SMS and calls. iOS 15-26.",
+    "description": "Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.",
     "author": "m156nrkvv \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png",
     "changelog": [
+      {
+        "version": "1.1.0",
+        "date": "2026-11-21",
+        "changes": [
+          "Encrypted history storage. Existing notifications migrate to an encrypted SQLite database. New notifications are queued securely and imported when you open or refresh ApnHistory.",
+          "Logging and cleanup rules. Choose which apps and keywords to log or ignore. Set a maximum age or item count, create automatic cleanup rules and manage Auto Protect in one place. Set a rule\u2019s range to 0 to disable it while keeping it in the list.",
+          "Filter and manage saved items. Filter by app, text and date with a live match count. Protect, unprotect or delete selected entries in bulk. Delete Selected skips protected entries.",
+          "Password-protected backups in Files. Back up and restore settings, history or both using On My iPhone or iCloud Drive. Restore merges history with existing entries and skips matching notifications.",
+          "Timeline navigation. Drag the side scrollbar to move through your history with a month and year readout. Light haptics mark month changes and the top and bottom of the list.",
+          "Per App groups. Groups start collapsed and reset when you return from Timeline. Tap an app to expand its history.",
+          "Layout and reading. Top controls respect the safe area. Tap a long notification to read the rest or hold it for actions.",
+          "Navigation, live search, backup and restore performed well with 80,000 history items on iPhone 8 Plus (iOS 16.6, Dopamine RootHide) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine RootHide). A decade of history can fit in under 100 MB, depending on notification volume and content."
+        ]
+      },
       {
         "version": "1.0.1",
         "date": "2026-11-15",
@@ -44,11 +57,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64e.deb"
       },
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.apnhistory_1.0.1_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb"
       }
     ]
   },

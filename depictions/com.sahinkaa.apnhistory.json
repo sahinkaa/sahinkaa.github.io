@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "ApnHistory Remade keeps an on-device history of app notifications, incoming SMS and calls. Find old alerts with live search, browse by app or in a timeline and copy notification text for later.\n\nKeep track of alerts from apps you\u2019ve silenced when iOS still delivers those notifications. Protect important entries and choose how much history to keep.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa, using V\u0113 Enhanced\u2019s notification capture method.",
+          "markdown": "ApnHistory Remade keeps encrypted, on-device history of app notifications, incoming SMS and calls. Browse by app or in a timeline, search as you type and copy notification text.\n\nChoose what to log, protect important entries and set automatic cleanup rules. Use password-protected backups in Files to transfer settings, history or both.\n\nOriginal ApnHistory by m156nrkvv. Remade by sahinkaa, using V\u0113 Enhanced\u2019s notification capture method.",
           "useSpacing": true
         },
         {
@@ -30,36 +30,44 @@
         },
         {
           "class": "DepictionScreenshotsView",
-          "itemSize": "{155, 276}",
+          "itemSize": "{155, 335}",
           "itemCornerRadius": 12,
           "screenshots": [
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/01.jpg",
-              "accessibilityText": "Settings and the unlimited history option"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/01.PNG",
+              "accessibilityText": "Timeline with side scrollbar"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/02.jpg",
-              "accessibilityText": "Background blur strength and protection settings"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/02.PNG",
+              "accessibilityText": "Collapsed Per App groups with saved item counts"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/03.jpg",
-              "accessibilityText": "Background color picker"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/03.PNG",
+              "accessibilityText": "Notification and background settings"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/04.jpg",
-              "accessibilityText": "Timeline with a solid color background"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/04.PNG",
+              "accessibilityText": "Advanced settings with backup and restore"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/05.jpg",
-              "accessibilityText": "Timeline with a photo background"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/05.PNG",
+              "accessibilityText": "Backup content selection"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/06.jpg",
-              "accessibilityText": "Search results grouped by app with matching item counts"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/06.PNG",
+              "accessibilityText": "Auto Protect and history retention"
             },
             {
-              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/07.jpg",
-              "accessibilityText": "Collapsed app groups with saved item counts"
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/07.PNG",
+              "accessibilityText": "Logging and automatic cleanup rules"
+            },
+            {
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/08.PNG",
+              "accessibilityText": "Filter Items and automatic cleanup options"
+            },
+            {
+              "url": "https://sahinkaa.github.io/assets/screenshots/com.sahinkaa.apnhistory/09.PNG",
+              "accessibilityText": "Bulk protection and deletion for matching notifications"
             }
           ]
         },
@@ -75,7 +83,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.1"
+          "text": "1.1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -90,7 +98,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.0.1"
+          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0"
         }
       ]
     },
@@ -98,6 +106,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.1.0 - 2026-11-21"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Encrypted history storage. Existing notifications migrate to an encrypted SQLite database. New notifications are queued securely and imported when you open or refresh ApnHistory.\n- Logging and cleanup rules. Choose which apps and keywords to log or ignore. Set a maximum age or item count, create automatic cleanup rules and manage Auto Protect in one place. Set a rule\u2019s range to 0 to disable it while keeping it in the list.\n- Filter and manage saved items. Filter by app, text and date with a live match count. Protect, unprotect or delete selected entries in bulk. Delete Selected skips protected entries.\n- Password-protected backups in Files. Back up and restore settings, history or both using On My iPhone or iCloud Drive. Restore merges history with existing entries and skips matching notifications.\n- Timeline navigation. Drag the side scrollbar to move through your history with a month and year readout. Light haptics mark month changes and the top and bottom of the list.\n- Per App groups. Groups start collapsed and reset when you return from Timeline. Tap an app to expand its history.\n- Layout and reading. Top controls respect the safe area. Tap a long notification to read the rest or hold it for actions.\n- Navigation, live search, backup and restore performed well with 80,000 history items on iPhone 8 Plus (iOS 16.6, Dopamine RootHide) and iPhone 11 Pro Max (iOS 26.0.1, Dopamine RootHide). A decade of history can fit in under 100 MB, depending on notification volume and content.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0.1 - 2026-11-15"
