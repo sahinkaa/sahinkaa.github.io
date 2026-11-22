@@ -83,7 +83,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0"
+          "text": "1.1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -98,7 +98,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0"
+          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.1"
         }
       ]
     },
@@ -106,6 +106,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.1.1 - 2026-11-22"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Lowered the Per App and Timeline tabs and Settings gear to prevent status bar overlap on Dynamic Island devices.\n- Centered the tab divider on the screen and the Settings gear in the space to its right.\n- Added a small gap above the separator and expanded the header tap areas.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.1.0 - 2026-11-21"

@@ -8,19 +8,19 @@ Author: m156nrkvv • sahinkaa
 Section: Utilities
 Homepage: https://github.com/sahinkaa/ApnHistoryRemade
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png
-Version: 1.1.0
+Version: 1.1.1
 Installed-Size: 4624
 Pre-Depends: rootless-compat(>= 0.9)
 Conflicts: com.nrkvv.apnhistory
 Replaces: com.nrkvv.apnhistory
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.json
-Filename: debs/com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64e.deb
-Size: 3468920
-MD5sum: ad977aa64d88712a401d97a93b1edb9b
-SHA1: 9b103f03fd942199b075c75d77235fd587d20469
-SHA256: 77d4ee125d612c0c3617f4e86107c683d0c50143fa6ecf05a57744653b691a45
-SHA512: cb1c2818558fbf49370dc5baca1884ce038e76a029d213bd6b1c024bc20b42916c611936b3c10c79dc7b5a3e75bd39d58b70cf45ed757692794407058e8f5306
+Filename: debs/com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64e.deb
+Size: 3476618
+MD5sum: 93cfe48ed7b1d68cd0ed2d67db9025b5
+SHA1: 980d52f736c595c81e602ddf7b0092d7c5a1fc1c
+SHA256: 1dfe019a9af4b39a9eec407228fe697f48a2e56fbc8c11bc170642dcecc5d164
+SHA512: 67c992664df7eead7e9ae3a09b360742dfc34d4f71e25b2b4fd9335ee45007d5358da0fd3d9b16933146198f319e871514f05c69a40c1a6a430aca5e816aa0c0
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page
@@ -344,18 +344,18 @@ Author: m156nrkvv • sahinkaa
 Section: Utilities
 Homepage: https://github.com/sahinkaa/ApnHistoryRemade
 Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png
-Version: 1.1.0
+Version: 1.1.1
 Installed-Size: 4624
 Conflicts: com.nrkvv.apnhistory
 Replaces: com.nrkvv.apnhistory
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.apnhistory.json
-Filename: debs/com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb
-Size: 1841338
-MD5sum: 9754b220321231c3c95dd69d9794477f
-SHA1: 50a13e0496bd5e161d9f4c3310f8fd133d64c908
-SHA256: 4eff96b0d58cf9324344dfaed250eb9392223ea26e6e0ae3e45e5cdc96745676
-SHA512: 752d9f611b9d522b492c78992af9216472a66b2acfde3634624958cd52be37438587f02d6f168f7036040b9e01b8cf7a9c6b2f5c6d8ddd08d15776bcbcee44cf
+Filename: debs/com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64.deb
+Size: 1841724
+MD5sum: fc9dc06188a41f0b3150bc61d962e55d
+SHA1: 656ffa045d3478c7cd1e7f3143d2fa9f2aee17e5
+SHA256: 08d32727e4b5a1395886bef2cd48a928a90387371f62ed3b867d53d125351efa
+SHA512: 596911671edb3268fde3ecab28ec73237db3f99cca503039b7aef8d2524af84c979aadef90eeaedea95f667ab9f21bd8d9818d9491a9f0c4c145b07af5725ce6
 
 Package: com.sahinkaa.appstoreupdatespage
 Name: App Store Updates Page

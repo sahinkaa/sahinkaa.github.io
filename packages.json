@@ -3,12 +3,12 @@
     "repository": "ApnHistoryRemade",
     "package": "com.sahinkaa.apnhistory",
     "name": "ApnHistory Remade",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.0",
-    "original_sha256": "8a29fa37bf1c291a4fa7d95aac13f94b9cfde4c9343fd63119c5d762c958faec",
-    "sha256": "4eff96b0d58cf9324344dfaed250eb9392223ea26e6e0ae3e45e5cdc96745676",
+    "filename": "com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.1",
+    "original_sha256": "33194fdc17322a89475faad85be216ccb1a544b9e8a5f0921ff45911e9dfba85",
+    "sha256": "08d32727e4b5a1395886bef2cd48a928a90387371f62ed3b867d53d125351efa",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -18,12 +18,21 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "ios": "iOS 15-26",
     "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
+    "ios": "iOS 15-26",
     "description": "Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.",
     "author": "m156nrkvv \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png",
     "changelog": [
+      {
+        "version": "1.1.1",
+        "date": "2026-11-22",
+        "changes": [
+          "Lowered the Per App and Timeline tabs and Settings gear to prevent status bar overlap on Dynamic Island devices.",
+          "Centered the tab divider on the screen and the Settings gear in the space to its right.",
+          "Added a small gap above the separator and expanded the header tap areas."
+        ]
+      },
       {
         "version": "1.1.0",
         "date": "2026-11-21",
@@ -57,11 +66,11 @@
     "downloads": [
       {
         "architecture": "iphoneos-arm64e",
-        "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64e.deb"
+        "filename": "com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64e.deb"
       },
       {
         "architecture": "iphoneos-arm64",
-        "filename": "com.sahinkaa.apnhistory_1.1.0_iphoneos-arm64.deb"
+        "filename": "com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64.deb"
       }
     ]
   },

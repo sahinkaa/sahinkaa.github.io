@@ -276,6 +276,15 @@
     "detailIcon": "assets/icons/com.sahinkaa.apnhistory-full.png",
     "changelog": [
       {
+        "version": "1.1.1",
+        "date": "2026-11-22",
+        "changes": [
+          "Lowered the Per App and Timeline tabs and Settings gear to prevent status bar overlap on Dynamic Island devices.",
+          "Centered the tab divider on the screen and the Settings gear in the space to its right.",
+          "Added a small gap above the separator and expanded the header tap areas."
+        ]
+      },
+      {
         "version": "1.1.0",
         "date": "2026-11-21",
         "changes": [
