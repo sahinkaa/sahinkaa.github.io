@@ -156,9 +156,10 @@
       }
     ],
     "screenshotSize": [
-      1242,
-      2579
-    ]
+      155,
+      322
+    ],
+    "screenshotMaxWidth": 240
   },
   "VelvetLiquidGlass": {
     "ios": "iOS 26",
