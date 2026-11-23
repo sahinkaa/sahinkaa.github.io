@@ -117,8 +117,21 @@
   },
   "Tinge26": {
     "ios": "iOS 26",
-    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.",
+    "compatibility": "Requires jailbroken iOS 26. Choose the standard rootless or native RootHide build for your jailbreak.",
     "changelog": [
+      {
+        "version": "1.0.2",
+        "date": "2026-11-23",
+        "changes": [
+          "Added a live preview with four installed app icons. Tap an icon to swap it for another app.",
+          "Added separate Adaptive Shade Difference sliders for badge text and borders. Both range from 0 to 100.",
+          "Improved adaptive borders so they lighten or darken in the same direction as adaptive text.",
+          "Set the border width range to 0\u20133 points in 0.1-point increments.",
+          "Refined slider haptics so each endpoint gives a single tick per drag.",
+          "Moved Respring beside the main Enabled switch and tightened the credits layout.",
+          "Added a new four-badge icon."
+        ]
+      },
       {
         "version": "1.0.1",
         "date": "2026-11-02",
@@ -131,6 +144,20 @@
           "Preserve static badge backgrounds, text colors, borders, highest-count folder coloring and safe animated badge updates."
         ]
       }
+    ],
+    "description": "Customize Home Screen badges with adaptive colors, text and borders on iOS 26.",
+    "displayDescription": "Give your Home Screen badges a look that fits your icons. Tinge 26 can draw each badge\u2019s background color from its app icon or use a static color you choose. Set the text color separately and choose an adaptive border, a border that matches the text or a custom border color. Set the border width to zero for a borderless badge.\n\nThe live preview shows four installed apps with badge counts of 1, 8, 64 and 128. Tap any preview icon to try a different app. Adjustments appear immediately in the preview. Changing the main Enabled switch requires a respring.\n\nBased on Tinge by P2kDev.",
+    "icon": "assets/icons/com.sahinkaa.tinge26-repo-v1.0.2.png",
+    "detailIcon": "assets/icons/com.sahinkaa.tinge26-full-v1.0.2.png",
+    "screenshots": [
+      {
+        "url": "https://sahinkaa.github.io/assets/screenshots/tinge26-settings-v1.0.2.png",
+        "accessibilityText": "Tinge 26 Settings with the live badge preview and adaptive color controls"
+      }
+    ],
+    "screenshotSize": [
+      1242,
+      2579
     ]
   },
   "VelvetLiquidGlass": {

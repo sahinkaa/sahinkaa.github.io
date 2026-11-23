@@ -12,9 +12,32 @@
           "useBoldText": true
         },
         {
+          "class": "DepictionImageView",
+          "URL": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26-full-v1.0.2.png",
+          "width": 200,
+          "height": 200,
+          "cornerRadius": 0,
+          "alignment": 1
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
+          "markdown": "Give your Home Screen badges a look that fits your icons. Tinge 26 can draw each badge\u2019s background color from its app icon or use a static color you choose. Set the text color separately and choose an adaptive border, a border that matches the text or a custom border color. Set the border width to zero for a borderless badge.\n\nThe live preview shows four installed apps with badge counts of 1, 8, 64 and 128. Tap any preview icon to try a different app. Adjustments appear immediately in the preview. Changing the main Enabled switch requires a respring.\n\nBased on Tinge by P2kDev.",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{1242, 2579}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://sahinkaa.github.io/assets/screenshots/tinge26-settings-v1.0.2.png",
+              "accessibilityText": "Tinge 26 Settings with the live badge preview and adaptive color controls"
+            }
+          ]
         },
         {
           "class": "DepictionHeaderView",
@@ -22,13 +45,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
+          "markdown": "Requires jailbroken iOS 26. Choose the standard rootless or native RootHide build for your jailbreak.\n\nRootless and native RootHide. Native RootHide installs directly without Patcher.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.1"
+          "text": "1.0.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,7 +66,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1"
+          "action": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.2"
         }
       ]
     },
@@ -51,6 +74,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.2 - 2026-11-23"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added a live preview with four installed app icons. Tap an icon to swap it for another app.\n- Added separate Adaptive Shade Difference sliders for badge text and borders. Both range from 0 to 100.\n- Improved adaptive borders so they lighten or darken in the same direction as adaptive text.\n- Set the border width range to 0\u20133 points in 0.1-point increments.\n- Refined slider haptics so each endpoint gives a single tick per drag.\n- Moved Respring beside the main Enabled switch and tightened the credits layout.\n- Added a new four-badge icon.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0.1 - 2026-11-02"

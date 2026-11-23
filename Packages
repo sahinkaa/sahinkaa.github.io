@@ -268,27 +268,27 @@ SHA512: f55bd65ca3e8c5536562908efb3fdd903e70172eddad83703d1882c5c62c33197019645b
 
 Package: com.sahinkaa.tinge26
 Name: Tinge 26
-Description: Customize your notification badges with adaptive colors, text colors and borders. iOS 26.
+Description: Customize Home Screen badges with adaptive colors, text and borders on iOS 26.
 Maintainer: sahinkaa
 Author: P2KDev • sahinkaa
 Section: Tweaks
 Homepage: https://github.com/sahinkaa/Tinge26
-Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26-repo-v1.0.2.png
 Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Conflicts: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
 Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
 Pre-Depends: rootless-compat (>= 0.9)
 Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 436
+Version: 1.0.2
+Installed-Size: 488
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
-Filename: debs/com.sahinkaa.tinge26_1.0.1_iphoneos-arm64e.deb
-Size: 53110
-MD5sum: 8b111fb0398a3cd8b95e19b48267b1b3
-SHA1: 9ffda567e9e72d343f525d9ea18147ac1807e6e3
-SHA256: 887206edb1e6e6b42edab3012bd4afb3f5f65d84d2964cd7837f845c56e187fd
-SHA512: 9a2349bf524106bffcbc9909f82dc92c2b57224edf06f78604a57b70d639c0841658a3c2b58348452e8b33d5083e13d2a75d97d98e5ef54747966b5cb28e9b1c
+Filename: debs/com.sahinkaa.tinge26_1.0.2_iphoneos-arm64e.deb
+Size: 72690
+MD5sum: a11a9c263ab63c3eef2e32951fdc3dc9
+SHA1: 9376faf0cbf80ce6bd9f84d7bac1bb4204e5d3a6
+SHA256: 9758d7cc2ffd3253af056137aff0fb73c80bf1f2229347c669edac60594f03f1
+SHA512: ba62253a1d9a83311336614e9f6331e579b62e308e3473b85e983466544da1fd0020f9a50aabe38de33fc77d2481faa5e935225a48c95d9aba605567ae601d1a
 
 Package: com.sahinkaa.velvetliquidglass
 Name: Velvet - Liquid Glass
@@ -626,26 +626,26 @@ SHA512: f7b68d37f35ccd62116556838b72e862cdefa8212b9291826fdde926fe53055abbcc25f9
 
 Package: com.sahinkaa.tinge26
 Name: Tinge 26
-Description: Customize your notification badges with adaptive colors, text colors and borders. iOS 26.
+Description: Customize Home Screen badges with adaptive colors, text and borders on iOS 26.
 Maintainer: sahinkaa
 Author: P2KDev • sahinkaa
 Section: Tweaks
 Homepage: https://github.com/sahinkaa/Tinge26
-Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png
+Icon: https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26-repo-v1.0.2.png
 Depends: firmware (>= 26.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Conflicts: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
 Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
 Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 692
+Version: 1.0.2
+Installed-Size: 792
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
-Filename: debs/com.sahinkaa.tinge26_1.0.1_iphoneos-arm64.deb
-Size: 67878
-MD5sum: 815ff8c4e95b6f5e3467f5781f8db5f1
-SHA1: 1153b6cae5100f5e677b3076c023da599ff71787
-SHA256: 2df1828ea2eaacc0b470dd8a1fb665c6225d07cf44f814bb1f0009efd01401c8
-SHA512: ae68c1ce006ca73257b5eeaa37223d0c5d7321781900a7e87f37d3f27842fab70a2365dc14078eed7b64fed093347e6b5cd59b1dff234700317dd8b4f8b5dee9
+Filename: debs/com.sahinkaa.tinge26_1.0.2_iphoneos-arm64.deb
+Size: 96252
+MD5sum: eb33006c672ccde79414538c07bd8988
+SHA1: 31f9e7ea137a396d507f87710b3e64deac3b9133
+SHA256: b6d455e4946bf27501ac843827684bbbda9d267e407ff7de9286e2e2e679e18a
+SHA512: d24a861f5313e90fd844241ca3215607d9805c8680c52689d96c7479539902d2c71029c918abe7635e73dd58dc08d012d0314f413e31e438490de7cc829f834c
 
 Package: com.sahinkaa.velvetliquidglass
 Name: Velvet - Liquid Glass

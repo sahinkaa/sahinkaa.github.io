@@ -460,12 +460,12 @@
     "repository": "Tinge26",
     "package": "com.sahinkaa.tinge26",
     "name": "Tinge 26",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.tinge26_1.0.1_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1",
-    "original_sha256": "996cd0791d05aa651603ec974576022eb741199f0eda21602333bc133a56c96b",
-    "sha256": "2df1828ea2eaacc0b470dd8a1fb665c6225d07cf44f814bb1f0009efd01401c8",
+    "filename": "com.sahinkaa.tinge26_1.0.2_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.2",
+    "original_sha256": "66a3181a10977b7a2b3d44d93ed63220ddc0481ea521d727e5fda77dbe90c317",
+    "sha256": "b6d455e4946bf27501ac843827684bbbda9d267e407ff7de9286e2e2e679e18a",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -476,12 +476,25 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.",
+    "compatibility": "Requires jailbroken iOS 26. Choose the standard rootless or native RootHide build for your jailbreak.",
     "ios": "iOS 26",
-    "description": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
+    "description": "Customize Home Screen badges with adaptive colors, text and borders on iOS 26.",
     "author": "P2KDev \u2022 sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26-repo-v1.0.2.png",
     "changelog": [
+      {
+        "version": "1.0.2",
+        "date": "2026-11-23",
+        "changes": [
+          "Added a live preview with four installed app icons. Tap an icon to swap it for another app.",
+          "Added separate Adaptive Shade Difference sliders for badge text and borders. Both range from 0 to 100.",
+          "Improved adaptive borders so they lighten or darken in the same direction as adaptive text.",
+          "Set the border width range to 0\u20133 points in 0.1-point increments.",
+          "Refined slider haptics so each endpoint gives a single tick per drag.",
+          "Moved Respring beside the main Enabled switch and tightened the credits layout.",
+          "Added a new four-badge icon."
+        ]
+      },
       {
         "version": "1.0.1",
         "date": "2026-11-02",
@@ -500,12 +513,12 @@
     "repository": "Tinge26",
     "package": "com.sahinkaa.tinge26",
     "name": "Tinge 26",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "architecture": "iphoneos-arm64e",
-    "filename": "com.sahinkaa.tinge26_1.0.1_iphoneos-arm64e.deb",
-    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.1",
-    "original_sha256": "658bc0c37a60cefec5def325888a410ab41424ac1544b841c6b7a3f54de4251a",
-    "sha256": "887206edb1e6e6b42edab3012bd4afb3f5f65d84d2964cd7837f845c56e187fd",
+    "filename": "com.sahinkaa.tinge26_1.0.2_iphoneos-arm64e.deb",
+    "source_release": "https://github.com/sahinkaa/Tinge26/releases/tag/v1.0.2",
+    "original_sha256": "2ff2f023e0b499ee8f9d4d22ba3783b6bc3cc100d6ef95805e5610eb80fbe438",
+    "sha256": "9758d7cc2ffd3253af056137aff0fb73c80bf1f2229347c669edac60594f03f1",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
@@ -516,12 +529,25 @@
       "Depiction",
       "SileoDepiction"
     ],
-    "compatibility": "Requires iOS 26. Tested on iPhone 11 Pro Max, iOS 26.0.1, Dopamine 3 RootHide.",
+    "compatibility": "Requires jailbroken iOS 26. Choose the standard rootless or native RootHide build for your jailbreak.",
     "ios": "iOS 26",
-    "description": "Customize your notification badges with adaptive colors, text colors and borders. iOS 26.",
+    "description": "Customize Home Screen badges with adaptive colors, text and borders on iOS 26.",
     "author": "P2KDev \u2022 sahinkaa",
-    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26.png",
+    "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.tinge26-repo-v1.0.2.png",
     "changelog": [
+      {
+        "version": "1.0.2",
+        "date": "2026-11-23",
+        "changes": [
+          "Added a live preview with four installed app icons. Tap an icon to swap it for another app.",
+          "Added separate Adaptive Shade Difference sliders for badge text and borders. Both range from 0 to 100.",
+          "Improved adaptive borders so they lighten or darken in the same direction as adaptive text.",
+          "Set the border width range to 0\u20133 points in 0.1-point increments.",
+          "Refined slider haptics so each endpoint gives a single tick per drag.",
+          "Moved Respring beside the main Enabled switch and tightened the credits layout.",
+          "Added a new four-badge icon."
+        ]
+      },
       {
         "version": "1.0.1",
         "date": "2026-11-02",
