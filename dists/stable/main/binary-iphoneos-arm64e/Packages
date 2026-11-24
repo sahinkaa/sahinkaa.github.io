@@ -279,16 +279,16 @@ Conflicts: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrep
 Replaces: com.p2kdev.tinge, local.tinge.adaptivebridge, local.tinge.settingsrepair
 Pre-Depends: rootless-compat (>= 0.9)
 Architecture: iphoneos-arm64e
-Version: 1.0.2
+Version: 1.0.3
 Installed-Size: 488
 Depiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.html
 SileoDepiction: https://sahinkaa.github.io/depictions/com.sahinkaa.tinge26.json
-Filename: debs/com.sahinkaa.tinge26_1.0.2_iphoneos-arm64e.deb
-Size: 72690
-MD5sum: a11a9c263ab63c3eef2e32951fdc3dc9
-SHA1: 9376faf0cbf80ce6bd9f84d7bac1bb4204e5d3a6
-SHA256: 9758d7cc2ffd3253af056137aff0fb73c80bf1f2229347c669edac60594f03f1
-SHA512: ba62253a1d9a83311336614e9f6331e579b62e308e3473b85e983466544da1fd0020f9a50aabe38de33fc77d2481faa5e935225a48c95d9aba605567ae601d1a
+Filename: debs/com.sahinkaa.tinge26_1.0.3_iphoneos-arm64e.deb
+Size: 74636
+MD5sum: 740ec06079ebe62fc6d9d3b6522e84cb
+SHA1: 6f3bfe1edf0c2b41657cb66bb43afcb0d8f4d28d
+SHA256: d7b5325b4be6552d9bbcc372bbdb336bba19cd314c9be30879ae82bbae3813a1
+SHA512: c27e4d3d5e4fc0316f81850e65b4f41b311ef723262a34ff0d0031a9c46e5dd6a44b7403515c798e83a3ae6f1fbbba5f1e4f6e164c9ba91e97e47265c62e0e29
 
 Package: com.sahinkaa.velvetliquidglass
 Name: Velvet - Liquid Glass

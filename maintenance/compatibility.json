@@ -120,6 +120,15 @@
     "compatibility": "Requires jailbroken iOS 26. Choose the standard rootless or native RootHide build for your jailbreak.",
     "changelog": [
       {
+        "version": "1.0.3",
+        "date": "2026-11-24",
+        "changes": [
+          "Added Darken / Lighten Threshold for adaptive text and borders. It defaults to 60 on a scale from 0 White to 100 Black. Backgrounds at or above the threshold get lighter shades. Backgrounds below it get darker shades. The preview updates as you drag.",
+          "Set the first-launch defaults to 60 for the threshold, 66 for text shade difference, 1.5 pt for border width and 30 for border shade difference. Double-tap any slider to reset it to its default.",
+          "Renamed Text Color to Text. Static color pickers now appear only when Static is selected."
+        ]
+      },
+      {
         "version": "1.0.2",
         "date": "2026-11-23",
         "changes": [
@@ -151,8 +160,8 @@
     "detailIcon": "assets/icons/com.sahinkaa.tinge26-full-v1.0.2.png",
     "screenshots": [
       {
-        "url": "https://sahinkaa.github.io/assets/screenshots/tinge26-settings-v1.0.2.png",
-        "accessibilityText": "Tinge 26 Settings with the live badge preview and adaptive color controls"
+        "url": "https://sahinkaa.github.io/assets/screenshots/tinge26-settings-v1.0.3.png",
+        "accessibilityText": "Tinge 26 Settings with live badge previews and the Darken / Lighten Threshold"
       }
     ],
     "screenshotSize": [
