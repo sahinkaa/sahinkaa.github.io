@@ -1048,27 +1048,30 @@
     "repository": "ApnHistoryRemade",
     "package": "com.sahinkaa.apnhistory",
     "name": "ApnHistory Remade",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "architecture": "iphoneos-arm64",
-    "filename": "com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64.deb",
-    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.1",
-    "original_sha256": "33194fdc17322a89475faad85be216ccb1a544b9e8a5f0921ff45911e9dfba85",
-    "sha256": "08d32727e4b5a1395886bef2cd48a928a90387371f62ed3b867d53d125351efa",
+    "filename": "com.sahinkaa.apnhistory_1.1.2_iphoneos-arm64.deb",
+    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.2",
+    "original_sha256": "8f35062fc57da8c8a1c1392295ca70b19c69f072be4cb95cd4f9ce20deedd131",
+    "sha256": "8f35062fc57da8c8a1c1392295ca70b19c69f072be4cb95cd4f9ce20deedd131",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
-    "changed_fields": [
-      "Homepage",
-      "Icon",
-      "Depiction",
-      "SileoDepiction"
-    ],
+    "changed_fields": [],
     "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
     "ios": "iOS 15-26",
     "description": "Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.",
     "author": "m156nrkvv \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png",
     "changelog": [
+      {
+        "version": "1.1.2",
+        "date": "2026-11-26",
+        "changes": [
+          "Added a one-time cleanup for obsolete files left by the original ApnHistory. Your notification history and current settings are preserved.",
+          "Removed legacy code that recreated the old marker file and sent unused status bar notifications."
+        ]
+      },
       {
         "version": "1.1.1",
         "date": "2026-11-22",
@@ -1109,27 +1112,30 @@
     "repository": "ApnHistoryRemade",
     "package": "com.sahinkaa.apnhistory",
     "name": "ApnHistory Remade",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "architecture": "iphoneos-arm64e",
-    "filename": "com.sahinkaa.apnhistory_1.1.1_iphoneos-arm64e.deb",
-    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.1",
-    "original_sha256": "379949b1f7de8ea076e12d8757fd2d75006042e5f27f24c94cc1f9a3e935e5c4",
-    "sha256": "1dfe019a9af4b39a9eec407228fe697f48a2e56fbc8c11bc170642dcecc5d164",
+    "filename": "com.sahinkaa.apnhistory_1.1.2_iphoneos-arm64e.deb",
+    "source_release": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.2",
+    "original_sha256": "6de17950e740d80bc299389c74bffe1165cc89ca52c4db7f3126f6be9f8a971a",
+    "sha256": "6de17950e740d80bc299389c74bffe1165cc89ca52c4db7f3126f6be9f8a971a",
     "payload_unchanged": true,
     "maintainer_scripts_unchanged": true,
     "dependencies_unchanged": true,
-    "changed_fields": [
-      "Homepage",
-      "Icon",
-      "Depiction",
-      "SileoDepiction"
-    ],
+    "changed_fields": [],
     "compatibility": "Targets iOS 15 through iOS 26. Rootless and RootHide packages are available.",
     "ios": "iOS 15-26",
     "description": "Encrypted local history for app notifications, incoming SMS and calls. Search by app or timeline, copy text or view raw details. Filter what gets logged, protect entries and delete them manually or with automatic cleanup rules. Customize the background and blur. Back up and restore settings and history with password-protected files.",
     "author": "m156nrkvv \u2022 sahinkaa",
     "icon": "https://sahinkaa.github.io/assets/icons/com.sahinkaa.apnhistory.png",
     "changelog": [
+      {
+        "version": "1.1.2",
+        "date": "2026-11-26",
+        "changes": [
+          "Added a one-time cleanup for obsolete files left by the original ApnHistory. Your notification history and current settings are preserved.",
+          "Removed legacy code that recreated the old marker file and sent unused status bar notifications."
+        ]
+      },
       {
         "version": "1.1.1",
         "date": "2026-11-22",

@@ -83,7 +83,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.1"
+          "text": "1.1.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -98,7 +98,7 @@
         {
           "class": "DepictionButtonView",
           "text": "GitHub release",
-          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.1"
+          "action": "https://github.com/sahinkaa/ApnHistoryRemade/releases/tag/v1.1.2"
         }
       ]
     },
@@ -106,6 +106,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.1.2 - 2026-11-26"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added a one-time cleanup for obsolete files left by the original ApnHistory. Your notification history and current settings are preserved.\n- Removed legacy code that recreated the old marker file and sent unused status bar notifications.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.1.1 - 2026-11-22"
